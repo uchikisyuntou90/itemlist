@@ -116,6 +116,11 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "transportpodcrash",
+		"price": 600,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "tradercaravan",
 		"price": 275,
 		"karmatype": "Good"
@@ -352,7 +357,7 @@
 	},
 	{
 		"abr": "surgery",
-		"price": 1,
+		"price": 500,
 		"karmatype": "Neutral"
 	},
 	{
@@ -367,7 +372,7 @@
 	},
 	{
 		"abr": "rescueme",
-		"price": 1200,
+		"price": 800,
 		"karmatype": "Neutral"
 	},
 	{
@@ -392,11 +397,6 @@
 	},
 	{
 		"abr": "settraits",
-		"price": 1,
-		"karmatype": "Neutral"
-	},
-	{
-		"abr": "cleartraits",
 		"price": 1,
 		"karmatype": "Neutral"
 	},
