@@ -40,7 +40,7 @@ permalink: /info
 このMODには、経験豊富なユーザーでも複雑に思えるようなものがたくさんありますが<br/>
 この短いガイドを読めば、物事のコツをつかめるでしょう。<br/>
 ↓原文<br/>
-Welcome to [{{ site.data.social.twitch }}]([https://twitch.tv](https://www.twitch.tv/uchiki)/{{ site.data.social.twitch }})'s stream.
+Welcome to [{{ site.data.social.twitch }}](https://www.twitch.tv/uchiki)/{{ site.data.social.twitch }})'s stream.
 This stream uses the mod
 [Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787) to provide an
 interactive experience. There's a lot to the mod that may seem complicated to even more experienced
