@@ -36,7 +36,7 @@ permalink: /info
 {%- endfor -%}
 
 # Welcome
-【[{{ site.data.social.twitch }}](https://www.twitch.tv/uchiki)/{{ site.data.social.twitch }})】のストリームへようこそ。このストリームでは、[Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787)というMODを使ってインタラクティブな体験を提供しています。<br/>
+[{{ site.data.social.twitch }}](https://www.twitch.tv/uchiki)/{{ site.data.social.twitch }})のストリームへようこそ。このストリームでは、[Twitch Toolkit](https://steamcommunity.com/sharedfiles/filedetails/?id=1718525787)というMODを使ってインタラクティブな体験を提供しています。<br/>
 このMODには、経験豊富なユーザーでも複雑に思えるようなものがたくさんありますが<br/>
 この短いガイドを読めば、物事のコツをつかめるでしょう。<br/>
 ↓原文<br/>
