@@ -2,652 +2,1261 @@
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Updates the current list of active viewers.",
-    "name": "Refresh viewers",
+    "description": "アクティブな視聴者の現在のリストを更新する。",
+    "name": "視聴者を更新する",
     "usage": "!refreshviewers",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "RefreshViewers"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Awards all active viewers coins.",
+    "description": "すべてのアクティブな視聴者にコインを授与する。",
     "name": "Karma round",
     "usage": "!karmaround",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "KarmaRound"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Gives eveyrone coins.",
-    "name": "Give all coins",
+    "description": "全員にコインを渡す。",
+    "name": "全てのコインを渡す",
     "usage": "!giveallcoins <coins>",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "GiveAllCoins"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Gives a viewer coins.",
-    "name": "Give coins",
+    "description": "視聴者にコインを渡す。",
+    "name": "コインを渡す",
     "usage": "!givecoins <viewer> <coins>",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "GiveCoins"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Shows the balance of a given user.",
-    "name": "Check user",
+    "description": "指定したユーザーの残高を表示します。",
+    "name": "ユーザーを確認する",
     "usage": "!checkuser <viewer>",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "CheckUser"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Sets the current karma for a given user.",
-    "name": "Set karma",
+    "description": "指定されたユーザーの現在のカルマを設定する。",
+    "name": "カルマを設定する",
     "usage": "!setkarma <viewer> <karma>",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "SetKarma"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Toggles coin generation.",
-    "name": "Toggle coins",
+    "description": "コインの生成を切り替える。",
+    "name": "コインを切り替える",
     "usage": "!togglecoins",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "ToggleCoins"
   },
   {
     "data": {
       "isShortcut": false,
-      "mod": "Twitch Toolkit",
-      "isBal": true
+      "isBuy": false,
+      "isBalance": true,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "Twitch Toolkit"
     },
-    "description": "Shows your current balance, karma, and optionally, the amount of coins earned per cycle.",
-    "name": "Check balance",
+    "description": "現在の残高、カルマ、オプションで1サイクルあたりの獲得コイン量が表示されます。",
+    "name": "バランスを確認する",
     "usage": "!bal",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "CheckBalance"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
     "description": null,
-    "name": "Karma explanation",
+    "name": "カルマの説明",
     "usage": "!whatiskarma",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "WhatIsKarma"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
     "description": null,
-    "name": "Purchase list",
+    "name": "購入リスト",
     "usage": "!purchaselist",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "PurchaseList"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "Twitch Toolkit"
+    },
+    "description": "視聴者にあなたのコインの一部を提供する。",
+    "name": "コインを贈る",
+    "usage": "!giftcoins <viewer> <amount>",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "GiftCoins"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
     "description": null,
-    "name": "Join queue",
+    "name": "入植者として参加する",
     "usage": "!joinqueue",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "JoinQueue"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
     "description": null,
-    "name": "Mod info",
+    "name": "MOD情報",
     "usage": "!modinfo",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "ModInfo"
   },
   {
     "data": {
       "isShortcut": false,
-      "mod": "Twitch Toolkit",
-      "isBuy": true
+      "isBuy": true,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "Twitch Toolkit"
     },
     "description": null,
-    "name": "Buy",
+    "name": "購入",
     "usage": "!buy",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "Buy"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Lets you wager coins to level up a skill of your choosing.",
-    "name": "Level skill",
+    "description": "コインを賭けて好きなスキルをレベルアップできる。",
+    "name": "スキルレベル",
     "usage": "!levelskill <skill> <coins>",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "LevelSkillShortcut"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
     "description": null,
-    "name": "Mod settings",
+    "name": "MODの設定",
     "usage": "!modsettings",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "ModSettings"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
     "description": null,
-    "name": "Instructions",
+    "name": "指示",
     "usage": "!instructions",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "Instructions"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
     "description": null,
-    "name": "All commands",
+    "name": "全てのコマンド",
     "usage": "!allcommands",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "AvailableCommands"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "Twitch Toolkit"
     },
-    "description": "Shows you the complete list of installed mods.",
-    "name": "Installed mods",
+    "description": "インストールされているMODの完全なリストを表示します。",
+    "name": "インストール済みのMOD",
     "usage": "!installedmods",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "InstalledMods"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": "ユーザーのポーンの好きな色を指定された色に設定する。色には名前またはヘクスコードを指定できます。",
+    "name": "Set favorite color",
+    "usage": "!setfavoritecolor <color>",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "SetFavoriteColor"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": "ユーザーのポーンの好きな色を指定された色に設定する。色は名前または16進コードです。",
+    "name": "Set favourite colour",
+    "usage": "!setfavouritecolour <color>",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "SetFavouriteColour"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "染色衣料",
+    "usage": "!dye",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "DyeApparel"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Revive all",
+    "name": "すべてを蘇らせる",
     "usage": "!reviveall",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "ReviveAllShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Revive me",
+    "name": "蘇る",
     "usage": "!reviveme",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "ReviveMeShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Heal me",
+    "name": "癒す",
     "usage": "!healme",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "HealMeShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Healall",
+    "name": "すべてを癒す",
     "usage": "!healall",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "HealAllShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shuffles your passions. If a skill is specified, you'll be guaranteed a minor passion in it.",
-    "name": "Passion shuffle",
+    "description": "情熱をシャッフルする。スキルが指定されている場合、そのスキルのマイナーパッションが保証される。",
+    "name": "情熱のシャッフル",
     "usage": "!passionshuffle [skill]",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "PassionShuffleShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Purchases the part specified and queues it for surgery on your pawn.",
-    "name": "Surgery",
+    "description": "指定されたパーツを購入し、ポーンの手術のためにキューに入れる。",
+    "name": "外科手術",
     "usage": "!surgery <item> <quantity/bodypart>",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "SurgeryShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Add trait",
+    "name": "特性追加",
     "usage": "!trait",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "TraitShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Remove trait",
+    "name": "特性の削除",
     "usage": "!removetrait",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "RemoveTraitShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Revive any pawn",
+    "name": "任意のポーンを復活させる",
     "usage": "!reviveanypawn",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "ReviveAnyPawnShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Heal any pawn",
+    "name": "任意のポーンを回復する",
     "usage": "!healanypawn",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "HealAnyPawnShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Replaces a trait with a different trait.",
-    "name": "Replace trait",
+    "description": "特性を別の特性に置き換える。",
+    "name": "特性の置き換え",
     "usage": "!replacetrait <old> <new>",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "ReplaceTraitShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "It's like buy item, but it gets added to your inventory if possible.",
+    "description": "アイテムを購入するようなものだが、可能であればインベントリに追加される。",
     "name": "Backpack",
     "usage": "!backpack <item> [quantity]",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "BackpackShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": "Downgrades a skill's passion... sometimes.",
-    "name": "Remove passion",
+    "name": "情熱を取り除く",
     "usage": "!removepassion <skill>",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "RemovePassionShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Upgrades a skill's passion... sometimes.",
-    "name": "Add passion",
+    "description": "スキルのパッションをアップグレードする...こともある。",
+    "name": "情熱を加える",
     "usage": "!passion <skill>",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "AddPassionShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Full heal",
+    "name": "全治",
     "usage": "!fullheal",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "FullHealShortcut"
   },
   {
     "data": {
       "isShortcut": true,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Rescue me",
     "usage": "!rescueme",
     "userLevel": "Anyone",
-    "shortcut": true
+    "shortcut": true,
+    "defName": "RescueMeShortcut"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Viewer kill count",
     "usage": "!mypawnkills",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnKills"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shows your current stats within a given category.",
+    "description": "指定されたカテゴリー内での現在のステータスを表示します。",
     "name": "Viewer stats",
     "usage": "!mypawnstats [stat1] [stat2]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnStats"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shows an overview of your pawn's health. If a capacity is specified, it'll show what's affecting it.",
+    "description": "ポーンの健康状態の概要を表示します。キャパシティが指定されている場合、何が影響しているかが表示される。",
     "name": "Viewer health",
     "usage": "!mypawnhealth [capacity]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnHealth"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Viewer needs",
     "usage": "!mypawnneeds",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnNeeds"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shows an overview of your pawn's gear.",
+    "description": "ポーンの装備の概要を表示します。",
     "name": "Viewer gear",
     "usage": "!mypawngear",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnGear"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Viewer body",
     "usage": "!mypawnbody",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnBody"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shows your pawn's work priorities.",
+    "description": "ポーンの仕事の優先順位を示す。",
     "name": "Viewer work",
     "usage": "!mypawnwork [worktype=priority] [...]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnWork"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Viewer story",
     "usage": "!mypawnstory",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnStory"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Viewer skills",
     "usage": "!mypawnskills",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "MyPawnSkills"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Fix viewer pawn",
     "usage": "!fixmypawn",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "FixMyPawn"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Fix all pawns",
     "usage": "!fixallpawns",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "FixAllPawns"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Makes your pawn leave the colony.",
+    "description": "自分のポーンをコロニーから退去させる。",
     "name": "Abandon pawn",
     "usage": "!leave",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "AbandonPawn"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shows your pawn's relationships to other viewers.",
+    "description": "ポーンと他の観客との関係を表示します。",
     "name": "Viewer relations",
     "usage": "!mypawnrelations [viewer]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "PawnRelations"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Factions",
     "usage": "!factions",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "Factions"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shows the current research progress. If a project is specified, it'll show the progress of that instead.",
-    "name": "Research",
+    "description": "現在の研究の進捗状況を表示します。プロジェクトが指定されている場合は、代わりにその進捗状況を表示します。",
+    "name": "研究",
     "usage": "!research [project/item]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "Research"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Shows the first few results for the query in the given category. Valid categories are: 'pawns', 'traits', 'items', 'events', 'diseases', 'animals', and 'skills'.",
-    "name": "Lookup",
+    "description": "指定されたカテゴリのクエリの最初の数件の結果を表示します。有効なカテゴリは ポーン」、「特性」、「アイテム」、「イベント」、「病気」、「動物」、「スキル」。",
+    "name": "検索",
     "usage": "!lookup <item/category> [query]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "Lookup"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Similar to the lookup command, except it'll show the price for the first valid match.",
-    "name": "Price check",
+    "description": "lookupコマンドに似ているが、最初に有効なマッチの価格が表示される点が異なる。",
+    "name": "価格チェック",
     "usage": "!price <item/category> [query]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "PriceCheck"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Unstick",
     "usage": "!unstick",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "UnstickAll"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
     "name": "Toggle store",
     "usage": "!togglestore",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "ToggleStore"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Makes your pawn insult a random viewer. If a viewer is specified, you'll insult them instead.",
-    "name": "Insult",
+    "description": "自分のポーンをランダムなポーンに侮辱させる。視聴者が指定されている場合は、代わりにその視聴者を侮辱する。",
+    "name": "侮辱",
     "usage": "!insult [target]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "Insult"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": "あなたのポーンをランダムなポーンとチャットさせます。ビューアーが指定されている場合は、代わりにそのビューアーのポーンとチャットします。",
+    "name": "雑談",
+    "usage": "!chat [target]",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "Chat"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": "自分のポーンをランダムなポーンといちゃつかせる。視聴者が指定されている場合は、代わりにその視聴者のポーンといちゃつきます。",
+    "name": "イチャイチャ",
+    "usage": "!flirt [target]",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "Flirt"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": "ランダムなポーンとディープチャットを行います。視聴者が指定されている場合、代わりにその視聴者のポーンとディープチャットを行います。",
+    "name": "ディープチャット",
+    "usage": "!deepchat [target]",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "DeepChat"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Colony wealth",
+    "name": "コロニーの財産",
     "usage": "!wealth",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "Wealth"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Colonist count",
+    "name": "入植者数",
     "usage": "!colonists",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "ColonistCount"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
-    "description": "Provides some information about supported things. Supported categories are: 'weapons'",
-    "name": "Database",
+    "description": "サポートされているものについての情報を提供する。サポートされているカテゴリは以下の通り： 武器",
+    "name": "データベース",
     "usage": "!rwdata <category/weaponname> [weaponname]",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "RimDatabase"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitUtils"
     },
     "description": null,
-    "name": "Unstick me",
+    "name": "解き放つ",
     "usage": "!imstuck",
     "userLevel": "Anyone",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "UnstickMe"
   },
   {
     "data": {
       "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "結婚",
+    "usage": "!marry",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "Marriage"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "離婚",
+    "usage": "!divorce",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "Divorce"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "Viewer class",
+    "usage": "!mypawnclass",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "MyPawnClass"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
+      "mod": "ToolkitUtils"
+    },
+    "description": null,
+    "name": "能力レベル",
+    "usage": "!abilitylevel",
+    "userLevel": "Anyone",
+    "shortcut": false,
+    "defName": "AbilityLevel"
+  },
+  {
+    "data": {
+      "isShortcut": false,
+      "isBuy": false,
+      "isBalance": false,
+      "hasGlobalCooldown": false,
+      "globalCooldown": 0,
+      "hasLocalCooldown": false,
+      "localCooldown": 0,
       "mod": "ToolkitCore"
     },
     "description": null,
-    "name": "hello",
+    "name": "こんにちわ",
     "usage": "!hello",
     "userLevel": "Moderator",
-    "shortcut": false
+    "shortcut": false,
+    "defName": "HelloWorld"
   }
 ]
