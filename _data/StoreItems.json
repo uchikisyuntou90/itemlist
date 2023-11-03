@@ -1,2345 +1,3875 @@
 {
-	"items": [
-		{
-			"abr": "steel",
-			"price": 3,
-			"category": "Raw resources",
-			"defname": "Steel"
-		},
-		{
-			"abr": "deathacidifier",
-			"price": 667,
-			"category": "Bionic",
-			"defname": "DeathAcidifier"
-		},
-		{
-			"abr": "elk",
-			"price": 500,
-			"category": "Animal",
-			"defname": "Elk"
-		},
-		{
-			"abr": "joywire",
-			"price": 367,
-			"category": "Prosthetic",
-			"defname": "Joywire"
-		},
-		{
-			"abr": "alphabeaver",
-			"price": 417,
-			"category": "Animal",
-			"defname": "Alphabeaver"
-		},
-		{
-			"abr": "alpaca",
-			"price": 583,
-			"category": "Animal",
-			"defname": "Alpaca"
-		},
-		{
-			"abr": "ambrosia",
-			"price": 25,
-			"category": "Drugs",
-			"defname": "Ambrosia"
-		},
-		{
-			"abr": "lmg",
-			"price": 708,
-			"category": "Ranged weapons",
-			"defname": "Gun_LMG"
-		},
-		{
-			"abr": "parka",
-			"price": 315,
-			"category": "Apparel",
-			"defname": "Apparel_Parka"
-		},
-		{
-			"abr": "shortbow",
-			"price": 74,
-			"category": "Ranged weapons",
-			"defname": "Bow_Short"
-		},
-		{
-			"abr": "greatbow",
-			"price": 174,
-			"category": "Ranged weapons",
-			"defname": "Bow_Great"
-		},
-		{
-			"abr": "recurvebow",
-			"price": 110,
-			"category": "Ranged weapons",
-			"defname": "Bow_Recurve"
-		},
-		{
-			"abr": "squirrel",
-			"price": 58,
-			"category": "Animal",
-			"defname": "Squirrel"
-		},
-		{
-			"abr": "reconarmor",
-			"price": 2567,
-			"category": "Armor",
-			"defname": "Apparel_ArmorRecon"
-		},
-		{
-			"abr": "marinearmor",
-			"price": 3392,
-			"category": "Armor",
-			"defname": "Apparel_PowerArmor"
-		},
-		{
-			"abr": "platearmor",
-			"price": 792,
-			"category": "Armor",
-			"defname": "Apparel_PlateArmor"
-		},
-		{
-			"abr": "toolcabinet",
-			"price": 642,
-			"category": "Misc",
-			"defname": "ToolCabinet"
-		},
-		{
-			"abr": "rice",
-			"price": 2,
-			"category": "Vegetarian",
-			"defname": "RawRice"
-		},
-		{
-			"abr": "donkey",
-			"price": 533,
-			"category": "Animal",
-			"defname": "Donkey"
-		},
-		{
-			"abr": "ostrich",
-			"price": 417,
-			"category": "Animal",
-			"defname": "Ostrich"
-		},
-		{
-			"abr": "orbitaltradebeacon",
-			"price": 185,
-			"category": "Misc",
-			"defname": "OrbitalTradeBeacon"
-		},
-		{
-			"abr": "fermentingbarrel",
-			"price": 95,
-			"category": "Production",
-			"defname": "FermentingBarrel"
-		},
-		{
-			"abr": "battery",
-			"price": 333,
-			"category": "Power",
-			"defname": "Battery"
-		},
-		{
-			"abr": "berries",
-			"price": 2,
-			"category": "Vegetarian",
-			"defname": "RawBerries"
-		},
-		{
-			"abr": "chemfuel",
-			"price": 4,
-			"category": "Manufactured",
-			"defname": "Chemfuel"
-		},
-		{
-			"abr": "bison",
-			"price": 583,
-			"category": "Animal",
-			"defname": "Bison"
-		},
-		{
-			"abr": "sandstoneblocks",
-			"price": 2,
-			"category": "Stone blocks",
-			"defname": "BlocksSandstone"
-		},
-		{
-			"abr": "limestoneblocks",
-			"price": 2,
-			"category": "Stone blocks",
-			"defname": "BlocksLimestone"
-		},
-		{
-			"abr": "graniteblocks",
-			"price": 2,
-			"category": "Stone blocks",
-			"defname": "BlocksGranite"
-		},
-		{
-			"abr": "marbleblocks",
-			"price": 2,
-			"category": "Stone blocks",
-			"defname": "BlocksMarble"
-		},
-		{
-			"abr": "slateblocks",
-			"price": 2,
-			"category": "Stone blocks",
-			"defname": "BlocksSlate"
-		},
-		{
-			"abr": "orbitalbombardmenttargeter",
-			"price": 2000,
-			"category": "Utility",
-			"defname": "OrbitalTargeterBombardment"
-		},
-		{
-			"abr": "bowlerhat",
-			"price": 77,
-			"category": "Headgear",
-			"defname": "Apparel_BowlerHat"
-		},
-		{
-			"abr": "archotecharm",
-			"price": 4667,
-			"category": "Archotech",
-			"defname": "ArchotechArm"
-		},
-		{
-			"abr": "bionicarm",
-			"price": 1717,
-			"category": "Bionic",
-			"defname": "BionicArm"
-		},
-		{
-			"abr": "prostheticarm",
-			"price": 433,
-			"category": "Prosthetic",
-			"defname": "SimpleProstheticArm"
-		},
-		{
-			"abr": "boomalope",
-			"price": 583,
-			"category": "Animal",
-			"defname": "Boomalope"
-		},
-		{
-			"abr": "horse",
-			"price": 917,
-			"category": "Animal",
-			"defname": "Horse"
-		},
-		{
-			"abr": "goat",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Goat"
-		},
-		{
-			"abr": "ibex",
-			"price": 417,
-			"category": "Animal",
-			"defname": "Ibex"
-		},
-		{
-			"abr": "animalsleepingbox",
-			"price": 84,
-			"category": "Furniture",
-			"defname": "AnimalSleepingBox"
-		},
-		{
-			"abr": "heater",
-			"price": 218,
-			"category": "Temperature",
-			"defname": "Heater"
-		},
-		{
-			"abr": "bed",
-			"price": 155,
-			"category": "Furniture",
-			"defname": "Bed"
-		},
-		{
-			"abr": "animalbed",
-			"price": 136,
-			"category": "Furniture",
-			"defname": "AnimalBed"
-		},
-		{
-			"abr": "hospitalbed",
-			"price": 667,
-			"category": "Furniture",
-			"defname": "HospitalBed"
-		},
-		{
-			"abr": "doublebed",
-			"price": 292,
-			"category": "Furniture",
-			"defname": "DoubleBed"
-		},
-		{
-			"abr": "royalbed",
-			"price": 1467,
-			"category": "Furniture",
-			"defname": "RoyalBed"
-		},
-		{
-			"abr": "button-downshirt",
-			"price": 166,
-			"category": "Apparel",
-			"defname": "Apparel_CollarShirt"
-		},
-		{
-			"abr": "t-shirt",
-			"price": 143,
-			"category": "Apparel",
-			"defname": "Apparel_BasicShirt"
-		},
-		{
-			"abr": "infernocannon",
-			"price": 2333,
-			"category": "Ranged weapons",
-			"defname": "Gun_InfernoCannon"
-		},
-		{
-			"abr": "smokeleafjoint",
-			"price": 18,
-			"category": "Drugs",
-			"defname": "SmokeleafJoint"
-		},
-		{
-			"abr": "capybara",
-			"price": 250,
-			"category": "Animal",
-			"defname": "Capybara"
-		},
-		{
-			"abr": "elkmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Elk"
-		},
-		{
-			"abr": "alphabeavermeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Alphabeaver"
-		},
-		{
-			"abr": "alpacameat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Alpaca"
-		},
-		{
-			"abr": "squirrelmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Squirrel"
-		},
-		{
-			"abr": "donkeymeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Donkey"
-		},
-		{
-			"abr": "bisonmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Bison"
-		},
-		{
-			"abr": "boomalopemeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Boomalope"
-		},
-		{
-			"abr": "goatmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Goat"
-		},
-		{
-			"abr": "ibexmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Ibex"
-		},
-		{
-			"abr": "capybarameat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Capybara"
-		},
-		{
-			"abr": "birdmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Cassowary"
-		},
-		{
-			"abr": "pork",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Pig"
-		},
-		{
-			"abr": "chinchillameat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Chinchilla"
-		},
-		{
-			"abr": "venison",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Deer"
-		},
-		{
-			"abr": "guineapigmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_GuineaPig"
-		},
-		{
-			"abr": "cobrameat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Cobra"
-		},
-		{
-			"abr": "dromedarymeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Dromedary"
-		},
-		{
-			"abr": "elephantmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Elephant"
-		},
-		{
-			"abr": "gazellemeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Gazelle"
-		},
-		{
-			"abr": "catmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Cat"
-		},
-		{
-			"abr": "humanmeat",
-			"price": 1,
-			"category": "Meat",
-			"defname": "Meat_Human"
-		},
-		{
-			"abr": "huskymeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Husky"
-		},
-		{
-			"abr": "iguanameat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Iguana"
-		},
-		{
-			"abr": "insectmeat",
-			"price": 1,
-			"category": "Meat",
-			"defname": "Meat_Megaspider"
-		},
-		{
-			"abr": "labradorretrievermeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_LabradorRetriever"
-		},
-		{
-			"abr": "haremeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Hare"
-		},
-		{
-			"abr": "lynxmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Lynx"
-		},
-		{
-			"abr": "wolfmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Wolf_Timber"
-		},
-		{
-			"abr": "raccoonmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Raccoon"
-		},
-		{
-			"abr": "megaslothmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Megasloth"
-		},
-		{
-			"abr": "monkeymeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Monkey"
-		},
-		{
-			"abr": "muffalomeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Muffalo"
-		},
-		{
-			"abr": "bearmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Bear_Grizzly"
-		},
-		{
-			"abr": "sheepmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Sheep"
-		},
-		{
-			"abr": "panthermeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Panther"
-		},
-		{
-			"abr": "duckmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Duck"
-		},
-		{
-			"abr": "turkeymeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Turkey"
-		},
-		{
-			"abr": "chickenmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Chicken"
-		},
-		{
-			"abr": "cougarmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Cougar"
-		},
-		{
-			"abr": "ratmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Rat"
-		},
-		{
-			"abr": "boomratmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Boomrat"
-		},
-		{
-			"abr": "cariboumeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Caribou"
-		},
-		{
-			"abr": "rhinocerosmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Rhinoceros"
-		},
-		{
-			"abr": "yorkshireterriermeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_YorkshireTerrier"
-		},
-		{
-			"abr": "tortoisemeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Tortoise"
-		},
-		{
-			"abr": "thrumbomeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Thrumbo"
-		},
-		{
-			"abr": "beef",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Cow"
-		},
-		{
-			"abr": "wargmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Warg"
-		},
-		{
-			"abr": "yakbeef",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Yak"
-		},
-		{
-			"abr": "foxmeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Fox_Fennec"
-		},
-		{
-			"abr": "horsemeat",
-			"price": 3,
-			"category": "Meat",
-			"defname": "Meat_Horse"
-		},
-		{
-			"abr": "psychicfoilhelmet",
-			"price": 417,
-			"category": "Headgear",
-			"defname": "Apparel_PsychicFoilHelmet"
-		},
-		{
-			"abr": "flakhelmet",
-			"price": 442,
-			"category": "Headgear",
-			"defname": "Apparel_AdvancedHelmet"
-		},
-		{
-			"abr": "reconhelmet",
-			"price": 875,
-			"category": "Headgear",
-			"defname": "Apparel_ArmorHelmetRecon"
-		},
-		{
-			"abr": "marinehelmet",
-			"price": 1058,
-			"category": "Headgear",
-			"defname": "Apparel_PowerArmorHelmet"
-		},
-		{
-			"abr": "simplehelmet",
-			"price": 153,
-			"category": "Headgear",
-			"defname": "Apparel_SimpleHelmet"
-		},
-		{
-			"abr": "cassowary",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Cassowary"
-		},
-		{
-			"abr": "vanometricpowercell",
-			"price": 2000,
-			"category": "Special",
-			"defname": "VanometricPowerCell"
-		},
-		{
-			"abr": "pig",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Pig"
-		},
-		{
-			"abr": "brewery",
-			"price": 350,
-			"category": "Production",
-			"defname": "Brewery"
-		},
-		{
-			"abr": "beer",
-			"price": 20,
-			"category": "Drugs",
-			"defname": "Beer"
-		},
-		{
-			"abr": "flakvest",
-			"price": 375,
-			"category": "Armor",
-			"defname": "Apparel_FlakVest"
-		},
-		{
-			"abr": "jacket",
-			"price": 275,
-			"category": "Apparel",
-			"defname": "Apparel_Jacket"
-		},
-		{
-			"abr": "flakjacket",
-			"price": 483,
-			"category": "Armor",
-			"defname": "Apparel_FlakJacket"
-		},
-		{
-			"abr": "chinchilla",
-			"price": 250,
-			"category": "Animal",
-			"defname": "Chinchilla"
-		},
-		{
-			"abr": "chocolate",
-			"price": 5,
-			"category": "Foods",
-			"defname": "Chocolate"
-		},
-		{
-			"abr": "deer",
-			"price": 417,
-			"category": "Animal",
-			"defname": "Deer"
-		},
-		{
-			"abr": "smokepoppack",
-			"price": 277,
-			"category": "Utility",
-			"defname": "Apparel_SmokepopBelt"
-		},
-		{
-			"abr": "shieldbelt",
-			"price": 650,
-			"category": "Utility",
-			"defname": "Apparel_ShieldBelt"
-		},
-		{
-			"abr": "guineapig",
-			"price": 250,
-			"category": "Animal",
-			"defname": "GuineaPig"
-		},
-		{
-			"abr": "cobra",
-			"price": 250,
-			"category": "Animal",
-			"defname": "Cobra"
-		},
-		{
-			"abr": "fueledstove",
-			"price": 265,
-			"category": "Production",
-			"defname": "FueledStove"
-		},
-		{
-			"abr": "electricstove",
-			"price": 375,
-			"category": "Production",
-			"defname": "ElectricStove"
-		},
-		{
-			"abr": "molotovcocktails",
-			"price": 408,
-			"category": "Grenades",
-			"defname": "Weapon_GrenadeMolotov"
-		},
-		{
-			"abr": "elephanttusk",
-			"price": 133,
-			"category": "Items",
-			"defname": "ElephantTusk"
-		},
-		{
-			"abr": "bionicspine",
-			"price": 1717,
-			"category": "Bionic",
-			"defname": "BionicSpine"
-		},
-		{
-			"abr": "finemeal",
-			"price": 33,
-			"category": "Meals",
-			"defname": "MealFine"
-		},
-		{
-			"abr": "lavishmeal",
-			"price": 67,
-			"category": "Meals",
-			"defname": "MealLavish"
-		},
-		{
-			"abr": "simplemeal",
-			"price": 25,
-			"category": "Meals",
-			"defname": "MealSimple"
-		},
-		{
-			"abr": "dresser",
-			"price": 179,
-			"category": "Furniture",
-			"defname": "Dresser"
-		},
-		{
-			"abr": "component",
-			"price": 53,
-			"category": "Manufactured",
-			"defname": "ComponentIndustrial"
-		},
-		{
-			"abr": "advancedcomponent",
-			"price": 333,
-			"category": "Manufactured",
-			"defname": "ComponentSpacer"
-		},
-		{
-			"abr": "heart",
-			"price": 833,
-			"category": "Natural",
-			"defname": "Heart"
-		},
-		{
-			"abr": "bionicheart",
-			"price": 1717,
-			"category": "Bionic",
-			"defname": "BionicHeart"
-		},
-		{
-			"abr": "prostheticheart",
-			"price": 383,
-			"category": "Prosthetic",
-			"defname": "SimpleProstheticHeart"
-		},
-		{
-			"abr": "painstopper",
-			"price": 367,
-			"category": "Prosthetic",
-			"defname": "Painstopper"
-		},
-		{
-			"abr": "knife",
-			"price": 111,
-			"category": "Melee weapons",
-			"defname": "MeleeWeapon_Knife"
-		},
-		{
-			"abr": "thrumbohorn",
-			"price": 1333,
-			"category": "Items",
-			"defname": "ThrumboHorn"
-		},
-		{
-			"abr": "camelhide",
-			"price": 4,
-			"category": "Leathers",
-			"defname": "Leather_Camel"
-		},
-		{
-			"abr": "elephantleather",
-			"price": 5,
-			"category": "Leathers",
-			"defname": "Leather_Elephant"
-		},
-		{
-			"abr": "humanleather",
-			"price": 7,
-			"category": "Leathers",
-			"defname": "Leather_Human"
-		},
-		{
-			"abr": "dogleather",
-			"price": 3,
-			"category": "Leathers",
-			"defname": "Leather_Dog"
-		},
-		{
-			"abr": "rhinocerosleather",
-			"price": 7,
-			"category": "Leathers",
-			"defname": "Leather_Rhinoceros"
-		},
-		{
-			"abr": "lightleather",
-			"price": 3,
-			"category": "Leathers",
-			"defname": "Leather_Light"
-		},
-		{
-			"abr": "plainleather",
-			"price": 3,
-			"category": "Leathers",
-			"defname": "Leather_Plain"
-		},
-		{
-			"abr": "wake-up",
-			"price": 58,
-			"category": "Drugs",
-			"defname": "WakeUp"
-		},
-		{
-			"abr": "dromedary",
-			"price": 500,
-			"category": "Animal",
-			"defname": "Dromedary"
-		},
-		{
-			"abr": "elephant",
-			"price": 1000,
-			"category": "Animal",
-			"defname": "Elephant"
-		},
-		{
-			"abr": "psychicemanator",
-			"price": 2167,
-			"category": "Special",
-			"defname": "PsychicEmanator"
-		},
-		{
-			"abr": "emu",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Emu"
-		},
-		{
-			"abr": "flake",
-			"price": 23,
-			"category": "Drugs",
-			"defname": "Flake"
-		},
-		{
-			"abr": "pumpshotgun",
-			"price": 425,
-			"category": "Ranged weapons",
-			"defname": "Gun_PumpShotgun"
-		},
-		{
-			"abr": "chainshotgun",
-			"price": 675,
-			"category": "Ranged weapons",
-			"defname": "Gun_ChainShotgun"
-		},
-		{
-			"abr": "grandsculpture",
-			"price": 1967,
-			"category": "Art",
-			"defname": "SculptureGrand"
-		},
-		{
-			"abr": "largesculpture",
-			"price": 517,
-			"category": "Art",
-			"defname": "SculptureLarge"
-		},
-		{
-			"abr": "smallsculpture",
-			"price": 275,
-			"category": "Art",
-			"defname": "SculptureSmall"
-		},
-		{
-			"abr": "longsword",
-			"price": 442,
-			"category": "Melee weapons",
-			"defname": "MeleeWeapon_LongSword"
-		},
-		{
-			"abr": "spelopede",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Spelopede"
-		},
-		{
-			"abr": "shelf",
-			"price": 104,
-			"category": "Furniture",
-			"defname": "Shelf"
-		},
-		{
-			"abr": "bionicstomach",
-			"price": 1308,
-			"category": "Bionic",
-			"defname": "BionicStomach"
-		},
-		{
-			"abr": "fennecfox",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Fox_Fennec"
-		},
-		{
-			"abr": "fueledsmithy",
-			"price": 333,
-			"category": "Production",
-			"defname": "FueledSmithy"
-		},
-		{
-			"abr": "electricsmithy",
-			"price": 492,
-			"category": "Production",
-			"defname": "ElectricSmithy"
-		},
-		{
-			"abr": "agavefruit",
-			"price": 2,
-			"category": "Vegetarian",
-			"defname": "RawAgave"
-		},
-		{
-			"abr": "electricsmelter",
-			"price": 667,
-			"category": "Production",
-			"defname": "ElectricSmelter"
-		},
-		{
-			"abr": "bolt-actionrifle",
-			"price": 425,
-			"category": "Ranged weapons",
-			"defname": "Gun_BoltActionRifle"
-		},
-		{
-			"abr": "duster",
-			"price": 327,
-			"category": "Apparel",
-			"defname": "Apparel_Duster"
-		},
-		{
-			"abr": "gazelle",
-			"price": 250,
-			"category": "Animal",
-			"defname": "Gazelle"
-		},
-		{
-			"abr": "goose",
-			"price": 150,
-			"category": "Animal",
-			"defname": "Goose"
-		},
-		{
-			"abr": "powerclaw",
-			"price": 642,
-			"category": "Prosthetic",
-			"defname": "PowerClaw"
-		},
-		{
-			"abr": "cat",
-			"price": 167,
-			"category": "Animal",
-			"defname": "Cat"
-		},
-		{
-			"abr": "tornadogenerator",
-			"price": 1333,
-			"category": "Ranged weapons",
-			"defname": "TornadoGenerator"
-		},
-		{
-			"abr": "gladius",
-			"price": 239,
-			"category": "Melee weapons",
-			"defname": "MeleeWeapon_Gladius"
-		},
-		{
-			"abr": "tuque",
-			"price": 91,
-			"category": "Headgear",
-			"defname": "Apparel_Tuque"
-		},
-		{
-			"abr": "fraggrenades",
-			"price": 442,
-			"category": "Grenades",
-			"defname": "Weapon_GrenadeFrag"
-		},
-		{
-			"abr": "empgrenades",
-			"price": 525,
-			"category": "Grenades",
-			"defname": "Weapon_GrenadeEMP"
-		},
-		{
-			"abr": "hay",
-			"price": 1,
-			"category": "Foods",
-			"defname": "Hay"
-		},
-		{
-			"abr": "herbalmedicine",
-			"price": 17,
-			"category": "Medicine",
-			"defname": "MedicineHerbal"
-		},
-		{
-			"abr": "liver",
-			"price": 833,
-			"category": "Natural",
-			"defname": "Liver"
-		},
-		{
-			"abr": "devilstrand",
-			"price": 9,
-			"category": "Textiles",
-			"defname": "DevilstrandCloth"
-		},
-		{
-			"abr": "hyperweave",
-			"price": 15,
-			"category": "Textiles",
-			"defname": "Hyperweave"
-		},
-		{
-			"abr": "smokeleafleaves",
-			"price": 3,
-			"category": "Plant matter",
-			"defname": "SmokeleafLeaves"
-		},
-		{
-			"abr": "psychoidleaves",
-			"price": 3,
-			"category": "Plant matter",
-			"defname": "PsychoidLeaves"
-		},
-		{
-			"abr": "rawfungus",
-			"price": 2,
-			"category": "Vegetarian",
-			"defname": "RawFungus"
-		},
-		{
-			"abr": "ostrichegg(fert.)",
-			"price": 38,
-			"category": "Eggs (fert.)",
-			"defname": "EggOstrichFertilized"
-		},
-		{
-			"abr": "cassowaryegg(fert.)",
-			"price": 32,
-			"category": "Eggs (fert.)",
-			"defname": "EggCassowaryFertilized"
-		},
-		{
-			"abr": "cobraegg(fert.)",
-			"price": 67,
-			"category": "Eggs (fert.)",
-			"defname": "EggCobraFertilized"
-		},
-		{
-			"abr": "emuegg(fert.)",
-			"price": 30,
-			"category": "Eggs (fert.)",
-			"defname": "EggEmuFertilized"
-		},
-		{
-			"abr": "chickenegg(fert.)",
-			"price": 12,
-			"category": "Eggs (fert.)",
-			"defname": "EggChickenFertilized"
-		},
-		{
-			"abr": "chickenegg(unfert.)",
-			"price": 12,
-			"category": "Eggs (unfert.)",
-			"defname": "EggChickenUnfertilized"
-		},
-		{
-			"abr": "gooseegg(fert.)",
-			"price": 18,
-			"category": "Eggs (fert.)",
-			"defname": "EggGooseFertilized"
-		},
-		{
-			"abr": "gooseegg(unfert.)",
-			"price": 15,
-			"category": "Eggs (unfert.)",
-			"defname": "EggGooseUnfertilized"
-		},
-		{
-			"abr": "iguanaegg(fert.)",
-			"price": 42,
-			"category": "Eggs (fert.)",
-			"defname": "EggIguanaFertilized"
-		},
-		{
-			"abr": "duckegg(fert.)",
-			"price": 12,
-			"category": "Eggs (fert.)",
-			"defname": "EggDuckFertilized"
-		},
-		{
-			"abr": "duckegg(unfert.)",
-			"price": 12,
-			"category": "Eggs (unfert.)",
-			"defname": "EggDuckUnfertilized"
-		},
-		{
-			"abr": "turkeyegg(fert.)",
-			"price": 18,
-			"category": "Eggs (fert.)",
-			"defname": "EggTurkeyFertilized"
-		},
-		{
-			"abr": "tortoiseegg(fert.)",
-			"price": 38,
-			"category": "Eggs (fert.)",
-			"defname": "EggTortoiseFertilized"
-		},
-		{
-			"abr": "husky",
-			"price": 417,
-			"category": "Animal",
-			"defname": "Husky"
-		},
-		{
-			"abr": "iguana",
-			"price": 167,
-			"category": "Animal",
-			"defname": "Iguana"
-		},
-		{
-			"abr": "ikwa",
-			"price": 197,
-			"category": "Melee weapons",
-			"defname": "MeleeWeapon_Ikwa"
-		},
-		{
-			"abr": "cochlearimplant",
-			"price": 367,
-			"category": "Prosthetic",
-			"defname": "CochlearImplant"
-		},
-		{
-			"abr": "wildboar",
-			"price": 333,
-			"category": "Animal",
-			"defname": "WildBoar"
-		},
-		{
-			"abr": "pila",
-			"price": 182,
-			"category": "Ranged weapons",
-			"defname": "Pila"
-		},
-		{
-			"abr": "jade",
-			"price": 8,
-			"category": "Raw resources",
-			"defname": "Jade"
-		},
-		{
-			"abr": "insectjelly",
-			"price": 13,
-			"category": "Animal products",
-			"defname": "InsectJelly"
-		},
-		{
-			"abr": "hoopstonering",
-			"price": 67,
-			"category": "Recreation",
-			"defname": "HoopstoneRing"
-		},
-		{
-			"abr": "druglab",
-			"price": 742,
-			"category": "Production",
-			"defname": "DrugLab"
-		},
-		{
-			"abr": "labradorretriever",
-			"price": 417,
-			"category": "Animal",
-			"defname": "LabradorRetriever"
-		},
-		{
-			"abr": "standinglamp",
-			"price": 65,
-			"category": "Furniture",
-			"defname": "StandingLamp"
-		},
-		{
-			"abr": "standinglamp(blue)",
-			"price": 65,
-			"category": "Furniture",
-			"defname": "StandingLamp_Blue"
-		},
-		{
-			"abr": "standinglamp(red)",
-			"price": 65,
-			"category": "Furniture",
-			"defname": "StandingLamp_Red"
-		},
-		{
-			"abr": "standinglamp(green)",
-			"price": 65,
-			"category": "Furniture",
-			"defname": "StandingLamp_Green"
-		},
-		{
-			"abr": "sunlamp",
-			"price": 129,
-			"category": "Furniture",
-			"defname": "SunLamp"
-		},
-		{
-			"abr": "alpacawool",
-			"price": 4,
-			"category": "Textiles",
-			"defname": "WoolAlpaca"
-		},
-		{
-			"abr": "bisonwool",
-			"price": 4,
-			"category": "Textiles",
-			"defname": "WoolBison"
-		},
-		{
-			"abr": "megaslothwool",
-			"price": 4,
-			"category": "Textiles",
-			"defname": "WoolMegasloth"
-		},
-		{
-			"abr": "muffalowool",
-			"price": 4,
-			"category": "Textiles",
-			"defname": "WoolMuffalo"
-		},
-		{
-			"abr": "sheepwool",
-			"price": 4,
-			"category": "Textiles",
-			"defname": "WoolSheep"
-		},
-		{
-			"abr": "spear",
-			"price": 322,
-			"category": "Melee weapons",
-			"defname": "MeleeWeapon_Spear"
-		},
-		{
-			"abr": "chargelance",
-			"price": 2258,
-			"category": "Ranged weapons",
-			"defname": "Gun_ChargeLance"
-		},
-		{
-			"abr": "psychicshocklance",
-			"price": 917,
-			"category": "Utility",
-			"defname": "Apparel_PsychicShockLance"
-		},
-		{
-			"abr": "psychicinsanitylance",
-			"price": 1083,
-			"category": "Utility",
-			"defname": "Apparel_PsychicInsanityLance"
-		},
-		{
-			"abr": "firefoampopper",
-			"price": 300,
-			"category": "Misc",
-			"defname": "FirefoamPopper"
-		},
-		{
-			"abr": "smokelauncher",
-			"price": 633,
-			"category": "Ranged weapons",
-			"defname": "Gun_SmokeLauncher"
-		},
-		{
-			"abr": "emplauncher",
-			"price": 842,
-			"category": "Ranged weapons",
-			"defname": "Gun_EmpLauncher"
-		},
-		{
-			"abr": "incendiarylauncher",
-			"price": 567,
-			"category": "Ranged weapons",
-			"defname": "Gun_IncendiaryLauncher"
-		},
-		{
-			"abr": "doomsdayrocketlauncher",
-			"price": 1667,
-			"category": "Ranged weapons",
-			"defname": "Gun_DoomsdayRocket"
-		},
-		{
-			"abr": "triplerocketlauncher",
-			"price": 1667,
-			"category": "Ranged weapons",
-			"defname": "Gun_TripleRocket"
-		},
-		{
-			"abr": "milk",
-			"price": 5,
-			"category": "Animal products",
-			"defname": "Milk"
-		},
-		{
-			"abr": "hare",
-			"price": 83,
-			"category": "Animal",
-			"defname": "Hare"
-		},
-		{
-			"abr": "snowhare",
-			"price": 83,
-			"category": "Animal",
-			"defname": "Snowhare"
-		},
-		{
-			"abr": "lynx",
-			"price": 417,
-			"category": "Animal",
-			"defname": "Lynx"
-		},
-		{
-			"abr": "arcticwolf",
-			"price": 583,
-			"category": "Animal",
-			"defname": "Wolf_Arctic"
-		},
-		{
-			"abr": "timberwolf",
-			"price": 583,
-			"category": "Animal",
-			"defname": "Wolf_Timber"
-		},
-		{
-			"abr": "luciferium",
-			"price": 117,
-			"category": "Drugs",
-			"defname": "Luciferium"
-		},
-		{
-			"abr": "hops",
-			"price": 2,
-			"category": "Plant matter",
-			"defname": "RawHops"
-		},
-		{
-			"abr": "plantpot",
-			"price": 68,
-			"category": "Furniture",
-			"defname": "PlantPot"
-		},
-		{
-			"abr": "wood",
-			"price": 2,
-			"category": "Raw resources",
-			"defname": "WoodLog"
-		},
-		{
-			"abr": "corn",
-			"price": 2,
-			"category": "Vegetarian",
-			"defname": "RawCorn"
-		},
-		{
-			"abr": "raccoon",
-			"price": 167,
-			"category": "Animal",
-			"defname": "Raccoon"
-		},
-		{
-			"abr": "warmask",
-			"price": 101,
-			"category": "Headgear",
-			"defname": "Apparel_WarMask"
-		},
-		{
-			"abr": "mace",
-			"price": 203,
-			"category": "Melee weapons",
-			"defname": "MeleeWeapon_Mace"
-		},
-		{
-			"abr": "medicine",
-			"price": 30,
-			"category": "Medicine",
-			"defname": "MedicineIndustrial"
-		},
-		{
-			"abr": "glitterworldmedicine",
-			"price": 83,
-			"category": "Medicine",
-			"defname": "MedicineUltratech"
-		},
-		{
-			"abr": "megascreentelevision",
-			"price": 2475,
-			"category": "Recreation",
-			"defname": "MegascreenTelevision"
-		},
-		{
-			"abr": "megasloth",
-			"price": 1167,
-			"category": "Animal",
-			"defname": "Megasloth"
-		},
-		{
-			"abr": "megaspider",
-			"price": 833,
-			"category": "Animal",
-			"defname": "Megaspider"
-		},
-		{
-			"abr": "megascarab",
-			"price": 167,
-			"category": "Animal",
-			"defname": "Megascarab"
-		},
-		{
-			"abr": "table(1x2)",
-			"price": 98,
-			"category": "Furniture",
-			"defname": "Table1x2c"
-		},
-		{
-			"abr": "table(2x2)",
-			"price": 176,
-			"category": "Furniture",
-			"defname": "Table2x2c"
-		},
-		{
-			"abr": "table(2x4)",
-			"price": 333,
-			"category": "Furniture",
-			"defname": "Table2x4c"
-		},
-		{
-			"abr": "table(3x3)",
-			"price": 350,
-			"category": "Furniture",
-			"defname": "Table3x3c"
-		},
-		{
-			"abr": "chesstable",
-			"price": 281,
-			"category": "Furniture",
-			"defname": "ChessTable"
-		},
-		{
-			"abr": "billiardstable",
-			"price": 600,
-			"category": "Furniture",
-			"defname": "BilliardsTable"
-		},
-		{
-			"abr": "stonecutter'stable",
-			"price": 358,
-			"category": "Production",
-			"defname": "TableStonecutter"
-		},
-		{
-			"abr": "butchertable",
-			"price": 302,
-			"category": "Production",
-			"defname": "TableButcher"
-		},
-		{
-			"abr": "artbench",
-			"price": 425,
-			"category": "Production",
-			"defname": "TableSculpting"
-		},
-		{
-			"abr": "simpleresearchbench",
-			"price": 350,
-			"category": "Production",
-			"defname": "SimpleResearchBench"
-		},
-		{
-			"abr": "machiningtable",
-			"price": 758,
-			"category": "Production",
-			"defname": "TableMachining"
-		},
-		{
-			"abr": "pokertable",
-			"price": 400,
-			"category": "Furniture",
-			"defname": "PokerTable"
-		},
-		{
-			"abr": "handtailorbench",
-			"price": 262,
-			"category": "Production",
-			"defname": "HandTailoringBench"
-		},
-		{
-			"abr": "electrictailorbench",
-			"price": 533,
-			"category": "Production",
-			"defname": "ElectricTailoringBench"
-		},
-		{
-			"abr": "endtable",
-			"price": 106,
-			"category": "Furniture",
-			"defname": "EndTable"
-		},
-		{
-			"abr": "minigun",
-			"price": 1933,
-			"category": "Ranged weapons",
-			"defname": "Gun_Minigun"
-		},
-		{
-			"abr": "mini-turret",
-			"price": 492,
-			"category": "Security",
-			"defname": "Turret_MiniTurret"
-		},
-		{
-			"abr": "vitalsmonitor",
-			"price": 358,
-			"category": "Misc",
-			"defname": "VitalsMonitor"
-		},
-		{
-			"abr": "monkey",
-			"price": 167,
-			"category": "Animal",
-			"defname": "Monkey"
-		},
-		{
-			"abr": "mortar",
-			"price": 1058,
-			"category": "Security",
-			"defname": "Turret_Mortar"
-		},
-		{
-			"abr": "wort",
-			"price": 4,
-			"category": "Manufactured",
-			"defname": "Wort"
-		},
-		{
-			"abr": "muffalo",
-			"price": 500,
-			"category": "Animal",
-			"defname": "Muffalo"
-		},
-		{
-			"abr": "multi-analyzer",
-			"price": 1700,
-			"category": "Misc",
-			"defname": "MultiAnalyzer"
-		},
-		{
-			"abr": "skilltrainer(plants)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Plants"
-		},
-		{
-			"abr": "skilltrainer(animals)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Animals"
-		},
-		{
-			"abr": "skilltrainer(artistic)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Artistic"
-		},
-		{
-			"abr": "skilltrainer(cooking)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Cooking"
-		},
-		{
-			"abr": "skilltrainer(construction)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Construction"
-		},
-		{
-			"abr": "skilltrainer(melee)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Melee"
-		},
-		{
-			"abr": "skilltrainer(shooting)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Shooting"
-		},
-		{
-			"abr": "skilltrainer(crafting)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Crafting"
-		},
-		{
-			"abr": "skilltrainer(intellectual)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Intellectual"
-		},
-		{
-			"abr": "skilltrainer(medical)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Medicine"
-		},
-		{
-			"abr": "skilltrainer(mining)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Mining"
-		},
-		{
-			"abr": "skilltrainer(social)",
-			"price": 1250,
-			"category": "Skilltrainers",
-			"defname": "Neurotrainer_Social"
-		},
-		{
-			"abr": "neutroamine",
-			"price": 10,
-			"category": "Manufactured",
-			"defname": "Neutroamine"
-		},
-		{
-			"abr": "personacore",
-			"price": 6667,
-			"category": "Items",
-			"defname": "AIPersonaCore"
-		},
-		{
-			"abr": "techprofsubpersonacore",
-			"price": 1667,
-			"category": "Items",
-			"defname": "TechprofSubpersonaCore"
-		},
-		{
-			"abr": "bionicear",
-			"price": 1308,
-			"category": "Bionic",
-			"defname": "BionicEar"
-		},
-		{
-			"abr": "archotecheye",
-			"price": 4667,
-			"category": "Archotech",
-			"defname": "ArchotechEye"
-		},
-		{
-			"abr": "bioniceye",
-			"price": 1717,
-			"category": "Bionic",
-			"defname": "BionicEye"
-		},
-		{
-			"abr": "gold",
-			"price": 17,
-			"category": "Raw resources",
-			"defname": "Gold"
-		},
-		{
-			"abr": "grizzlybear",
-			"price": 1167,
-			"category": "Animal",
-			"defname": "Bear_Grizzly"
-		},
-		{
-			"abr": "polarbear",
-			"price": 1167,
-			"category": "Animal",
-			"defname": "Bear_Polar"
-		},
-		{
-			"abr": "sheep",
-			"price": 350,
-			"category": "Animal",
-			"defname": "Sheep"
-		},
-		{
-			"abr": "pants",
-			"price": 143,
-			"category": "Apparel",
-			"defname": "Apparel_Pants"
-		},
-		{
-			"abr": "flakpants",
-			"price": 375,
-			"category": "Armor",
-			"defname": "Apparel_FlakPants"
-		},
-		{
-			"abr": "panther",
-			"price": 667,
-			"category": "Animal",
-			"defname": "Panther"
-		},
-		{
-			"abr": "patchleather",
-			"price": 2,
-			"category": "Leathers",
-			"defname": "Leather_Patch"
-		},
-		{
-			"abr": "nutrientpastemeal",
-			"price": 17,
-			"category": "Meals",
-			"defname": "MealNutrientPaste"
-		},
-		{
-			"abr": "potatoes",
-			"price": 2,
-			"category": "Vegetarian",
-			"defname": "RawPotatoes"
-		},
-		{
-			"abr": "duck",
-			"price": 100,
-			"category": "Animal",
-			"defname": "Duck"
-		},
-		{
-			"abr": "turkey",
-			"price": 167,
-			"category": "Animal",
-			"defname": "Turkey"
-		},
-		{
-			"abr": "pigskin",
-			"price": 3,
-			"category": "Leathers",
-			"defname": "Leather_Pig"
-		},
-		{
-			"abr": "lizardskin",
-			"price": 3,
-			"category": "Leathers",
-			"defname": "Leather_Lizard"
-		},
-		{
-			"abr": "wolfskin",
-			"price": 5,
-			"category": "Leathers",
-			"defname": "Leather_Wolf"
-		},
-		{
-			"abr": "bearskin",
-			"price": 6,
-			"category": "Leathers",
-			"defname": "Leather_Bear"
-		},
-		{
-			"abr": "birdskin",
-			"price": 3,
-			"category": "Leathers",
-			"defname": "Leather_Bird"
-		},
-		{
-			"abr": "pemmican",
-			"price": 2,
-			"category": "Foods",
-			"defname": "Pemmican"
-		},
-		{
-			"abr": "penoxycyline",
-			"price": 30,
-			"category": "Drugs",
-			"defname": "Penoxycyline"
-		},
-		{
-			"abr": "chinchillafur",
-			"price": 11,
-			"category": "Leathers",
-			"defname": "Leather_Chinchilla"
-		},
-		{
-			"abr": "guineapigfur",
-			"price": 8,
-			"category": "Leathers",
-			"defname": "Leather_GuineaPig"
-		},
-		{
-			"abr": "bluefur",
-			"price": 4,
-			"category": "Leathers",
-			"defname": "Leather_Bluefur"
-		},
-		{
-			"abr": "pantherafur",
-			"price": 5,
-			"category": "Leathers",
-			"defname": "Leather_Panthera"
-		},
-		{
-			"abr": "thrumbofur",
-			"price": 23,
-			"category": "Leathers",
-			"defname": "Leather_Thrumbo"
-		},
-		{
-			"abr": "foxfur",
-			"price": 6,
-			"category": "Leathers",
-			"defname": "Leather_Fox"
-		},
-		{
-			"abr": "heavyfur",
-			"price": 6,
-			"category": "Leathers",
-			"defname": "Leather_Heavy"
-		},
-		{
-			"abr": "kibble",
-			"price": 2,
-			"category": "Foods",
-			"defname": "Kibble"
-		},
-		{
-			"abr": "archotechleg",
-			"price": 4667,
-			"category": "Archotech",
-			"defname": "ArchotechLeg"
-		},
-		{
-			"abr": "bionicleg",
-			"price": 1717,
-			"category": "Bionic",
-			"defname": "BionicLeg"
-		},
-		{
-			"abr": "prostheticleg",
-			"price": 433,
-			"category": "Prosthetic",
-			"defname": "SimpleProstheticLeg"
-		},
-		{
-			"abr": "autopistol",
-			"price": 232,
-			"category": "Ranged weapons",
-			"defname": "Gun_Autopistol"
-		},
-		{
-			"abr": "plasteel",
-			"price": 15,
-			"category": "Raw resources",
-			"defname": "Plasteel"
-		},
-		{
-			"abr": "silver",
-			"price": 2,
-			"category": "Raw resources",
-			"defname": "Silver"
-		},
-		{
-			"abr": "chicken",
-			"price": 83,
-			"category": "Animal",
-			"defname": "Chicken"
-		},
-		{
-			"abr": "club",
-			"price": 141,
-			"category": "Melee weapons",
-			"defname": "MeleeWeapon_Club"
-		},
-		{
-			"abr": "high-explosiveshell",
-			"price": 92,
-			"category": "Mortar shells",
-			"defname": "Shell_HighExplosive"
-		},
-		{
-			"abr": "firefoamshell",
-			"price": 92,
-			"category": "Mortar shells",
-			"defname": "Shell_Firefoam"
-		},
-		{
-			"abr": "antigrainwarhead",
-			"price": 2000,
-			"category": "Mortar shells",
-			"defname": "Shell_AntigrainWarhead"
-		},
-		{
-			"abr": "smokeshell",
-			"price": 92,
-			"category": "Mortar shells",
-			"defname": "Shell_Smoke"
-		},
-		{
-			"abr": "empshell",
-			"price": 92,
-			"category": "Mortar shells",
-			"defname": "Shell_EMP"
-		},
-		{
-			"abr": "incendiaryshell",
-			"price": 92,
-			"category": "Mortar shells",
-			"defname": "Shell_Incendiary"
-		},
-		{
-			"abr": "psychicanimalpulser",
-			"price": 1167,
-			"category": "Artifacts",
-			"defname": "PsychicAnimalPulser"
-		},
-		{
-			"abr": "psychicsoothepulser",
-			"price": 1000,
-			"category": "Artifacts",
-			"defname": "PsychicSoothePulser"
-		},
-		{
-			"abr": "lung",
-			"price": 667,
-			"category": "Natural",
-			"defname": "Lung"
-		},
-		{
-			"abr": "cougar",
-			"price": 667,
-			"category": "Animal",
-			"defname": "Cougar"
-		},
-		{
-			"abr": "infinitechemreactor",
-			"price": 2500,
-			"category": "Special",
-			"defname": "InfiniteChemreactor"
-		},
-		{
-			"abr": "packagedsurvivalmeal",
-			"price": 40,
-			"category": "Meals",
-			"defname": "MealSurvivalPack"
-		},
-		{
-			"abr": "rat",
-			"price": 58,
-			"category": "Animal",
-			"defname": "Rat"
-		},
-		{
-			"abr": "boomrat",
-			"price": 167,
-			"category": "Animal",
-			"defname": "Boomrat"
-		},
-		{
-			"abr": "orbitalpowerbeamtargeter",
-			"price": 2000,
-			"category": "Utility",
-			"defname": "OrbitalTargeterPowerBeam"
-		},
-		{
-			"abr": "caribou",
-			"price": 500,
-			"category": "Animal",
-			"defname": "Caribou"
-		},
-		{
-			"abr": "revolver",
-			"price": 226,
-			"category": "Ranged weapons",
-			"defname": "Gun_Revolver"
-		},
-		{
-			"abr": "assaultrifle",
-			"price": 800,
-			"category": "Ranged weapons",
-			"defname": "Gun_AssaultRifle"
-		},
-		{
-			"abr": "chargerifle",
-			"price": 1683,
-			"category": "Ranged weapons",
-			"defname": "Gun_ChargeRifle"
-		},
-		{
-			"abr": "sniperrifle",
-			"price": 883,
-			"category": "Ranged weapons",
-			"defname": "Gun_SniperRifle"
-		},
-		{
-			"abr": "rhinoceros",
-			"price": 1167,
-			"category": "Animal",
-			"defname": "Rhinoceros"
-		},
-		{
-			"abr": "kidney",
-			"price": 417,
-			"category": "Natural",
-			"defname": "Kidney"
-		},
-		{
-			"abr": "bedroll",
-			"price": 137,
-			"category": "Furniture",
-			"defname": "Bedroll"
-		},
-		{
-			"abr": "doublebedroll",
-			"price": 290,
-			"category": "Furniture",
-			"defname": "BedrollDouble"
-		},
-		{
-			"abr": "diningchair",
-			"price": 198,
-			"category": "Furniture",
-			"defname": "DiningChair"
-		},
-		{
-			"abr": "armchair",
-			"price": 450,
-			"category": "Furniture",
-			"defname": "Armchair"
-		},
-		{
-			"abr": "cowboyhat",
-			"price": 94,
-			"category": "Headgear",
-			"defname": "Apparel_CowboyHat"
-		},
-		{
-			"abr": "machinepistol",
-			"price": 367,
-			"category": "Ranged weapons",
-			"defname": "Gun_MachinePistol"
-		},
-		{
-			"abr": "heavysmg",
-			"price": 592,
-			"category": "Ranged weapons",
-			"defname": "Gun_HeavySMG"
-		},
-		{
-			"abr": "resurrectormechserum",
-			"price": 2833,
-			"category": "Items",
-			"defname": "MechSerumResurrector"
-		},
-		{
-			"abr": "healermechserum",
-			"price": 2167,
-			"category": "Items",
-			"defname": "MechSerumHealer"
-		},
-		{
-			"abr": "game-of-urboard",
-			"price": 153,
-			"category": "Furniture",
-			"defname": "GameOfUrBoard"
-		},
-		{
-			"abr": "stool",
-			"price": 86,
-			"category": "Furniture",
-			"defname": "Stool"
-		},
-		{
-			"abr": "deepdrill",
-			"price": 483,
-			"category": "Production",
-			"defname": "DeepDrill"
-		},
-		{
-			"abr": "psychitetea",
-			"price": 17,
-			"category": "Drugs",
-			"defname": "PsychiteTea"
-		},
-		{
-			"abr": "cloth",
-			"price": 2,
-			"category": "Textiles",
-			"defname": "Cloth"
-		},
-		{
-			"abr": "synthread",
-			"price": 7,
-			"category": "Textiles",
-			"defname": "Synthread"
-		},
-		{
-			"abr": "telescope",
-			"price": 583,
-			"category": "Recreation",
-			"defname": "Telescope"
-		},
-		{
-			"abr": "flatscreentelevision",
-			"price": 1533,
-			"category": "Recreation",
-			"defname": "FlatscreenTelevision"
-		},
-		{
-			"abr": "tubetelevision",
-			"price": 525,
-			"category": "Recreation",
-			"defname": "TubeTelevision"
-		},
-		{
-			"abr": "tribalheaddress",
-			"price": 203,
-			"category": "Headgear",
-			"defname": "Apparel_TribalHeaddress"
-		},
-		{
-			"abr": "tortoise",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Tortoise"
-		},
-		{
-			"abr": "iedantigrainwarheadtrap",
-			"price": 2008,
-			"category": "Security",
-			"defname": "TrapIED_AntigrainWarhead"
-		},
-		{
-			"abr": "iedfirefoamtrap",
-			"price": 192,
-			"category": "Security",
-			"defname": "TrapIED_Firefoam"
-		},
-		{
-			"abr": "iedsmoketrap",
-			"price": 192,
-			"category": "Security",
-			"defname": "TrapIED_Smoke"
-		},
-		{
-			"abr": "iedemptrap",
-			"price": 192,
-			"category": "Security",
-			"defname": "TrapIED_EMP"
-		},
-		{
-			"abr": "iedtrap",
-			"price": 192,
-			"category": "Security",
-			"defname": "TrapIED_HighExplosive"
-		},
-		{
-			"abr": "iedincendiarytrap",
-			"price": 192,
-			"category": "Security",
-			"defname": "TrapIED_Incendiary"
-		},
-		{
-			"abr": "spiketrap",
-			"price": 169,
-			"category": "Security",
-			"defname": "TrapSpike"
-		},
-		{
-			"abr": "thrumbo",
-			"price": 6667,
-			"category": "Animal",
-			"defname": "Thrumbo"
-		},
-		{
-			"abr": "tribalwear",
-			"price": 211,
-			"category": "Apparel",
-			"defname": "Apparel_TribalA"
-		},
-		{
-			"abr": "uranium",
-			"price": 10,
-			"category": "Raw resources",
-			"defname": "Uranium"
-		},
-		{
-			"abr": "urn",
-			"price": 70,
-			"category": "Furniture",
-			"defname": "Urn"
-		},
-		{
-			"abr": "cow",
-			"price": 500,
-			"category": "Animal",
-			"defname": "Cow"
-		},
-		{
-			"abr": "glowpod",
-			"price": 83,
-			"category": "Special",
-			"defname": "GlowPod"
-		},
-		{
-			"abr": "horseshoespin",
-			"price": 34,
-			"category": "Recreation",
-			"defname": "HorseshoesPin"
-		},
-		{
-			"abr": "warveil",
-			"price": 75,
-			"category": "Headgear",
-			"defname": "Apparel_WarVeil"
-		},
-		{
-			"abr": "warg",
-			"price": 750,
-			"category": "Animal",
-			"defname": "Warg"
-		},
-		{
-			"abr": "yak",
-			"price": 533,
-			"category": "Animal",
-			"defname": "Yak"
-		},
-		{
-			"abr": "yayo",
-			"price": 35,
-			"category": "Drugs",
-			"defname": "Yayo"
-		},
-		{
-			"abr": "yorkshireterrier",
-			"price": 167,
-			"category": "Animal",
-			"defname": "YorkshireTerrier"
-		},
-		{
-			"abr": "arcticfox",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Fox_Arctic"
-		},
-		{
-			"abr": "redfox",
-			"price": 333,
-			"category": "Animal",
-			"defname": "Fox_Red"
-		},
-		{
-			"abr": "go-juice",
-			"price": 88,
-			"category": "Drugs",
-			"defname": "GoJuice"
-		}
+	"items" : [
+	{
+		"abr": "ビール",
+		"price": 20,
+		"category": "ドラッグ",
+		"defname": "Beer"
+	},
+	{
+		"abr": "麦汁",
+		"price": 4,
+		"category": "加工品",
+		"defname": "Wort"
+	},
+	{
+		"abr": "アンブロージア",
+		"price": 25,
+		"category": "ドラッグ",
+		"defname": "Ambrosia"
+	},
+	{
+		"abr": "ゴージュース",
+		"price": 88,
+		"category": "ドラッグ",
+		"defname": "GoJuice"
+	},
+	{
+		"abr": "ルシフェリウム",
+		"price": 117,
+		"category": "ドラッグ",
+		"defname": "Luciferium"
+	},
+	{
+		"abr": "ペノキシリン",
+		"price": 30,
+		"category": "ドラッグ",
+		"defname": "Penoxycyline"
+	},
+	{
+		"abr": "フレーク",
+		"price": 23,
+		"category": "ドラッグ",
+		"defname": "Flake"
+	},
+	{
+		"abr": "サイカイトティー",
+		"price": 17,
+		"category": "ドラッグ",
+		"defname": "PsychiteTea"
+	},
+	{
+		"abr": "イェイョ",
+		"price": 35,
+		"category": "ドラッグ",
+		"defname": "Yayo"
+	},
+	{
+		"abr": "ジョイント",
+		"price": 18,
+		"category": "ドラッグ",
+		"defname": "SmokeleafJoint"
+	},
+	{
+		"abr": "ウェイクアップ",
+		"price": 58,
+		"category": "ドラッグ",
+		"defname": "WakeUp"
+	},
+	{
+		"abr": "アルコテック眼",
+		"price": 4667,
+		"category": "アルコテック",
+		"defname": "ArchotechEye"
+	},
+	{
+		"abr": "アルコテック腕",
+		"price": 4667,
+		"category": "アルコテック",
+		"defname": "ArchotechArm"
+	},
+	{
+		"abr": "アルコテック脚",
+		"price": 4667,
+		"category": "アルコテック",
+		"defname": "ArchotechLeg"
+	},
+	{
+		"abr": "強化視覚センサー",
+		"price": 1717,
+		"category": "強化",
+		"defname": "BionicEye"
+	},
+	{
+		"abr": "強化上肢",
+		"price": 1717,
+		"category": "強化",
+		"defname": "BionicArm"
+	},
+	{
+		"abr": "強化下肢",
+		"price": 1717,
+		"category": "強化",
+		"defname": "BionicLeg"
+	},
+	{
+		"abr": "強化脊椎",
+		"price": 1717,
+		"category": "強化",
+		"defname": "BionicSpine"
+	},
+	{
+		"abr": "強化心臓",
+		"price": 1717,
+		"category": "強化",
+		"defname": "BionicHeart"
+	},
+	{
+		"abr": "強化胃",
+		"price": 1308,
+		"category": "強化",
+		"defname": "BionicStomach"
+	},
+	{
+		"abr": "亡者の酸",
+		"price": 667,
+		"category": "強化",
+		"defname": "DeathAcidifier"
+	},
+	{
+		"abr": "強化内耳",
+		"price": 1308,
+		"category": "強化",
+		"defname": "BionicEar"
+	},
+	{
+		"abr": "強化舌",
+		"price": 942,
+		"category": "強化",
+		"defname": "BionicTongue"
+	},
+	{
+		"abr": "心臓",
+		"price": 2000,
+		"category": "生体",
+		"defname": "Heart"
+	},
+	{
+		"abr": "肺",
+		"price": 1667,
+		"category": "生体",
+		"defname": "Lung"
+	},
+	{
+		"abr": "腎臓",
+		"price": 1500,
+		"category": "生体",
+		"defname": "Kidney"
+	},
+	{
+		"abr": "肝臓",
+		"price": 2000,
+		"category": "生体",
+		"defname": "Liver"
+	},
+	{
+		"abr": "人造下肢",
+		"price": 433,
+		"category": "人造",
+		"defname": "SimpleProstheticLeg"
+	},
+	{
+		"abr": "人造上肢",
+		"price": 433,
+		"category": "人造",
+		"defname": "SimpleProstheticArm"
+	},
+	{
+		"abr": "人造心臓",
+		"price": 383,
+		"category": "人造",
+		"defname": "SimpleProstheticHeart"
+	},
+	{
+		"abr": "人工内耳インプラント",
+		"price": 367,
+		"category": "人造",
+		"defname": "CochlearImplant"
+	},
+	{
+		"abr": "機械化かぎ爪",
+		"price": 642,
+		"category": "人造",
+		"defname": "PowerClaw"
+	},
+	{
+		"abr": "ジョイワイヤー",
+		"price": 367,
+		"category": "人造",
+		"defname": "Joywire"
+	},
+	{
+		"abr": "ペインストッパー",
+		"price": 367,
+		"category": "人造",
+		"defname": "Painstopper"
+	},
+	{
+		"abr": "古代の壺",
+		"price": 70,
+		"category": "家具",
+		"defname": "Urn"
+	},
+	{
+		"abr": "小ぶりの彫刻",
+		"price": 275,
+		"category": "芸術品",
+		"defname": "SculptureSmall"
+	},
+	{
+		"abr": "大ぶりの彫刻",
+		"price": 517,
+		"category": "芸術品",
+		"defname": "SculptureLarge"
+	},
+	{
+		"abr": "巨大な彫刻",
+		"price": 1967,
+		"category": "芸術品",
+		"defname": "SculptureGrand"
+	},
+	{
+		"abr": "ベッド",
+		"price": 155,
+		"category": "家具",
+		"defname": "Bed"
+	},
+	{
+		"abr": "ダブルベッド",
+		"price": 292,
+		"category": "家具",
+		"defname": "DoubleBed"
+	},
+	{
+		"abr": "豪華なベッド",
+		"price": 1467,
+		"category": "家具",
+		"defname": "RoyalBed"
+	},
+	{
+		"abr": "病院用ベッド",
+		"price": 667,
+		"category": "家具",
+		"defname": "HospitalBed"
+	},
+	{
+		"abr": "寝袋",
+		"price": 137,
+		"category": "家具",
+		"defname": "Bedroll"
+	},
+	{
+		"abr": "ダブルの寝袋",
+		"price": 290,
+		"category": "家具",
+		"defname": "BedrollDouble"
+	},
+	{
+		"abr": "家畜小屋",
+		"price": 84,
+		"category": "家具",
+		"defname": "AnimalSleepingBox"
+	},
+	{
+		"abr": "家畜用ベッド",
+		"price": 136,
+		"category": "家具",
+		"defname": "AnimalBed"
+	},
+	{
+		"abr": "スツール",
+		"price": 86,
+		"category": "家具",
+		"defname": "Stool"
+	},
+	{
+		"abr": "ダイニングチェア",
+		"price": 198,
+		"category": "家具",
+		"defname": "DiningChair"
+	},
+	{
+		"abr": "アームチェア",
+		"price": 450,
+		"category": "家具",
+		"defname": "Armchair"
+	},
+	{
+		"abr": "エンドテーブル",
+		"price": 106,
+		"category": "家具",
+		"defname": "EndTable"
+	},
+	{
+		"abr": "テーブル(1x2)",
+		"price": 98,
+		"category": "家具",
+		"defname": "Table1x2c"
+	},
+	{
+		"abr": "テーブル(2x2)",
+		"price": 176,
+		"category": "家具",
+		"defname": "Table2x2c"
+	},
+	{
+		"abr": "テーブル(2x4)",
+		"price": 333,
+		"category": "家具",
+		"defname": "Table2x4c"
+	},
+	{
+		"abr": "テーブル(3x3)",
+		"price": 350,
+		"category": "家具",
+		"defname": "Table3x3c"
+	},
+	{
+		"abr": "植木鉢",
+		"price": 68,
+		"category": "家具",
+		"defname": "PlantPot"
+	},
+	{
+		"abr": "電気スタンド",
+		"price": 65,
+		"category": "家具",
+		"defname": "StandingLamp"
+	},
+	{
+		"abr": "太陽灯",
+		"price": 129,
+		"category": "家具",
+		"defname": "SunLamp"
+	},
+	{
+		"abr": "ロッカー",
+		"price": 70,
+		"category": "家具",
+		"defname": "Shelf"
+	},
+	{
+		"abr": "小型ロッカー",
+		"price": 35,
+		"category": "家具",
+		"defname": "ShelfSmall"
+	},
+	{
+		"abr": "タンス",
+		"price": 179,
+		"category": "家具",
+		"defname": "Dresser"
+	},
+	{
+		"abr": "蹄鉄投げのピン",
+		"price": 34,
+		"category": "娯楽",
+		"defname": "HorseshoesPin"
+	},
+	{
+		"abr": "フープストーンの輪",
+		"price": 67,
+		"category": "娯楽",
+		"defname": "HoopstoneRing"
+	},
+	{
+		"abr": "ウル王朝のゲーム",
+		"price": 153,
+		"category": "家具",
+		"defname": "GameOfUrBoard"
+	},
+	{
+		"abr": "チェス盤",
+		"price": 281,
+		"category": "家具",
+		"defname": "ChessTable"
+	},
+	{
+		"abr": "ポーカーテーブル",
+		"price": 400,
+		"category": "家具",
+		"defname": "PokerTable"
+	},
+	{
+		"abr": "ビリヤード台",
+		"price": 600,
+		"category": "家具",
+		"defname": "BilliardsTable"
+	},
+	{
+		"abr": "ブラウン管テレビ",
+		"price": 525,
+		"category": "娯楽",
+		"defname": "TubeTelevision"
+	},
+	{
+		"abr": "フラットスクリーンテレビ",
+		"price": 1533,
+		"category": "娯楽",
+		"defname": "FlatscreenTelevision"
+	},
+	{
+		"abr": "メガスクリーンテレビ",
+		"price": 2475,
+		"category": "娯楽",
+		"defname": "MegascreenTelevision"
+	},
+	{
+		"abr": "望遠鏡",
+		"price": 583,
+		"category": "娯楽",
+		"defname": "Telescope"
+	},
+	{
+		"abr": "卵箱",
+		"price": 79,
+		"category": "その他",
+		"defname": "EggBox"
+	},
+	{
+		"abr": "貿易用ビーコン",
+		"price": 185,
+		"category": "その他",
+		"defname": "OrbitalTradeBeacon"
+	},
+	{
+		"abr": "泡消火器",
+		"price": 300,
+		"category": "その他",
+		"defname": "FirefoamPopper"
+	},
+	{
+		"abr": "マルチアナライザ",
+		"price": 1700,
+		"category": "その他",
+		"defname": "MultiAnalyzer"
+	},
+	{
+		"abr": "バイタルモニター",
+		"price": 358,
+		"category": "その他",
+		"defname": "VitalsMonitor"
+	},
+	{
+		"abr": "ツールキャビネット",
+		"price": 642,
+		"category": "その他",
+		"defname": "ToolCabinet"
+	},
+	{
+		"abr": "ペンマーカー",
+		"price": 104,
+		"category": "その他",
+		"defname": "PenMarker"
+	},
+	{
+		"abr": "発光ポッド",
+		"price": 83,
+		"category": "スペシャル",
+		"defname": "GlowPod"
+	},
+	{
+		"abr": "火力発電(樹)",
+		"price": 442,
+		"category": "その他",
+		"defname": "WoodFiredGenerator"
+	},
+	{
+		"abr": "火力発電(液化燃料)",
+		"price": 492,
+		"category": "その他",
+		"defname": "ChemfuelPoweredGenerator"
+	},
+	{
+		"abr": "バッテリー",
+		"price": 333,
+		"category": "パワー",
+		"defname": "Battery"
+	},
+	{
+		"abr": "彫刻台",
+		"price": 425,
+		"category": "生産物",
+		"defname": "TableSculpting"
+	},
+	{
+		"abr": "食肉加工台",
+		"price": 262,
+		"category": "生産物",
+		"defname": "TableButcher"
+	},
+	{
+		"abr": "ミシン台",
+		"price": 262,
+		"category": "生産物",
+		"defname": "HandTailoringBench"
+	},
+	{
+		"abr": "電動ミシン台",
+		"price": 533,
+		"category": "生産物",
+		"defname": "ElectricTailoringBench"
+	},
+	{
+		"abr": "工作台",
+		"price": 333,
+		"category": "生産物",
+		"defname": "FueledSmithy"
+	},
+	{
+		"abr": "電動工作台",
+		"price": 492,
+		"category": "生産物",
+		"defname": "ElectricSmithy"
+	},
+	{
+		"abr": "精密工作機械",
+		"price": 758,
+		"category": "生産物",
+		"defname": "TableMachining"
+	},
+	{
+		"abr": "電気コンロ",
+		"price": 375,
+		"category": "生産物",
+		"defname": "ElectricStove"
+	},
+	{
+		"abr": "カマド",
+		"price": 265,
+		"category": "生産物",
+		"defname": "FueledStove"
+	},
+	{
+		"abr": "ストーンカッター",
+		"price": 358,
+		"category": "生産物",
+		"defname": "TableStonecutter"
+	},
+	{
+		"abr": "醸造器",
+		"price": 508,
+		"category": "生産物",
+		"defname": "Brewery"
+	},
+	{
+		"abr": "ドラッグラボ",
+		"price": 742,
+		"category": "生産物",
+		"defname": "DrugLab"
+	},
+	{
+		"abr": "溶鉱炉",
+		"price": 667,
+		"category": "生産物",
+		"defname": "ElectricSmelter"
+	},
+	{
+		"abr": "研究卓",
+		"price": 350,
+		"category": "生産物",
+		"defname": "SimpleResearchBench"
+	},
+	{
+		"abr": "電気火葬炉",
+		"price": 700,
+		"category": "その他",
+		"defname": "ElectricCrematorium"
+	},
+	{
+		"abr": "水耕栽培器",
+		"price": 383,
+		"category": "その他",
+		"defname": "HydroponicsBasin"
+	},
+	{
+		"abr": "ビア樽",
+		"price": 95,
+		"category": "生産物",
+		"defname": "FermentingBarrel"
+	},
+	{
+		"abr": "深部ドリルマシン",
+		"price": 483,
+		"category": "生産物",
+		"defname": "DeepDrill"
+	},
+	{
+		"abr": "ペーストディスペンサ",
+		"price": 567,
+		"category": "その他",
+		"defname": "NutrientPasteDispenser"
+	},
+	{
+		"abr": "食材ホッパー",
+		"price": 49,
+		"category": "その他",
+		"defname": "Hopper"
+	},
+	{
+		"abr": "スパイクトラップ",
+		"price": 169,
+		"category": "防衛",
+		"defname": "TrapSpike"
+	},
+	{
+		"abr": "iedトラップ",
+		"price": 192,
+		"category": "防衛",
+		"defname": "TrapIED_HighExplosive"
+	},
+	{
+		"abr": "ied焼夷トラップ",
+		"price": 192,
+		"category": "防衛",
+		"defname": "TrapIED_Incendiary"
+	},
+	{
+		"abr": "iedempトラップ",
+		"price": 192,
+		"category": "防衛",
+		"defname": "TrapIED_EMP"
+	},
+	{
+		"abr": "ied煙幕トラップ",
+		"price": 192,
+		"category": "防衛",
+		"defname": "TrapIED_Smoke"
+	},
+	{
+		"abr": "ied消火剤トラップ",
+		"price": 192,
+		"category": "防衛",
+		"defname": "TrapIED_Firefoam"
+	},
+	{
+		"abr": "ied反物質弾トラップ",
+		"price": 2008,
+		"category": "防衛",
+		"defname": "TrapIED_AntigrainWarhead"
+	},
+	{
+		"abr": "タレット",
+		"price": 492,
+		"category": "防衛",
+		"defname": "Turret_MiniTurret"
+	},
+	{
+		"abr": "榴弾迫撃砲",
+		"price": 1500,
+		"category": "防衛",
+		"defname": "Turret_Mortar"
+	},
+	{
+		"abr": "泡タレット",
+		"price": 1025,
+		"category": "防衛",
+		"defname": "Turret_FoamTurret"
+	},
+	{
+		"abr": "サイコスード波動器",
+		"price": 2167,
+		"category": "スペシャル",
+		"defname": "PsychicEmanator"
+	},
+	{
+		"abr": "ワノメトリック発電器",
+		"price": 2000,
+		"category": "スペシャル",
+		"defname": "VanometricPowerCell"
+	},
+	{
+		"abr": "無限化学反応炉",
+		"price": 2500,
+		"category": "スペシャル",
+		"defname": "InfiniteChemreactor"
+	},
+	{
+		"abr": "気化熱クーラー",
+		"price": 168,
+		"category": "その他",
+		"defname": "PassiveCooler"
+	},
+	{
+		"abr": "電気ストーブ",
+		"price": 218,
+		"category": "温度",
+		"defname": "Heater"
+	},
+	{
+		"abr": "クーラー",
+		"price": 458,
+		"category": "その他",
+		"defname": "Cooler"
+	},
+	{
+		"abr": "換気口",
+		"price": 97,
+		"category": "その他",
+		"defname": "Vent"
+	},
+	{
+		"abr": "凶暴の波動",
+		"price": 1167,
+		"category": "アーティファクト",
+		"defname": "PsychicAnimalPulser"
+	},
+	{
+		"abr": "和の波動",
+		"price": 1000,
+		"category": "アーティファクト",
+		"defname": "PsychicSoothePulser"
+	},
+	{
+		"abr": "ai人格コア",
+		"price": 6667,
+		"category": "その他",
+		"defname": "AIPersonaCore"
+	},
+	{
+		"abr": "ヒーラーシーラム",
+		"price": 2167,
+		"category": "その他",
+		"defname": "MechSerumHealer"
+	},
+	{
+		"abr": "リザレクトシーラム",
+		"price": -10,
+		"category": "その他",
+		"defname": "MechSerumResurrector"
+	},
+	{
+		"abr": "研究ai亜人格コア",
+		"price": 1667,
+		"category": "その他",
+		"defname": "TechprofSubpersonaCore"
+	},
+	{
+		"abr": "スランボの角",
+		"price": 1333,
+		"category": "その他",
+		"defname": "ThrumboHorn"
+	},
+	{
+		"abr": "象の牙",
+		"price": 133,
+		"category": "その他",
+		"defname": "ElephantTusk"
+	},
+	{
+		"abr": "非常用食品",
+		"price": 40,
+		"category": "調理済",
+		"defname": "MealSurvivalPack"
+	},
+	{
+		"abr": "栄養補給ペースト",
+		"price": 17,
+		"category": "調理済",
+		"defname": "MealNutrientPaste"
+	},
+	{
+		"abr": "手の込んだ野菜料理",
+		"price": 33,
+		"category": "調理済",
+		"defname": "MealFine_Veg"
+	},
+	{
+		"abr": "手の込んだ肉料理",
+		"price": 33,
+		"category": "調理済",
+		"defname": "MealFine_Meat"
+	},
+	{
+		"abr": "豪華な野菜料理",
+		"price": 67,
+		"category": "調理済",
+		"defname": "MealLavish_Veg"
+	},
+	{
+		"abr": "豪華な肉料理",
+		"price": 67,
+		"category": "調理済",
+		"defname": "MealLavish_Meat"
+	},
+	{
+		"abr": "ペットフード",
+		"price": 2,
+		"category": "食物",
+		"defname": "Kibble"
+	},
+	{
+		"abr": "ペミカン",
+		"price": 2,
+		"category": "食物",
+		"defname": "Pemmican"
+	},
+	{
+		"abr": "チョコレート",
+		"price": 5,
+		"category": "食物",
+		"defname": "Chocolate"
+	},
+	{
+		"abr": "ミルク",
+		"price": 3,
+		"category": "畜産物",
+		"defname": "Milk"
+	},
+	{
+		"abr": "インセクトゼリー",
+		"price": 6,
+		"category": "畜産物",
+		"defname": "InsectJelly"
+	},
+	{
+		"abr": "鶏卵(無精卵)",
+		"price": 12,
+		"category": "卵(無精卵)",
+		"defname": "EggChickenUnfertilized"
+	},
+	{
+		"abr": "鶏卵(有精卵)",
+		"price": 12,
+		"category": "卵(有精卵)",
+		"defname": "EggChickenFertilized"
+	},
+	{
+		"abr": "コブラの卵(有精卵)",
+		"price": 33,
+		"category": "卵(有精卵)",
+		"defname": "EggCobraFertilized"
+	},
+	{
+		"abr": "イグアナの卵(有精卵)",
+		"price": 42,
+		"category": "卵(有精卵)",
+		"defname": "EggIguanaFertilized"
+	},
+	{
+		"abr": "カメの卵(有精卵)",
+		"price": 38,
+		"category": "卵(有精卵)",
+		"defname": "EggTortoiseFertilized"
+	},
+	{
+		"abr": "ヒクイドリの卵(有精卵)",
+		"price": 32,
+		"category": "卵(有精卵)",
+		"defname": "EggCassowaryFertilized"
+	},
+	{
+		"abr": "エミューの卵(有精卵)",
+		"price": 30,
+		"category": "卵(有精卵)",
+		"defname": "EggEmuFertilized"
+	},
+	{
+		"abr": "ダチョウの卵(有精卵)",
+		"price": 38,
+		"category": "卵(有精卵)",
+		"defname": "EggOstrichFertilized"
+	},
+	{
+		"abr": "シチメンチョウの卵(有精卵)",
+		"price": 18,
+		"category": "卵(有精卵)",
+		"defname": "EggTurkeyFertilized"
+	},
+	{
+		"abr": "カモの卵(無精卵)",
+		"price": 12,
+		"category": "卵(無精卵)",
+		"defname": "EggDuckUnfertilized"
+	},
+	{
+		"abr": "カモの卵(有精卵)",
+		"price": 12,
+		"category": "卵(有精卵)",
+		"defname": "EggDuckFertilized"
+	},
+	{
+		"abr": "ガチョウの卵(無精卵)",
+		"price": 15,
+		"category": "卵(無精卵)",
+		"defname": "EggGooseUnfertilized"
+	},
+	{
+		"abr": "ガチョウの卵(有精卵)",
+		"price": 18,
+		"category": "卵(有精卵)",
+		"defname": "EggGooseFertilized"
+	},
+	{
+		"abr": "薬草",
+		"price": 17,
+		"category": "薬",
+		"defname": "MedicineHerbal"
+	},
+	{
+		"abr": "医薬品",
+		"price": 30,
+		"category": "薬",
+		"defname": "MedicineIndustrial"
+	},
+	{
+		"abr": "最先端医薬品",
+		"price": 83,
+		"category": "薬",
+		"defname": "MedicineUltratech"
+	},
+	{
+		"abr": "コンポーネント",
+		"price": 53,
+		"category": "加工品",
+		"defname": "ComponentIndustrial"
+	},
+	{
+		"abr": "先進コンポーネント",
+		"price": 333,
+		"category": "加工品",
+		"defname": "ComponentSpacer"
+	},
+	{
+		"abr": "ニュートロアミン",
+		"price": 10,
+		"category": "加工品",
+		"defname": "Neutroamine"
+	},
+	{
+		"abr": "バイオ液化燃料",
+		"price": 4,
+		"category": "加工品",
+		"defname": "Chemfuel"
+	},
+	{
+		"abr": "強化バレル",
+		"price": 1000,
+		"category": "その他",
+		"defname": "ReinforcedBarrel"
+	},
+	{
+		"abr": "ジャガイモ(生)",
+		"price": 2,
+		"category": "生野菜",
+		"defname": "RawPotatoes"
+	},
+	{
+		"abr": "キノコ(生)",
+		"price": 2,
+		"category": "生野菜",
+		"defname": "RawFungus"
+	},
+	{
+		"abr": "米(生)",
+		"price": 2,
+		"category": "生野菜",
+		"defname": "RawRice"
+	},
+	{
+		"abr": "トウモロコシ(生)",
+		"price": 2,
+		"category": "生野菜",
+		"defname": "RawCorn"
+	},
+	{
+		"abr": "干し草",
+		"price": 1,
+		"category": "食物",
+		"defname": "Hay"
+	},
+	{
+		"abr": "ホップ(生)",
+		"price": 2,
+		"category": "植物原料",
+		"defname": "RawHops"
+	},
+	{
+		"abr": "サイコイドの葉",
+		"price": 3,
+		"category": "植物原料",
+		"defname": "PsychoidLeaves"
+	},
+	{
+		"abr": "スモークリーフの葉",
+		"price": 3,
+		"category": "植物原料",
+		"defname": "SmokeleafLeaves"
+	},
+	{
+		"abr": "迫撃砲弾",
+		"price": 92,
+		"category": "迫撃砲弾",
+		"defname": "Shell_HighExplosive"
+	},
+	{
+		"abr": "焼夷弾",
+		"price": 92,
+		"category": "迫撃砲弾",
+		"defname": "Shell_Incendiary"
+	},
+	{
+		"abr": "emp弾",
+		"price": 92,
+		"category": "迫撃砲弾",
+		"defname": "Shell_EMP"
+	},
+	{
+		"abr": "煙幕弾",
+		"price": 92,
+		"category": "迫撃砲弾",
+		"defname": "Shell_Smoke"
+	},
+	{
+		"abr": "消火剤弾",
+		"price": 92,
+		"category": "迫撃砲弾",
+		"defname": "Shell_Firefoam"
+	},
+	{
+		"abr": "反物質弾",
+		"price": 2000,
+		"category": "迫撃砲弾",
+		"defname": "Shell_AntigrainWarhead"
+	},
+	{
+		"abr": "シルバー",
+		"price": 2,
+		"category": "原材料",
+		"defname": "Silver"
+	},
+	{
+		"abr": "ゴールド",
+		"price": 17,
+		"category": "原材料",
+		"defname": "Gold"
+	},
+	{
+		"abr": "スチール",
+		"price": 3,
+		"category": "原材料",
+		"defname": "Steel"
+	},
+	{
+		"abr": "プラスチール",
+		"price": 15,
+		"category": "原材料",
+		"defname": "Plasteel"
+	},
+	{
+		"abr": "木材",
+		"price": 2,
+		"category": "原材料",
+		"defname": "WoodLog"
+	},
+	{
+		"abr": "ウラン",
+		"price": 10,
+		"category": "原材料",
+		"defname": "Uranium"
+	},
+	{
+		"abr": "ヒスイ",
+		"price": 8,
+		"category": "原材料",
+		"defname": "Jade"
+	},
+	{
+		"abr": "布",
+		"price": 2,
+		"category": "織物",
+		"defname": "Cloth"
+	},
+	{
+		"abr": "シンスレッド",
+		"price": 7,
+		"category": "織物",
+		"defname": "Synthread"
+	},
+	{
+		"abr": "デビルストランド",
+		"price": 9,
+		"category": "織物",
+		"defname": "DevilstrandCloth"
+	},
+	{
+		"abr": "ハイパーウィーブ",
+		"price": 15,
+		"category": "織物",
+		"defname": "Hyperweave"
+	},
+	{
+		"abr": "羊毛",
+		"price": 4,
+		"category": "毛",
+		"defname": "WoolSheep"
+	},
+	{
+		"abr": "アルパカ毛",
+		"price": 6,
+		"category": "毛",
+		"defname": "WoolAlpaca"
+	},
+	{
+		"abr": "メガスロス毛",
+		"price": 4,
+		"category": "毛",
+		"defname": "WoolMegasloth"
+	},
+	{
+		"abr": "マッファロ毛",
+		"price": 4,
+		"category": "毛",
+		"defname": "WoolMuffalo"
+	},
+	{
+		"abr": "バイソン毛",
+		"price": 4,
+		"category": "毛",
+		"defname": "WoolBison"
+	},
+	{
+		"abr": "なめし革",
+		"price": 3,
+		"category": "革",
+		"defname": "Leather_Plain"
+	},
+	{
+		"abr": "犬の革",
+		"price": 3,
+		"category": "革",
+		"defname": "Leather_Dog"
+	},
+	{
+		"abr": "狼の革",
+		"price": 5,
+		"category": "革",
+		"defname": "Leather_Wolf"
+	},
+	{
+		"abr": "パンサーの毛皮",
+		"price": 5,
+		"category": "革",
+		"defname": "Leather_Panthera"
+	},
+	{
+		"abr": "ラクダの革",
+		"price": 4,
+		"category": "革",
+		"defname": "Leather_Camel"
+	},
+	{
+		"abr": "ブルーファー",
+		"price": 4,
+		"category": "革",
+		"defname": "Leather_Bluefur"
+	},
+	{
+		"abr": "熊の革",
+		"price": 6,
+		"category": "革",
+		"defname": "Leather_Bear"
+	},
+	{
+		"abr": "モルモットの毛皮",
+		"price": 8,
+		"category": "革",
+		"defname": "Leather_GuineaPig"
+	},
+	{
+		"abr": "人皮",
+		"price": 7,
+		"category": "革",
+		"defname": "Leather_Human"
+	},
+	{
+		"abr": "豚の皮",
+		"price": 3,
+		"category": "革",
+		"defname": "Leather_Pig"
+	},
+	{
+		"abr": "軽量な革",
+		"price": 3,
+		"category": "革",
+		"defname": "Leather_Light"
+	},
+	{
+		"abr": "鳥の皮",
+		"price": 3,
+		"category": "革",
+		"defname": "Leather_Bird"
+	},
+	{
+		"abr": "チンチラの毛皮",
+		"price": 11,
+		"category": "革",
+		"defname": "Leather_Chinchilla"
+	},
+	{
+		"abr": "狐の毛皮",
+		"price": 6,
+		"category": "革",
+		"defname": "Leather_Fox"
+	},
+	{
+		"abr": "トカゲの皮",
+		"price": 3,
+		"category": "革",
+		"defname": "Leather_Lizard"
+	},
+	{
+		"abr": "象の皮",
+		"price": 5,
+		"category": "革",
+		"defname": "Leather_Elephant"
+	},
+	{
+		"abr": "重い毛皮",
+		"price": 6,
+		"category": "革",
+		"defname": "Leather_Heavy"
+	},
+	{
+		"abr": "サイの皮",
+		"price": 7,
+		"category": "革",
+		"defname": "Leather_Rhinoceros"
+	},
+	{
+		"abr": "スランボの毛皮",
+		"price": 23,
+		"category": "革",
+		"defname": "Leather_Thrumbo"
+	},
+	{
+		"abr": "パッチレザー",
+		"price": 2,
+		"category": "革",
+		"defname": "Leather_Patch"
+	},
+	{
+		"abr": "シールドベルト",
+		"price": 650,
+		"category": "装飾品",
+		"defname": "Apparel_ShieldBelt"
+	},
+	{
+		"abr": "カウボーイハット",
+		"price": 94,
+		"category": "帽子",
+		"defname": "Apparel_CowboyHat"
+	},
+	{
+		"abr": "山高帽",
+		"price": 77,
+		"category": "帽子",
+		"defname": "Apparel_BowlerHat"
+	},
+	{
+		"abr": "部族の髪飾り",
+		"price": 203,
+		"category": "帽子",
+		"defname": "Apparel_TribalHeaddress"
+	},
+	{
+		"abr": "ニット帽",
+		"price": 74,
+		"category": "帽子",
+		"defname": "Apparel_Tuque"
+	},
+	{
+		"abr": "ウォーマスク",
+		"price": 101,
+		"category": "帽子",
+		"defname": "Apparel_WarMask"
+	},
+	{
+		"abr": "ベール",
+		"price": 75,
+		"category": "帽子",
+		"defname": "Apparel_WarVeil"
+	},
+	{
+		"abr": "ヘルメット",
+		"price": 153,
+		"category": "頭装備",
+		"defname": "Apparel_SimpleHelmet"
+	},
+	{
+		"abr": "次世代型ヘルメット",
+		"price": 442,
+		"category": "頭装備",
+		"defname": "Apparel_AdvancedHelmet"
+	},
+	{
+		"abr": "マリーンヘルメット",
+		"price": 1058,
+		"category": "頭装備",
+		"defname": "Apparel_PowerArmorHelmet"
+	},
+	{
+		"abr": "レコンヘルメット",
+		"price": 875,
+		"category": "頭装備",
+		"defname": "Apparel_ArmorHelmetRecon"
+	},
+	{
+		"abr": "精神波遮断ヘルメット",
+		"price": 417,
+		"category": "帽子",
+		"defname": "Apparel_PsychicFoilHelmet"
+	},
+	{
+		"abr": "フード",
+		"price": 203,
+		"category": "帽子",
+		"defname": "Apparel_HatHood"
+	},
+	{
+		"abr": "スモークポップパック",
+		"price": 277,
+		"category": "装飾品",
+		"defname": "Apparel_SmokepopBelt"
+	},
+	{
+		"abr": "消火剤ポップパック",
+		"price": 239,
+		"category": "ユーティリティ",
+		"defname": "Apparel_FirefoampopPack"
+	},
+	{
+		"abr": "衝撃の槍",
+		"price": 917,
+		"category": "ユーティリティ",
+		"defname": "Apparel_PsychicShockLance"
+	},
+	{
+		"abr": "狂気の槍",
+		"price": 1083,
+		"category": "ユーティリティ",
+		"defname": "Apparel_PsychicInsanityLance"
+	},
+	{
+		"abr": "一枚布",
+		"price": 211,
+		"category": "体装備",
+		"defname": "Apparel_TribalA"
+	},
+	{
+		"abr": "パーカー",
+		"price": 315,
+		"category": "外套",
+		"defname": "Apparel_Parka"
+	},
+	{
+		"abr": "ズボン",
+		"price": 143,
+		"category": "体装備",
+		"defname": "Apparel_Pants"
+	},
+	{
+		"abr": "ｔシャツ",
+		"price": 143,
+		"category": "体装備",
+		"defname": "Apparel_BasicShirt"
+	},
+	{
+		"abr": "襟付きシャツ",
+		"price": 166,
+		"category": "体装備",
+		"defname": "Apparel_CollarShirt"
+	},
+	{
+		"abr": "ダスターコート",
+		"price": 327,
+		"category": "外套",
+		"defname": "Apparel_Duster"
+	},
+	{
+		"abr": "ジャケット",
+		"price": 275,
+		"category": "外套",
+		"defname": "Apparel_Jacket"
+	},
+	{
+		"abr": "プレートアーマー",
+		"price": 792,
+		"category": "鎧",
+		"defname": "Apparel_PlateArmor"
+	},
+	{
+		"abr": "防弾チョッキ",
+		"price": 375,
+		"category": "鎧",
+		"defname": "Apparel_FlakVest"
+	},
+	{
+		"abr": "防弾パンツ",
+		"price": 375,
+		"category": "鎧",
+		"defname": "Apparel_FlakPants"
+	},
+	{
+		"abr": "防弾ジャケット",
+		"price": 483,
+		"category": "鎧",
+		"defname": "Apparel_FlakJacket"
+	},
+	{
+		"abr": "マリーンアーマー",
+		"price": 3392,
+		"category": "鎧",
+		"defname": "Apparel_PowerArmor"
+	},
+	{
+		"abr": "レコンアーマー",
+		"price": 2567,
+		"category": "アーマー",
+		"defname": "Apparel_ArmorRecon"
+	},
+	{
+		"abr": "砂岩の塊",
+		"price": 13,
+		"category": "岩塊",
+		"defname": "ChunkSandstone"
+	},
+	{
+		"abr": "砂岩のブロック",
+		"price": 2,
+		"category": "石材",
+		"defname": "BlocksSandstone"
+	},
+	{
+		"abr": "花崗岩の塊",
+		"price": 18,
+		"category": "岩塊",
+		"defname": "ChunkGranite"
+	},
+	{
+		"abr": "花崗岩のブロック",
+		"price": 2,
+		"category": "石材",
+		"defname": "BlocksGranite"
+	},
+	{
+		"abr": "石灰岩の塊",
+		"price": 16,
+		"category": "岩塊",
+		"defname": "ChunkLimestone"
+	},
+	{
+		"abr": "石灰岩のブロック",
+		"price": 2,
+		"category": "石材",
+		"defname": "BlocksLimestone"
+	},
+	{
+		"abr": "粘板岩の塊",
+		"price": 14,
+		"category": "岩塊",
+		"defname": "ChunkSlate"
+	},
+	{
+		"abr": "粘板岩のブロック",
+		"price": 2,
+		"category": "石材",
+		"defname": "BlocksSlate"
+	},
+	{
+		"abr": "大理石の塊",
+		"price": 13,
+		"category": "岩塊",
+		"defname": "ChunkMarble"
+	},
+	{
+		"abr": "大理石のブロック",
+		"price": 2,
+		"category": "石材",
+		"defname": "BlocksMarble"
+	},
+	{
+		"abr": "ブリーチアックス",
+		"price": 197,
+		"category": "白兵戦武器",
+		"defname": "MeleeWeapon_BreachAxe"
+	},
+	{
+		"abr": "メイス",
+		"price": 203,
+		"category": "白兵戦武器",
+		"defname": "MeleeWeapon_Mace"
+	},
+	{
+		"abr": "グラディウス",
+		"price": 239,
+		"category": "白兵戦武器",
+		"defname": "MeleeWeapon_Gladius"
+	},
+	{
+		"abr": "ロングソード",
+		"price": 442,
+		"category": "白兵戦武器",
+		"defname": "MeleeWeapon_LongSword"
+	},
+	{
+		"abr": "クラブ",
+		"price": 141,
+		"category": "白兵戦武器",
+		"defname": "MeleeWeapon_Club"
+	},
+	{
+		"abr": "ナイフ",
+		"price": 111,
+		"category": "白兵戦武器",
+		"defname": "MeleeWeapon_Knife"
+	},
+	{
+		"abr": "イクワ",
+		"price": 197,
+		"category": "白兵戦武器",
+		"defname": "MeleeWeapon_Ikwa"
+	},
+	{
+		"abr": "スピア",
+		"price": 322,
+		"category": "白兵戦武器",
+		"defname": "MeleeWeapon_Spear"
+	},
+	{
+		"abr": "リボルバー",
+		"price": 226,
+		"category": "遠距離武器",
+		"defname": "Gun_Revolver"
+	},
+	{
+		"abr": "自動式拳銃",
+		"price": 232,
+		"category": "遠距離武器",
+		"defname": "Gun_Autopistol"
+	},
+	{
+		"abr": "マシンピストル",
+		"price": 367,
+		"category": "遠距離武器",
+		"defname": "Gun_MachinePistol"
+	},
+	{
+		"abr": "火炎筒投射機",
+		"price": 567,
+		"category": "遠距離武器",
+		"defname": "Gun_IncendiaryLauncher"
+	},
+	{
+		"abr": "煙幕筒投射機",
+		"price": 633,
+		"category": "遠距離武器",
+		"defname": "Gun_SmokeLauncher"
+	},
+	{
+		"abr": "empランチャー",
+		"price": 842,
+		"category": "遠距離武器",
+		"defname": "Gun_EmpLauncher"
+	},
+	{
+		"abr": "ライフル",
+		"price": 425,
+		"category": "遠距離武器",
+		"defname": "Gun_BoltActionRifle"
+	},
+	{
+		"abr": "ポンプ式散弾銃",
+		"price": 425,
+		"category": "遠距離武器",
+		"defname": "Gun_PumpShotgun"
+	},
+	{
+		"abr": "自動式ショットガン",
+		"price": 675,
+		"category": "遠距離武器",
+		"defname": "Gun_ChainShotgun"
+	},
+	{
+		"abr": "サブマシンガン",
+		"price": 592,
+		"category": "遠距離武器",
+		"defname": "Gun_HeavySMG"
+	},
+	{
+		"abr": "軽機関銃",
+		"price": 708,
+		"category": "遠距離武器",
+		"defname": "Gun_LMG"
+	},
+	{
+		"abr": "軍用ライフル",
+		"price": 800,
+		"category": "遠距離武器",
+		"defname": "Gun_AssaultRifle"
+	},
+	{
+		"abr": "狙撃銃",
+		"price": 883,
+		"category": "遠距離武器",
+		"defname": "Gun_SniperRifle"
+	},
+	{
+		"abr": "ミニガン",
+		"price": 1933,
+		"category": "遠距離武器",
+		"defname": "Gun_Minigun"
+	},
+	{
+		"abr": "三連装ロケットランチャー",
+		"price": 1667,
+		"category": "遠距離武器",
+		"defname": "Gun_TripleRocket"
+	},
+	{
+		"abr": "最終ロケット兵器",
+		"price": 1667,
+		"category": "遠距離武器",
+		"defname": "Gun_DoomsdayRocket"
+	},
+	{
+		"abr": "手榴弾",
+		"price": 442,
+		"category": "投擲武器",
+		"defname": "Weapon_GrenadeFrag"
+	},
+	{
+		"abr": "モロトフのカクテル",
+		"price": 408,
+		"category": "投擲武器",
+		"defname": "Weapon_GrenadeMolotov"
+	},
+	{
+		"abr": "手榴弾(emp)",
+		"price": 525,
+		"category": "投擲武器",
+		"defname": "Weapon_GrenadeEMP"
+	},
+	{
+		"abr": "ショートボウ",
+		"price": 114,
+		"category": "遠距離武器",
+		"defname": "Bow_Short"
+	},
+	{
+		"abr": "投槍",
+		"price": 275,
+		"category": "遠距離武器",
+		"defname": "Pila"
+	},
+	{
+		"abr": "リカーブボウ",
+		"price": 163,
+		"category": "遠距離武器",
+		"defname": "Bow_Recurve"
+	},
+	{
+		"abr": "グレートボウ",
+		"price": 221,
+		"category": "遠距離武器",
+		"defname": "Bow_Great"
+	},
+	{
+		"abr": "チャージライフル",
+		"price": 1683,
+		"category": "遠距離武器",
+		"defname": "Gun_ChargeRifle"
+	},
+	{
+		"abr": "チャージランス",
+		"price": 2258,
+		"category": "遠距離武器",
+		"defname": "Gun_ChargeLance"
+	},
+	{
+		"abr": "軌道爆撃照準器",
+		"price": 2000,
+		"category": "ユーティリティ",
+		"defname": "OrbitalTargeterBombardment"
+	},
+	{
+		"abr": "軌道ビーム照準器",
+		"price": 2000,
+		"category": "ユーティリティ",
+		"defname": "OrbitalTargeterPowerBeam"
+	},
+	{
+		"abr": "竜巻発生装置",
+		"price": 1333,
+		"category": "ユーティリティ",
+		"defname": "TornadoGenerator"
+	},
+	{
+		"abr": "染料",
+		"price": 4,
+		"category": "植物原料",
+		"defname": "Dye"
+	},
+	{
+		"abr": "グリズリー",
+		"price": 1167,
+		"category": "家畜",
+		"defname": "Bear_Grizzly"
+	},
+	{
+		"abr": "ホッキョクグマ",
+		"price": 1167,
+		"category": "家畜",
+		"defname": "Bear_Polar"
+	},
+	{
+		"abr": "ダチョウ",
+		"price": 417,
+		"category": "家畜",
+		"defname": "Ostrich"
+	},
+	{
+		"abr": "エミュー",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Emu"
+	},
+	{
+		"abr": "ヒクイドリ",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Cassowary"
+	},
+	{
+		"abr": "クーガー",
+		"price": 667,
+		"category": "家畜",
+		"defname": "Cougar"
+	},
+	{
+		"abr": "パンサー",
+		"price": 667,
+		"category": "家畜",
+		"defname": "Panther"
+	},
+	{
+		"abr": "ヤマネコ",
+		"price": 417,
+		"category": "家畜",
+		"defname": "Lynx"
+	},
+	{
+		"abr": "ネコ",
+		"price": 167,
+		"category": "家畜",
+		"defname": "Cat"
+	},
+	{
+		"abr": "ヨークシャーテリア",
+		"price": 167,
+		"category": "家畜",
+		"defname": "YorkshireTerrier"
+	},
+	{
+		"abr": "モルモット",
+		"price": 250,
+		"category": "家畜",
+		"defname": "GuineaPig"
+	},
+	{
+		"abr": "ラブラドールリトリーバー",
+		"price": 417,
+		"category": "家畜",
+		"defname": "LabradorRetriever"
+	},
+	{
+		"abr": "ハスキー",
+		"price": 417,
+		"category": "家畜",
+		"defname": "Husky"
+	},
+	{
+		"abr": "サル",
+		"price": 167,
+		"category": "家畜",
+		"defname": "Monkey"
+	},
+	{
+		"abr": "ニワトリ",
+		"price": 83,
+		"category": "家畜",
+		"defname": "Chicken"
+	},
+	{
+		"abr": "カモ",
+		"price": 100,
+		"category": "家畜",
+		"defname": "Duck"
+	},
+	{
+		"abr": "シチメンチョウ",
+		"price": 167,
+		"category": "家畜",
+		"defname": "Turkey"
+	},
+	{
+		"abr": "ガチョウ",
+		"price": 150,
+		"category": "家畜",
+		"defname": "Goose"
+	},
+	{
+		"abr": "ウシ",
+		"price": 500,
+		"category": "家畜",
+		"defname": "Cow"
+	},
+	{
+		"abr": "ボマロープ",
+		"price": 583,
+		"category": "家畜",
+		"defname": "Boomalope"
+	},
+	{
+		"abr": "マッファロー",
+		"price": 500,
+		"category": "家畜",
+		"defname": "Muffalo"
+	},
+	{
+		"abr": "バイソン",
+		"price": 583,
+		"category": "家畜",
+		"defname": "Bison"
+	},
+	{
+		"abr": "ヒトコブラクダ",
+		"price": 500,
+		"category": "家畜",
+		"defname": "Dromedary"
+	},
+	{
+		"abr": "ヤギ",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Goat"
+	},
+	{
+		"abr": "ヘラジカ",
+		"price": 500,
+		"category": "家畜",
+		"defname": "Elk"
+	},
+	{
+		"abr": "ヤク",
+		"price": 533,
+		"category": "家畜",
+		"defname": "Yak"
+	},
+	{
+		"abr": "カリブー",
+		"price": 500,
+		"category": "家畜",
+		"defname": "Caribou"
+	},
+	{
+		"abr": "ウマ",
+		"price": 917,
+		"category": "家畜",
+		"defname": "Horse"
+	},
+	{
+		"abr": "ロバ",
+		"price": 533,
+		"category": "家畜",
+		"defname": "Donkey"
+	},
+	{
+		"abr": "ゾウ",
+		"price": 1000,
+		"category": "家畜",
+		"defname": "Elephant"
+	},
+	{
+		"abr": "サイ",
+		"price": 1167,
+		"category": "家畜",
+		"defname": "Rhinoceros"
+	},
+	{
+		"abr": "ノウサギ",
+		"price": 83,
+		"category": "家畜",
+		"defname": "Hare"
+	},
+	{
+		"abr": "ユキウサギ",
+		"price": 83,
+		"category": "家畜",
+		"defname": "Snowhare"
+	},
+	{
+		"abr": "メガスカラベ",
+		"price": 167,
+		"category": "家畜",
+		"defname": "Megascarab"
+	},
+	{
+		"abr": "スピロピード",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Spelopede"
+	},
+	{
+		"abr": "メガスパイダー",
+		"price": 833,
+		"category": "家畜",
+		"defname": "Megaspider"
+	},
+	{
+		"abr": "スランボ",
+		"price": 6667,
+		"category": "家畜",
+		"defname": "Thrumbo"
+	},
+	{
+		"abr": "コブラ",
+		"price": 250,
+		"category": "家畜",
+		"defname": "Cobra"
+	},
+	{
+		"abr": "カメ",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Tortoise"
+	},
+	{
+		"abr": "アルファビーバー",
+		"price": 417,
+		"category": "家畜",
+		"defname": "Alphabeaver"
+	},
+	{
+		"abr": "ブタ",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Pig"
+	},
+	{
+		"abr": "イノシシ",
+		"price": 333,
+		"category": "家畜",
+		"defname": "WildBoar"
+	},
+	{
+		"abr": "アイベックス",
+		"price": 417,
+		"category": "家畜",
+		"defname": "Ibex"
+	},
+	{
+		"abr": "シカ",
+		"price": 417,
+		"category": "家畜",
+		"defname": "Deer"
+	},
+	{
+		"abr": "ガゼル",
+		"price": 250,
+		"category": "家畜",
+		"defname": "Gazelle"
+	},
+	{
+		"abr": "チンチラ",
+		"price": 250,
+		"category": "家畜",
+		"defname": "Chinchilla"
+	},
+	{
+		"abr": "ヒツジ",
+		"price": 350,
+		"category": "家畜",
+		"defname": "Sheep"
+	},
+	{
+		"abr": "アルパカ",
+		"price": 583,
+		"category": "家畜",
+		"defname": "Alpaca"
+	},
+	{
+		"abr": "メガスロス",
+		"price": 1167,
+		"category": "家畜",
+		"defname": "Megasloth"
+	},
+	{
+		"abr": "カピバラ",
+		"price": 250,
+		"category": "家畜",
+		"defname": "Capybara"
+	},
+	{
+		"abr": "リス",
+		"price": 58,
+		"category": "家畜",
+		"defname": "Squirrel"
+	},
+	{
+		"abr": "ネズミ",
+		"price": 58,
+		"category": "家畜",
+		"defname": "Rat"
+	},
+	{
+		"abr": "ボムネズミ",
+		"price": 167,
+		"category": "家畜",
+		"defname": "Boomrat"
+	},
+	{
+		"abr": "アライグマ",
+		"price": 167,
+		"category": "家畜",
+		"defname": "Raccoon"
+	},
+	{
+		"abr": "イグアナ",
+		"price": 167,
+		"category": "家畜",
+		"defname": "Iguana"
+	},
+	{
+		"abr": "ワーグ",
+		"price": 750,
+		"category": "家畜",
+		"defname": "Warg"
+	},
+	{
+		"abr": "シンリンオオカミ",
+		"price": 583,
+		"category": "家畜",
+		"defname": "Wolf_Timber"
+	},
+	{
+		"abr": "ホッキョクオオカミ",
+		"price": 583,
+		"category": "家畜",
+		"defname": "Wolf_Arctic"
+	},
+	{
+		"abr": "フェネックキツネ",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Fox_Fennec"
+	},
+	{
+		"abr": "アカギツネ",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Fox_Red"
+	},
+	{
+		"abr": "ホッキョクギツネ",
+		"price": 333,
+		"category": "家畜",
+		"defname": "Fox_Arctic"
+	},
+	{
+		"abr": "簡単な食事",
+		"price": 17,
+		"category": "調理済",
+		"defname": "MealSimple"
+	},
+	{
+		"abr": "手の込んだ食事",
+		"price": 47,
+		"category": "調理済",
+		"defname": "MealFine"
+	},
+	{
+		"abr": "豪華な食事",
+		"price": 67,
+		"category": "調理済",
+		"defname": "MealLavish"
+	},
+	{
+		"abr": "batterylv2",
+		"price": 667,
+		"category": "パワー",
+		"defname": "Battery_II"
+	},
+	{
+		"abr": "一人用冷蔵庫",
+		"price": 121,
+		"category": "家具",
+		"defname": "RimFridge_SingleRefrigerator"
+	},
+	{
+		"abr": "冷蔵庫",
+		"price": 186,
+		"category": "家具",
+		"defname": "RimFridge_Refrigerator"
+	},
+	{
+		"abr": "冷蔵庫(4連)",
+		"price": 307,
+		"category": "家具",
+		"defname": "RimFridge_QuadRefrigerator"
+	},
+	{
+		"abr": "壁用冷蔵庫(一人用)",
+		"price": 121,
+		"category": "家具",
+		"defname": "RimFridge_SingleWallRefrigerator"
+	},
+	{
+		"abr": "壁用冷蔵庫(2連)",
+		"price": 186,
+		"category": "家具",
+		"defname": "RimFridge_WallRefrigerator"
+	},
+	{
+		"abr": "リュウゼツラン(生)",
+		"price": 2,
+		"category": "生野菜",
+		"defname": "RawAgave"
+	},
+	{
+		"abr": "ベリー(生)",
+		"price": 2,
+		"category": "生野菜",
+		"defname": "RawBerries"
+	},
+	{
+		"abr": "walllight",
+		"price": 16,
+		"category": "家具",
+		"defname": "Lighting_MURWallLight"
+	},
+	{
+		"abr": "wallsunlight",
+		"price": 32,
+		"category": "家具",
+		"defname": "Lighting_MURWallSunLight"
+	},
+	{
+		"abr": "乱数神の神殿",
+		"price": 542,
+		"category": "芸術品",
+		"defname": "MedTimes_Shrine_RandomNumberGod"
+	},
+	{
+		"abr": "創造神の神殿",
+		"price": 642,
+		"category": "芸術品",
+		"defname": "MedTimes_Shrine_Creator"
+	},
+	{
+		"abr": "pang=liの神殿",
+		"price": 642,
+		"category": "芸術品",
+		"defname": "MedTimes_Shrine_PangLi"
+	},
+	{
+		"abr": "紳士の像",
+		"price": 203,
+		"category": "芸術品",
+		"defname": "MedTimes_Gentleman"
+	},
+	{
+		"abr": "復讐の猫の像",
+		"price": 203,
+		"category": "芸術品",
+		"defname": "MedTimes_RevengeCat"
+	},
+	{
+		"abr": "孤独な満腹マッファローの絨毯",
+		"price": 842,
+		"category": "芸術品",
+		"defname": "MedTimes_Rug_Muffalo"
+	},
+	{
+		"abr": "部族刺繍の絨毯",
+		"price": 700,
+		"category": "芸術品",
+		"defname": "MedTimes_Rug_Tribal"
+	},
+	{
+		"abr": "小ぶりの氷彫刻",
+		"price": 342,
+		"category": "芸術品",
+		"defname": "MedTimes_IceSculptureSmall"
+	},
+	{
+		"abr": "大ぶりの氷彫刻",
+		"price": 500,
+		"category": "芸術品",
+		"defname": "MedTimes_IceSculptureLarge"
+	},
+	{
+		"abr": "巨大な氷彫刻",
+		"price": 967,
+		"category": "芸術品",
+		"defname": "MedTimes_IceSculptureGrand"
+	},
+	{
+		"abr": "神王の玉座",
+		"price": 1275,
+		"category": "芸術品",
+		"defname": "MedTimes_GodKingThrone"
+	},
+	{
+		"abr": "たき火",
+		"price": 52,
+		"category": "生産物",
+		"defname": "MedTimes_Firepit"
+	},
+	{
+		"abr": "可搬食肉加工台",
+		"price": 76,
+		"category": "生産物",
+		"defname": "MedTimes_ButcherBlock"
+	},
+	{
+		"abr": "かまど",
+		"price": 256,
+		"category": "家具",
+		"defname": "MedTimes_StoneHearth"
+	},
+	{
+		"abr": "燻製所",
+		"price": 252,
+		"category": "生産物",
+		"defname": "MedTimes_Smokehouse"
+	},
+	{
+		"abr": "中世の簡易ベッド",
+		"price": 138,
+		"category": "家具",
+		"defname": "MedTimes_Cot"
+	},
+	{
+		"abr": "中世の簡易ダブルベッド",
+		"price": 256,
+		"category": "家具",
+		"defname": "MedTimes_CotDouble"
+	},
+	{
+		"abr": "小型テーブル(1x1)",
+		"price": 123,
+		"category": "家具",
+		"defname": "MedTimes_SmallTable"
+	},
+	{
+		"abr": "中世のスツール",
+		"price": 54,
+		"category": "家具",
+		"defname": "MedTimes_MedStool"
+	},
+	{
+		"abr": "装備立て",
+		"price": 70,
+		"category": "家具",
+		"defname": "MedTimes_CombatStandPlaced"
+	},
+	{
+		"abr": "貯蔵パレット",
+		"price": 8,
+		"category": "家具",
+		"defname": "MedTimes_StoragePallet"
+	},
+	{
+		"abr": "貯蔵壺",
+		"price": 17,
+		"category": "家具",
+		"defname": "MedTimes_StoragePotPlaced"
+	},
+	{
+		"abr": "金属製火鉢",
+		"price": 70,
+		"category": "家具",
+		"defname": "MedTimes_Brazier"
+	},
+	{
+		"abr": "街灯",
+		"price": 58,
+		"category": "家具",
+		"defname": "MedTimes_StreetLamp"
+	},
+	{
+		"abr": "光反射板",
+		"price": 120,
+		"category": "家具",
+		"defname": "MedTimes_Reflector"
+	},
+	{
+		"abr": "ガーデニングボックス",
+		"price": 85,
+		"category": "生産物",
+		"defname": "MedTimes_GardeningBox"
+	},
+	{
+		"abr": "デスク",
+		"price": 126,
+		"category": "生産物",
+		"defname": "MedTimes_Desk"
+	},
+	{
+		"abr": "工芸台",
+		"price": 306,
+		"category": "生産物",
+		"defname": "MedTimes_CraftingStation"
+	},
+	{
+		"abr": "芸術台",
+		"price": 306,
+		"category": "生産物",
+		"defname": "MedTimes_ArtisanStation"
+	},
+	{
+		"abr": "調理場",
+		"price": 281,
+		"category": "生産物",
+		"defname": "MedTimes_FoodPrepStation"
+	},
+	{
+		"abr": "仕立て台",
+		"price": 306,
+		"category": "生産物",
+		"defname": "MedTimes_TailoringStation"
+	},
+	{
+		"abr": "鍛冶場i",
+		"price": 240,
+		"category": "生産物",
+		"defname": "MedTimes_BlacksmithForge"
+	},
+	{
+		"abr": "鍛冶場ii",
+		"price": 333,
+		"category": "生産物",
+		"defname": "MedTimes_BlacksmithForgeTierTwo"
+	},
+	{
+		"abr": "中世の溶鉱炉",
+		"price": 256,
+		"category": "生産物",
+		"defname": "MedTimes_FueledSmelter"
+	},
+	{
+		"abr": "採石場",
+		"price": 330,
+		"category": "生産物",
+		"defname": "MedTimes_StoneQuarry"
+	},
+	{
+		"abr": "製氷所",
+		"price": 73,
+		"category": "生産物",
+		"defname": "MedTimes_IceCreationStation"
+	},
+	{
+		"abr": "冷蔵箱",
+		"price": 120,
+		"category": "生産物",
+		"defname": "MedTimes_Icebox"
+	},
+	{
+		"abr": "豪華な冷蔵箱",
+		"price": 285,
+		"category": "生産物",
+		"defname": "MedTimes_IceboxFancy"
+	},
+	{
+		"abr": "悠久の鍛冶場",
+		"price": 20000,
+		"category": "生産物",
+		"defname": "MedTimes_EternityForge"
+	},
+	{
+		"abr": "パーソナルコンピュータ",
+		"price": 3917,
+		"category": "生産物",
+		"defname": "MedTimes_PersonalComputer"
+	},
+	{
+		"abr": "火力発電(石炭)",
+		"price": 442,
+		"category": "家具",
+		"defname": "MedTimes_CoalGenerator"
+	},
+	{
+		"abr": "バリケード木製(罠)",
+		"price": 25,
+		"category": "防衛",
+		"defname": "MedTimes_Trap_WoodenBarricade"
+	},
+	{
+		"abr": "鉄びし(罠)",
+		"price": 36,
+		"category": "防衛",
+		"defname": "MedTimes_Trap_Caltrops"
+	},
+	{
+		"abr": "バリスタ",
+		"price": 332,
+		"category": "防衛",
+		"defname": "MedTimes_Turret_Ballista"
+	},
+	{
+		"abr": "殺人孔",
+		"price": 350,
+		"category": "防衛",
+		"defname": "MedTimes_Artillery_MurderHole"
+	},
+	{
+		"abr": "カタパルト",
+		"price": 575,
+		"category": "防衛",
+		"defname": "MedTimes__Artillery_Catapult"
+	},
+	{
+		"abr": "豪勢なシチュー",
+		"price": 33,
+		"category": "調理済",
+		"defname": "MedTimes_MealHeartyStew"
+	},
+	{
+		"abr": "味の薄いシチュー",
+		"price": 17,
+		"category": "調理済",
+		"defname": "MedTimes_MealWeakStew"
+	},
+	{
+		"abr": "チーズ",
+		"price": 17,
+		"category": "調理済",
+		"defname": "MedTimes_MealCheese"
+	},
+	{
+		"abr": "干し肉",
+		"price": 17,
+		"category": "調理済",
+		"defname": "MedTimes_MealJerkedMeats"
+	},
+	{
+		"abr": "ドライアガベ",
+		"price": 17,
+		"category": "調理済",
+		"defname": "MedTimes_MealDriedAgave"
+	},
+	{
+		"abr": "ドライベリー",
+		"price": 17,
+		"category": "調理済",
+		"defname": "MedTimes_MealDriedBerries"
+	},
+	{
+		"abr": "日干しレンガ",
+		"price": 1,
+		"category": "石材",
+		"defname": "MedTimes_Resource_AdobeBricks"
+	},
+	{
+		"abr": "石炭",
+		"price": 3,
+		"category": "原材料",
+		"defname": "MedTimes_Resource_Coal"
+	},
+	{
+		"abr": "氷ブロック",
+		"price": 6,
+		"category": "原材料",
+		"defname": "MedTimes_Resource_IceBlocks"
+	},
+	{
+		"abr": "ナノマシン入りの瓶",
+		"price": 5833,
+		"category": "貿易品",
+		"defname": "MedTimes_NaniteVial"
+	},
+	{
+		"abr": "生石灰弾",
+		"price": 17,
+		"category": "砲弾(中世)",
+		"defname": "MedTimes_Resource_Quicklime"
+	},
+	{
+		"abr": "火薬壺",
+		"price": 50,
+		"category": "砲弾(中世)",
+		"defname": "MedTimes_Resource_ExplosivePot"
+	},
+	{
+		"abr": "タール樹脂接着剤",
+		"price": 25,
+		"category": "貿易品",
+		"defname": "MedTimes_WoodPitchGlue"
+	},
+	{
+		"abr": "交易用貯蔵壺",
+		"price": 17,
+		"category": "貿易品",
+		"defname": "MedTimes_StoragePot"
+	},
+	{
+		"abr": "絵付き本",
+		"price": 25,
+		"category": "貿易品",
+		"defname": "MedTimes_GraphicNovel"
+	},
+	{
+		"abr": "ぬいぐるみ",
+		"price": 59,
+		"category": "貿易品",
+		"defname": "MedTimes_StuffedDoll"
+	},
+	{
+		"abr": "カップ",
+		"price": 48,
+		"category": "貿易品",
+		"defname": "MedTimes_DrinkingCup"
+	},
+	{
+		"abr": "パズルボックス",
+		"price": 79,
+		"category": "貿易品",
+		"defname": "MedTimes_Puzzlebox"
+	},
+	{
+		"abr": "工具箱",
+		"price": 133,
+		"category": "貿易品",
+		"defname": "MedTimes_CraftingTools"
+	},
+	{
+		"abr": "スチールボウ",
+		"price": 100,
+		"category": "貿易品",
+		"defname": "MedTimes_SteelBow"
+	},
+	{
+		"abr": "高度なトリガー機構",
+		"price": 167,
+		"category": "貿易品",
+		"defname": "MedTimes_AdvancedTriggerMechanism"
+	},
+	{
+		"abr": "ツールベルト",
+		"price": 234,
+		"category": "装飾品",
+		"defname": "MedTimes_Acc_Toolbelt"
+	},
+	{
+		"abr": "スモークポップツールベルト",
+		"price": 675,
+		"category": "装飾品",
+		"defname": "MedTimes_Acc_ToolbeltSmokepop"
+	},
+	{
+		"abr": "ウォーボーンシールド",
+		"price": 383,
+		"category": "装飾品",
+		"defname": "MedTimes_WarbourneShield"
+	},
+	{
+		"abr": "ツールベルト(ナノ)",
+		"price": 6075,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Acc_Toolbelt_Nan"
+	},
+	{
+		"abr": "幸運な商人のお守り(遺物)",
+		"price": 8500,
+		"category": "遺物",
+		"defname": "MedTimes_Acc_HappyMerchant_Art"
+	},
+	{
+		"abr": "戦神の紋章(遺物)",
+		"price": 9000,
+		"category": "遺物",
+		"defname": "MedTimes_Acc_WargodCrest_Art"
+	},
+	{
+		"abr": "商人の幸運のお守り(伝説)",
+		"price": 14333,
+		"category": "伝説",
+		"defname": "MedTimes_Acc_HappyMerchant_Leg"
+	},
+	{
+		"abr": "戦神の紋章(伝説)",
+		"price": 14833,
+		"category": "伝説",
+		"defname": "MedTimes_Acc_WargodCrest_Leg"
+	},
+	{
+		"abr": "サスペンダー付きズボン",
+		"price": 227,
+		"category": "体装備",
+		"defname": "MedTimes_AppBody_Trousers"
+	},
+	{
+		"abr": "サスペンダー付き縞模様ズボン",
+		"price": 227,
+		"category": "体装備",
+		"defname": "MedTimes_AppBody_TrousersStriped"
+	},
+	{
+		"abr": "チュニック",
+		"price": 227,
+		"category": "体装備",
+		"defname": "MedTimes_AppBody_Tunic"
+	},
+	{
+		"abr": "パッド入りジャケット",
+		"price": 358,
+		"category": "鎧",
+		"defname": "MedTimes_ArmBody_Gambison"
+	},
+	{
+		"abr": "革ジャケット",
+		"price": 358,
+		"category": "鎧",
+		"defname": "MedTimes_ArmBody_PaddedJacket"
+	},
+	{
+		"abr": "傭兵のタバード",
+		"price": 215,
+		"category": "外套",
+		"defname": "MedTimes_ShellBody_TabardFreelancer"
+	},
+	{
+		"abr": "ブルータバード",
+		"price": 173,
+		"category": "外套",
+		"defname": "MedTimes_ShellBody_TabardBlue"
+	},
+	{
+		"abr": "グリーンタバード",
+		"price": 173,
+		"category": "外套",
+		"defname": "MedTimes_ShellBody_TabardGreen"
+	},
+	{
+		"abr": "オレンジタバード",
+		"price": 173,
+		"category": "外套",
+		"defname": "MedTimes_ShellBody_TabardOrange"
+	},
+	{
+		"abr": "レッドタバード",
+		"price": 173,
+		"category": "外套",
+		"defname": "MedTimes_App_TabardRed"
+	},
+	{
+		"abr": "防寒クローク",
+		"price": 58,
+		"category": "外套",
+		"defname": "MedTimes_ShellBody_Cloak"
+	},
+	{
+		"abr": "夏用ケープ",
+		"price": 58,
+		"category": "外套",
+		"defname": "MedTimes_ShellBody_Cape"
+	},
+	{
+		"abr": "木製の鎧",
+		"price": 100,
+		"category": "鎧",
+		"defname": "MedTimes_WoodenPlates"
+	},
+	{
+		"abr": "狂戦士の鎖帷子",
+		"price": 70,
+		"category": "鎧",
+		"defname": "MedTimes_Berserker"
+	},
+	{
+		"abr": "スチールの鎧",
+		"price": 218,
+		"category": "鎧",
+		"defname": "MedTimes_PlateJack"
+	},
+	{
+		"abr": "スケイルホーバーク",
+		"price": 408,
+		"category": "鎧",
+		"defname": "MedTimes_Hauberk"
+	},
+	{
+		"abr": "ブリガンダイン",
+		"price": 342,
+		"category": "鎧",
+		"defname": "MedTimes_Brigandine"
+	},
+	{
+		"abr": "ウォーボーンの鎖帷子",
+		"price": 158,
+		"category": "鎧",
+		"defname": "MedTimes_Warbourne"
+	},
+	{
+		"abr": "フルプレートアーマー",
+		"price": 500,
+		"category": "鎧",
+		"defname": "MedTimes_EncasedSteel"
+	},
+	{
+		"abr": "ロイヤルプレートアーマー",
+		"price": 500,
+		"category": "鎧",
+		"defname": "MedTimes_RoyalPlated"
+	},
+	{
+		"abr": "ロイヤルデスプレートアーマー",
+		"price": 500,
+		"category": "鎧",
+		"defname": "MedTimes_RoyalPlated_Death"
+	},
+	{
+		"abr": "ケープ付きロイヤルプレート",
+		"price": 500,
+		"category": "鎧",
+		"defname": "MedTimes_RoyalPlated_CapedBlue"
+	},
+	{
+		"abr": "ロイヤルプレートアーマー(緑)",
+		"price": 317,
+		"category": "鎧",
+		"defname": "MedTimes_RoyalPlated_CapedGreen"
+	},
+	{
+		"abr": "ロイヤルプレートアーマー(橙)",
+		"price": 317,
+		"category": "鎧",
+		"defname": "MedTimes_RoyalPlated_CapedOrange"
+	},
+	{
+		"abr": "木製の鎧(ナノ)",
+		"price": 5942,
+		"category": "ナノマシン",
+		"defname": "MedTimes_WoodenPlates_Nan"
+	},
+	{
+		"abr": "スチールの鎧(ナノ)",
+		"price": 6058,
+		"category": "ナノマシン",
+		"defname": "MedTimes_PlateJack_Nan"
+	},
+	{
+		"abr": "スケイルホーバーク(ナノ)",
+		"price": 6250,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Hauberk_Nan"
+	},
+	{
+		"abr": "ブリガンダイン(ナノ)",
+		"price": 6183,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Brigandine_Nan"
+	},
+	{
+		"abr": "ウォーボーンの鎖帷子(ナノ)",
+		"price": 6000,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Warbourne_Nan"
+	},
+	{
+		"abr": "フルプレートアーマー(ナノ)",
+		"price": 6342,
+		"category": "ナノマシン",
+		"defname": "MedTimes_EncasedSteel_Nan"
+	},
+	{
+		"abr": "ロイヤルプレートアーマー(ナノ)",
+		"price": 6342,
+		"category": "ナノマシン",
+		"defname": "MedTimes_RoyalPlated_Nan"
+	},
+	{
+		"abr": "ロイヤルデスプレートアーマー(ナノ)",
+		"price": 6342,
+		"category": "ナノマシン",
+		"defname": "MedTimes_RoyalPlated_Death_Nan"
+	},
+	{
+		"abr": "ケープ付きロイヤルプレート(ナノ)",
+		"price": 6342,
+		"category": "ナノマシン",
+		"defname": "MedTimes_RoyalPlated_CapedBlue_Nan"
+	},
+	{
+		"abr": "ロイヤルプレートアーマー(緑)(ナノ)",
+		"price": 6158,
+		"category": "ナノマシン",
+		"defname": "MedTimes_RoyalPlated_CapedGreen_Nan"
+	},
+	{
+		"abr": "ロイヤルプレートアーマー(橙)(ナノ)",
+		"price": 6158,
+		"category": "ナノマシン",
+		"defname": "MedTimes_RoyalPlated_CapedOrange_Nan"
+	},
+	{
+		"abr": "神王の鎧(遺物)",
+		"price": 8333,
+		"category": "遺物",
+		"defname": "MedTimes_BodyArmour_GodKingBlue_Art"
+	},
+	{
+		"abr": "神王の鎧(緑)(遺物)",
+		"price": 8333,
+		"category": "遺物",
+		"defname": "MedTimes_BodyArmour_GodKingGreen_Art"
+	},
+	{
+		"abr": "傭兵隊長の鎧(遺物)",
+		"price": 8333,
+		"category": "遺物",
+		"defname": "MedTimes_BodyArmour_Warlord_Art"
+	},
+	{
+		"abr": "コンバットアーマー(遺物)",
+		"price": 9167,
+		"category": "遺物",
+		"defname": "MedTimes_BodyArmour_Combat_Art"
+	},
+	{
+		"abr": "神王の鎧(伝説)",
+		"price": 14167,
+		"category": "伝説",
+		"defname": "MedTimes_BodyArmour_GodKingBlue_Leg"
+	},
+	{
+		"abr": "神王の鎧(緑)(伝説)",
+		"price": 14167,
+		"category": "伝説",
+		"defname": "MedTimes_BodyArmour_GodKingGreen_Leg"
+	},
+	{
+		"abr": "傭兵隊長の鎧(伝説)",
+		"price": 14167,
+		"category": "伝説",
+		"defname": "MedTimes_BodyArmour_Warlord_Leg"
+	},
+	{
+		"abr": "コンバットアーマー(伝説)",
+		"price": 15000,
+		"category": "伝説",
+		"defname": "MedTimes_BodyArmour_Combat_Leg"
+	},
+	{
+		"abr": "靴下",
+		"price": 2,
+		"category": "足装備",
+		"defname": "MedTimes_Socks_Tailored"
+	},
+	{
+		"abr": "ブーツ",
+		"price": 13,
+		"category": "足装備",
+		"defname": "MedTimes_Boots_Tailored"
+	},
+	{
+		"abr": "防寒ブーツ",
+		"price": 13,
+		"category": "足装備",
+		"defname": "MedTimes_Boots_Winter"
+	},
+	{
+		"abr": "部族のブーツ",
+		"price": 8,
+		"category": "足装備",
+		"defname": "MedTimes_Boots_Tribal"
+	},
+	{
+		"abr": "木製のブーツ",
+		"price": 68,
+		"category": "鎧",
+		"defname": "MedTimes_Boots_Wooden"
+	},
+	{
+		"abr": "プレートブーツ",
+		"price": 97,
+		"category": "鎧",
+		"defname": "MedTimes_Boots_Plated"
+	},
+	{
+		"abr": "スケイルブーツ",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Boots_Scaled"
+	},
+	{
+		"abr": "フルプレートブーツ",
+		"price": 97,
+		"category": "鎧",
+		"defname": "MedTimes_Boots_FullPlated"
+	},
+	{
+		"abr": "ウォーボーンブーツ",
+		"price": 79,
+		"category": "鎧",
+		"defname": "MedTimes_Boots_Warbourne"
+	},
+	{
+		"abr": "スチールのブーツ",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Boots_EncasedSteel"
+	},
+	{
+		"abr": "ロイヤルブーツ",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Boots_RoyalPlated"
+	},
+	{
+		"abr": "木製のブーツ(ナノ)",
+		"price": 5908,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Boots_Wooden_Nan"
+	},
+	{
+		"abr": "プレートブーツ(ナノ)",
+		"price": 5933,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Boots_Plated_Nan"
+	},
+	{
+		"abr": "スケイルブーツ(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Boots_Scaled_Nan"
+	},
+	{
+		"abr": "フルプレートブーツ(ナノ)",
+		"price": 5933,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Boots_FullPlated_Nan"
+	},
+	{
+		"abr": "ウォーボーンブーツ(ナノ)",
+		"price": 5917,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Boots_Warbourne_Nan"
+	},
+	{
+		"abr": "スチールのブーツ(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Boots_EncasedSteel_Nan"
+	},
+	{
+		"abr": "ロイヤルブーツ(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Boots_RoyalPlated_Nan"
+	},
+	{
+		"abr": "テクノソックス(遺物)",
+		"price": 1333,
+		"category": "遺物",
+		"defname": "MedTimes_Socks_Techno_Art"
+	},
+	{
+		"abr": "神王のブーツ(遺物)",
+		"price": 5167,
+		"category": "遺物",
+		"defname": "MedTimes_Boots_Godking_Art"
+	},
+	{
+		"abr": "傭兵隊長のブーツ(遺物)",
+		"price": 5167,
+		"category": "遺物",
+		"defname": "MedTimes_Boots_Warlord_Art"
+	},
+	{
+		"abr": "コンバットブーツ(遺物)",
+		"price": 5833,
+		"category": "遺物",
+		"defname": "MedTimes_Boots_Combat_Art"
+	},
+	{
+		"abr": "テクノブーツ(遺物)",
+		"price": 7500,
+		"category": "遺物",
+		"defname": "MedTimes_Boots_Techno_Art"
+	},
+	{
+		"abr": "テクノソックス(伝説)",
+		"price": 7167,
+		"category": "伝説",
+		"defname": "MedTimes_Socks_Techno_Leg"
+	},
+	{
+		"abr": "神王のブーツ(伝説)",
+		"price": 11000,
+		"category": "伝説",
+		"defname": "MedTimes_Boots_Godking_Leg"
+	},
+	{
+		"abr": "傭兵隊長のブーツ(伝説)",
+		"price": 11000,
+		"category": "伝説",
+		"defname": "MedTimes_Boots_Warlord_Leg"
+	},
+	{
+		"abr": "コンバットブーツ(伝説)",
+		"price": 11667,
+		"category": "伝説",
+		"defname": "MedTimes_Boots_Combat_Leg"
+	},
+	{
+		"abr": "テクノブーツ(伝説)",
+		"price": 13333,
+		"category": "伝説",
+		"defname": "MedTimes_Boots_Techno_Leg"
+	},
+	{
+		"abr": "手袋",
+		"price": 13,
+		"category": "頭装備",
+		"defname": "MedTimes_Gloves_Tailored"
+	},
+	{
+		"abr": "防寒手袋",
+		"price": 13,
+		"category": "頭装備",
+		"defname": "MedTimes_Gloves_Winter"
+	},
+	{
+		"abr": "手甲",
+		"price": 8,
+		"category": "頭装備",
+		"defname": "MedTimes_Gloves_Tribal"
+	},
+	{
+		"abr": "木製の小手",
+		"price": 68,
+		"category": "鎧",
+		"defname": "MedTimes_Bracers_Wooden"
+	},
+	{
+		"abr": "スチールの小手",
+		"price": 97,
+		"category": "鎧",
+		"defname": "MedTimes_Gloves_Plated"
+	},
+	{
+		"abr": "スケイルグローブ",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Gloves_Scaled"
+	},
+	{
+		"abr": "フルプレートガントレット",
+		"price": 97,
+		"category": "鎧",
+		"defname": "MedTimes_Gauntlets_Plated"
+	},
+	{
+		"abr": "ウォーボーンガントレット",
+		"price": 79,
+		"category": "鎧",
+		"defname": "MedTimes_Gauntlets_Warbourne"
+	},
+	{
+		"abr": "射小手",
+		"price": 109,
+		"category": "鎧",
+		"defname": "MedTimes_Bracer_Archer"
+	},
+	{
+		"abr": "スチールのガントレット",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Gauntlets_EncasedSteel"
+	},
+	{
+		"abr": "ロイヤルガントレット",
+		"price": 141,
+		"category": "鎧",
+		"defname": "MedTimes_Gauntlets_RoyalPlated"
+	},
+	{
+		"abr": "木製の小手(ナノ)",
+		"price": 5908,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Bracers_Wooden_Nan"
+	},
+	{
+		"abr": "スチールの小手(ナノ)",
+		"price": 5933,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Gloves_Plated_Nan"
+	},
+	{
+		"abr": "スケイルグローブ(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Gloves_Scaled_Nan"
+	},
+	{
+		"abr": "フルプレートガントレット(ナノ)",
+		"price": 5933,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Gauntlets_Plated_Nan"
+	},
+	{
+		"abr": "ウォーボーンガントレット(ナノ)",
+		"price": 5917,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Gauntlets_Warbourne_Nan"
+	},
+	{
+		"abr": "射小手(ナノ)",
+		"price": 5950,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Bracer_Archer_Nan"
+	},
+	{
+		"abr": "スチールのガントレット(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Gauntlets_EncasedSteel_Nan"
+	},
+	{
+		"abr": "ロイヤルガントレット(ナノ)",
+		"price": 5983,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Gauntlets_RoyalPlated_Nan"
+	},
+	{
+		"abr": "熟練射手の小手(遺物)",
+		"price": 5667,
+		"category": "遺物",
+		"defname": "MedTimes_Bracer_Marksman_Art"
+	},
+	{
+		"abr": "神王のガントレット(遺物)",
+		"price": 5167,
+		"category": "遺物",
+		"defname": "MedTimes_Gauntlets_Godking_Art"
+	},
+	{
+		"abr": "傭兵隊長のガントレット(遺物)",
+		"price": 5167,
+		"category": "遺物",
+		"defname": "MedTimes_Gauntlets_Warlord_Art"
+	},
+	{
+		"abr": "コンバットグローブ(遺物)",
+		"price": 5833,
+		"category": "遺物",
+		"defname": "MedTimes_Gloves_Combat_Art"
+	},
+	{
+		"abr": "テクノガントレット(遺物)",
+		"price": 7500,
+		"category": "遺物",
+		"defname": "MedTimes_Gauntlets_Techno_Art"
+	},
+	{
+		"abr": "熟練射手の小手(伝説)",
+		"price": 11500,
+		"category": "伝説",
+		"defname": "MedTimes_Bracer_Marksman_Leg"
+	},
+	{
+		"abr": "神王のガントレット(伝説)",
+		"price": 11000,
+		"category": "伝説",
+		"defname": "MedTimes_Gauntlets_Godking_Leg"
+	},
+	{
+		"abr": "傭兵隊長のガントレット(伝説)",
+		"price": 11000,
+		"category": "伝説",
+		"defname": "MedTimes_Gauntlets_Warlord_Leg"
+	},
+	{
+		"abr": "コンバットグローブ(伝説)",
+		"price": 11667,
+		"category": "伝説",
+		"defname": "MedTimes_Gloves_Combat_Leg"
+	},
+	{
+		"abr": "テクノガントレット(伝説)",
+		"price": 13333,
+		"category": "伝説",
+		"defname": "MedTimes_Gauntlets_Techno_Leg"
+	},
+	{
+		"abr": "軍帽",
+		"price": 153,
+		"category": "帽子",
+		"defname": "MedTimes_Headgear_ArmingCap"
+	},
+	{
+		"abr": "防寒帽",
+		"price": 153,
+		"category": "帽子",
+		"defname": "MedTimes_Headgear_WinterHat"
+	},
+	{
+		"abr": "木製の兜",
+		"price": 68,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_Wooden"
+	},
+	{
+		"abr": "鉢金付き頭巾",
+		"price": 97,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_Headwrap"
+	},
+	{
+		"abr": "ケトルヘルム",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_Domed"
+	},
+	{
+		"abr": "サレットヘルム",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_Sallet"
+	},
+	{
+		"abr": "ネーザルヘルム",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_Nasal"
+	},
+	{
+		"abr": "装甲付き頭巾",
+		"price": 97,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_FullPlated"
+	},
+	{
+		"abr": "ウォーボーンヘルム",
+		"price": 79,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_Warbourne"
+	},
+	{
+		"abr": "バシネット",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_Bascinet"
+	},
+	{
+		"abr": "円錐形バシネット",
+		"price": 138,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_ConicalBascinet"
+	},
+	{
+		"abr": "ロイヤルマスク",
+		"price": 141,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_RoyalMask"
+	},
+	{
+		"abr": "デスマスク",
+		"price": 141,
+		"category": "鎧",
+		"defname": "MedTimes_Helm_DeathMask"
+	},
+	{
+		"abr": "木製の兜(ナノ)",
+		"price": 5908,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_Wooden_Nan"
+	},
+	{
+		"abr": "鉢金付き頭巾(ナノ)",
+		"price": 5933,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_Headwrap_Nan"
+	},
+	{
+		"abr": "ケトルヘルム(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_Domed_Nan"
+	},
+	{
+		"abr": "サレットヘルム(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_Sallet_Nan"
+	},
+	{
+		"abr": "ネーザルヘルム(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_Nasal_Nan"
+	},
+	{
+		"abr": "装甲付き頭巾(ナノ)",
+		"price": 5933,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_FullPlated_Nan"
+	},
+	{
+		"abr": "ウォーボーンヘルム(ナノ)",
+		"price": 5917,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_Warbourne_Nan"
+	},
+	{
+		"abr": "バシネット(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_Bascinet_Nan"
+	},
+	{
+		"abr": "円錐形バシネット(ナノ)",
+		"price": 5975,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_ConicalBascinet_Nan"
+	},
+	{
+		"abr": "ロイヤルマスク(ナノ)",
+		"price": 5983,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_RoyalMask_Nan"
+	},
+	{
+		"abr": "デスマスク(ナノ)",
+		"price": 5983,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Helm_DeathMask_Nan"
+	},
+	{
+		"abr": "神王のマスク(遺物)",
+		"price": 5167,
+		"category": "遺物",
+		"defname": "MedTimes_Helm_GodKingBlue_Art"
+	},
+	{
+		"abr": "神王のマスク(緑)(遺物)",
+		"price": 5167,
+		"category": "遺物",
+		"defname": "MedTimes_Helm_GodKingGreen_Art"
+	},
+	{
+		"abr": "傭兵隊長のマスク(遺物)",
+		"price": 5167,
+		"category": "遺物",
+		"defname": "MedTimes_Helm_Warlord_Art"
+	},
+	{
+		"abr": "トーヴァルドの頭巾(遺物)",
+		"price": 5500,
+		"category": "遺物",
+		"defname": "MedTimes_Helm_Torvald_Art"
+	},
+	{
+		"abr": "コンバットヘルメット(遺物)",
+		"price": 5833,
+		"category": "遺物",
+		"defname": "MedTimes_Helm_Combat_Art"
+	},
+	{
+		"abr": "神王のマスク(伝説)",
+		"price": 11000,
+		"category": "伝説",
+		"defname": "MedTimes_Helm_GodKingBlue_Leg"
+	},
+	{
+		"abr": "神王のマスク(緑)(伝説)",
+		"price": 11000,
+		"category": "伝説",
+		"defname": "MedTimes_Helm_GodKingGreen_Leg"
+	},
+	{
+		"abr": "傭兵隊長のマスク(伝説)",
+		"price": 11000,
+		"category": "伝説",
+		"defname": "MedTimes_Helm_Warlord_Leg"
+	},
+	{
+		"abr": "トーヴァルドの頭巾(伝説)",
+		"price": 11333,
+		"category": "伝説",
+		"defname": "MedTimes_Helm_Torvald_Leg"
+	},
+	{
+		"abr": "コンバットヘルメット(伝説)",
+		"price": 11667,
+		"category": "伝説",
+		"defname": "MedTimes_Helm_Combat_Leg"
+	},
+	{
+		"abr": "中世の擲弾",
+		"price": 333,
+		"category": "投擲武器",
+		"defname": "MedTimes_Ranged_MedievalGrenade"
+	},
+	{
+		"abr": "アンティオキアの聖なる手榴弾(遺物)",
+		"price": 2000,
+		"category": "投擲武器",
+		"defname": "MedTimes_Ranged_GrenadesAntioch"
+	},
+	{
+		"abr": "アンティオキアの聖なる手榴弾(遺物)",
+		"price": 2000,
+		"category": "投擲武器",
+		"defname": "MedTimes_Ranged_GrenadesAntioch_Dud"
+	},
+	{
+		"abr": "原始の槍",
+		"price": 120,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_PrimativeSpear"
+	},
+	{
+		"abr": "木こりの斧",
+		"price": 219,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_AxeForester"
+	},
+	{
+		"abr": "狩猟槍",
+		"price": 249,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_BoarSpear"
+	},
+	{
+		"abr": "ギサルメ",
+		"price": 358,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_Gisarme"
+	},
+	{
+		"abr": "ショートソード",
+		"price": 292,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_ShortSword"
+	},
+	{
+		"abr": "片手メイス",
+		"price": 248,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_MaceHand"
+	},
+	{
+		"abr": "バンディットハンマー",
+		"price": 333,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_HammerBandit"
+	},
+	{
+		"abr": "錆びたウォーナイフ",
+		"price": 358,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_WarKnife"
+	},
+	{
+		"abr": "騎士の短剣",
+		"price": 284,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_DaggerKnight"
+	},
+	{
+		"abr": "軍用剣",
+		"price": 342,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_SwordArming"
+	},
+	{
+		"abr": "突起付片手メイス",
+		"price": 342,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_MaceFlanged"
+	},
+	{
+		"abr": "モーニングスター",
+		"price": 342,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_MorningStar"
+	},
+	{
+		"abr": "中世式ロングソード",
+		"price": 500,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_SwordLong"
+	},
+	{
+		"abr": "ウォーナイフ",
+		"price": 467,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_WarKnifeHiQ"
+	},
+	{
+		"abr": "ハルバード",
+		"price": 483,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_Halberd"
+	},
+	{
+		"abr": "バトルアクス",
+		"price": 500,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_BattleAxe"
+	},
+	{
+		"abr": "ビアデッドアクス",
+		"price": 442,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_AxeBearded"
+	},
+	{
+		"abr": "クレイモア",
+		"price": 500,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_Claymore"
+	},
+	{
+		"abr": "ウォーハンマー",
+		"price": 508,
+		"category": "白兵戦武器",
+		"defname": "MedTimes_Melee_WarHammer"
+	},
+	{
+		"abr": "原始の槍(ナノ)",
+		"price": 5958,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_PrimativeSpear_Nan"
+	},
+	{
+		"abr": "木こりの斧(ナノ)",
+		"price": 6058,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_AxeForester_Nan"
+	},
+	{
+		"abr": "狩猟槍(ナノ)",
+		"price": 6092,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_BoarSpear_Nan"
+	},
+	{
+		"abr": "ギサルメ(ナノ)",
+		"price": 6200,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_Gisarme_Nan"
+	},
+	{
+		"abr": "ショートソード(ナノ)",
+		"price": 6133,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_ShortSword_Nan"
+	},
+	{
+		"abr": "片手メイス(ナノ)",
+		"price": 6092,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_MaceHand_Nan"
+	},
+	{
+		"abr": "バンディットハンマー(ナノ)",
+		"price": 6175,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_HammerBandit_Nan"
+	},
+	{
+		"abr": "錆びたウォーナイフ(ナノ)",
+		"price": 6200,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_WarKnife_Nan"
+	},
+	{
+		"abr": "騎士の短剣(ナノ)",
+		"price": 6125,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_DaggerKnight_Nan"
+	},
+	{
+		"abr": "軍用剣(ナノ)",
+		"price": 6183,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_SwordArming_Nan"
+	},
+	{
+		"abr": "突起付片手メイス(ナノ)",
+		"price": 6183,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_MaceFlanged_Nan"
+	},
+	{
+		"abr": "モーニングスター(ナノ)",
+		"price": 6183,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_MorningStar_Nan"
+	},
+	{
+		"abr": "中世式ロングソード(ナノ)",
+		"price": 6342,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_SwordLong_Nan"
+	},
+	{
+		"abr": "ウォーナイフ(ナノ)",
+		"price": 6308,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_WarKnifeHiQ_Nan"
+	},
+	{
+		"abr": "ハルバード(ナノ)",
+		"price": 6325,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_Halberd_Nan"
+	},
+	{
+		"abr": "バトルアクス(ナノ)",
+		"price": 6342,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_BattleAxe_Nan"
+	},
+	{
+		"abr": "ビアデッドアクス(ナノ)",
+		"price": 6283,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_AxeBearded_Nan"
+	},
+	{
+		"abr": "クレイモア(ナノ)",
+		"price": 6342,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_Claymore_Nan"
+	},
+	{
+		"abr": "ウォーハンマー(ナノ)",
+		"price": 6350,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Melee_WarHammer_Nan"
+	},
+	{
+		"abr": "ブラックハート(遺物)",
+		"price": 6333,
+		"category": "遺物",
+		"defname": "MedTimes_Melee_KnifeBlackheart_Art"
+	},
+	{
+		"abr": "テクノソード(遺物)",
+		"price": 6667,
+		"category": "遺物",
+		"defname": "MedTimes_Melee_SwordTechno_Art"
+	},
+	{
+		"abr": "ふざけたウサギちゃん(遺物)",
+		"price": 5333,
+		"category": "遺物",
+		"defname": "MedTimes_Melee_FunBunny_Art"
+	},
+	{
+		"abr": "ヴィシャス(遺物)",
+		"price": 7000,
+		"category": "遺物",
+		"defname": "MedTimes_Melee_SwordVicious_Art"
+	},
+	{
+		"abr": "戦神(遺物)",
+		"price": 7667,
+		"category": "遺物",
+		"defname": "MedTimes_Melee_SwordWargod_Art"
+	},
+	{
+		"abr": "カラドボルグ(遺物)",
+		"price": 7167,
+		"category": "遺物",
+		"defname": "MedTimes_Melee_SwordCaladbog_Art"
+	},
+	{
+		"abr": "アンサラー(遺物)",
+		"price": 8667,
+		"category": "遺物",
+		"defname": "MedTimes_Melee_SwordAnsweller_Art"
+	},
+	{
+		"abr": "タレントブレイカー(遺物)",
+		"price": 5000,
+		"category": "遺物",
+		"defname": "MedTimes_Melee_ClubTalentBreaker_Art"
+	},
+	{
+		"abr": "ブラックハート(伝説)",
+		"price": 12167,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_KnifeBlackheart_Leg"
+	},
+	{
+		"abr": "テクノソード(伝説)",
+		"price": 12500,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_SwordTechno_Leg"
+	},
+	{
+		"abr": "ふざけたウサギちゃん(伝説)",
+		"price": 11167,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_FunBunny_Leg"
+	},
+	{
+		"abr": "ヴィシャス(伝説)",
+		"price": 12833,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_SwordVicious_Leg"
+	},
+	{
+		"abr": "戦神(伝説)",
+		"price": 13500,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_SwordWargod_Leg"
+	},
+	{
+		"abr": "カラドボルグ(伝説)",
+		"price": 13000,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_SwordCaladbog_Leg"
+	},
+	{
+		"abr": "アンサラー(伝説)",
+		"price": 14500,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_SwordAnsweller_Leg"
+	},
+	{
+		"abr": "タレントブレイカー(伝説)",
+		"price": 10833,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_ClubTalentBreaker_Leg"
+	},
+	{
+		"abr": "ミョルニルの欠片(伝説)",
+		"price": 14167,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_HammerFragment_Leg"
+	},
+	{
+		"abr": "血まみれの斧(伝説)",
+		"price": 13500,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_AxeBlood_Leg"
+	},
+	{
+		"abr": "裂断ヴィーザル(伝説)",
+		"price": 15000,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_AxeVidar_Leg"
+	},
+	{
+		"abr": "虚空の槌(伝説)",
+		"price": 14667,
+		"category": "伝説",
+		"defname": "MedTimes_Melee_HammerVoid_Leg"
+	},
+	{
+		"abr": "コンポジットボウ",
+		"price": 163,
+		"category": "遠距離武器",
+		"defname": "MedTimes_Ranged_Composite"
+	},
+	{
+		"abr": "ロングボウ",
+		"price": 193,
+		"category": "遠距離武器",
+		"defname": "MedTimes_Ranged_Longbow"
+	},
+	{
+		"abr": "クロスボウ",
+		"price": 273,
+		"category": "遠距離武器",
+		"defname": "MedTimes_Ranged_Crossbow"
+	},
+	{
+		"abr": "片手用クロスボウ",
+		"price": 408,
+		"category": "遠距離武器",
+		"defname": "MedTimes_Ranged_HandCrossbow"
+	},
+	{
+		"abr": "アーバレスト",
+		"price": 458,
+		"category": "遠距離武器",
+		"defname": "MedTimes_Ranged_Arbalest"
+	},
+	{
+		"abr": "滑腔式マスケット",
+		"price": 350,
+		"category": "遠距離武器",
+		"defname": "MedTimes_Ranged_Musket"
+	},
+	{
+		"abr": "コンポジットボウ(ナノ)",
+		"price": 6000,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Ranged_Composite_Nan"
+	},
+	{
+		"abr": "ロングボウ(ナノ)",
+		"price": 6033,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Ranged_Longbow_Nan"
+	},
+	{
+		"abr": "クロスボウ(ナノ)",
+		"price": 6108,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Ranged_Crossbow_Nan"
+	},
+	{
+		"abr": "片手用クロスボウ(ナノ)",
+		"price": 6250,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Ranged_HandCrossbow_Nan"
+	},
+	{
+		"abr": "アーバレスト(ナノ)",
+		"price": 6300,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Ranged_Arbalest_Nan"
+	},
+	{
+		"abr": "滑腔式マスケット(ナノ)",
+		"price": 6242,
+		"category": "ナノマシン",
+		"defname": "MedTimes_Ranged_Musket_Nan"
+	},
+	{
+		"abr": "ブラックボウ(遺物)",
+		"price": 7500,
+		"category": "遺物",
+		"defname": "MedTimes_Ranged_BlackBow_Art"
+	},
+	{
+		"abr": "10式チャージマシンガン(遺物)",
+		"price": 10833,
+		"category": "遺物",
+		"defname": "MedTimes_Ranged_ChargeMG_Art"
+	},
+	{
+		"abr": "ブラックボウ(伝説)",
+		"price": 13333,
+		"category": "伝説",
+		"defname": "MedTimes_Ranged_BlackBow_Leg"
+	},
+	{
+		"abr": "10式チャージマシンガン(伝説)",
+		"price": 16667,
+		"category": "伝説",
+		"defname": "MedTimes_Ranged_ChargeMG_Leg"
+	},
 	],
-	"total": 390
+	"total": 2728
 }
