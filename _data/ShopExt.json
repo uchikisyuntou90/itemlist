@@ -1,2024 +1,1772 @@
-﻿{
+{
   "traits": [
     {
-      "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmyは裸になると,自由な解放された感覚を味わえます.彼は服を着ても構いませんが,着ない方が,より幸せになれます.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nudist",
-      "name": "nudist",
+      "name": "ヌーディスト"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
+      "degree": 0,
+      "description": "Timmyは人を傷つけて快感を得ます,大量の流血や死なんか,どうでもいいことです. 彼は,他の人よりも4倍ほど喧嘩っぱやいです.",
       "stats": [
-
+        "陰鬱瞑想フォーカスタイプが許可されています。"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Bloodlust",
-      "name": "bloodlust",
+      "name": "流血嗜好者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is exceptionally kind. he has a special way of using kind words to brighten someone's day. he never insults others, and never judges people by their appearance.",
+      "degree": 0,
+      "description": "Timmyは非常に感じがよく,面倒見のいい人です.彼はめったに人を侮辱せず,時には周囲の人の気分を明るくするために,優しい言葉をかけます.彼はまた,外見で人を判断しません.彼の快適さはまた,彼が一般的な意見に従う可能性を高めます.",
       "stats": [
-
+        "x200% 全体的な信仰度の損失率"
       ],
       "conflicts": [
-        "abrasive",
-        "psychopath"
+        "やっかい者",
+        "サイコパス"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "やっかい者",
+          "サイコパス"
+        ],
+        "stats": [
+          "x200% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "abrasive",
-          "psychopath"
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Kind",
-      "name": "kind",
+      "name": "イイ人"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has no empathy. The suffering of others doesn't bother him at all. he doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects him. he also feels no mood boost from socializing.",
+      "degree": 0,
+      "description": "Timmyは,他者の気持ちに寄り添って物事を考えることができません.他者の苦しみが,彼を悩ますことは全くありません.他者が,解体されたり,死体が野ざらしであったり,牢屋へ叩きこまれたり,奴隷として売られたりしようが,彼の身に及ばなければ気にしません.彼は,人付き合いで\"心情\"が上向くこともありません.",
       "stats": [
-
+        "陰鬱瞑想フォーカスタイプが許可されています。",
+        "x50% 全体的な信仰度の損失率"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。",
+          "x50% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Psychopath",
-      "name": "psychopath",
+      "name": "サイコパス"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy was taught that eating human meat is wrong and horrible. But one time, long ago, he tried it... and he liked it.",
+      "degree": 0,
+      "description": "Timmyは,人肉を食べることは,身の毛もよだつ悪事だと教わっていました.かつて,はるか遠い昔のある日,彼は,試しにそれを…それから好むようになりました.",
       "stats": [
-
+        "陰鬱瞑想フォーカスタイプが許可されています。"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Cannibal",
-      "name": "cannibal",
+      "name": "食人嗜好者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
+      "degree": 0,
+      "description": "Timmyは,常に気持ちの思うままを口にします,とりわけ,イライラしているときは人々の感情を逆撫でする傾向があります.",
       "stats": [
-
+        "x50% 全体的な信仰度の損失率"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "x50% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Abrasive",
-      "name": "abrasive",
+      "name": "やっかい者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is too smart for his own good. he learns everything much faster than everyone, but can be quite eccentric.",
+      "degree": 0,
+      "description": "Timmyは才能以上に,自分自身を利口だと思っています. 彼は,どんなことでも他人より早く覚えますが, かなりの変わり者です.",
       "stats": [
-        "+75% global learning factor",
-        "+12% mental break threshold"
+        "+75% 身につけやすさ",
+        "+12% 精神的弱さ",
+        "x50% 全体的な信仰度の損失率"
       ],
       "conflicts": [
-        "iron-willed",
-        "steadfast",
-        "nervous",
-        "volatile",
-        "slowlearner"
+        "鉄の意志",
+        "信念の人",
+        "いくじなし",
+        "精神不安定",
+        "物覚えが悪い"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "鉄の意志",
+          "信念の人",
+          "いくじなし",
+          "精神不安定",
+          "物覚えが悪い"
+        ],
+        "stats": [
+          "+75% 身につけやすさ",
+          "+12% 精神的弱さ",
+          "x50% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "iron-willed",
-          "steadfast",
-          "nervous",
-          "volatile",
-          "slowlearner"
-        ],
-        "stats": [
-          "+75% global learning factor",
-          "+12% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "TooSmart",
-      "name": "toosmart",
+      "name": "うぬぼれ屋"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
+      "degree": 0,
+      "description": "Timmyは,接近戦での一対一の殴り合いが好きです.白兵戦における彼の正確さは,非常に高くなりますが,逆に遠距離武器を持たされると,とても不機嫌になるでしょう.",
       "stats": [
-        "Shoot frenzy inspiration disabled.",
-        "+4 melee",
-        "-4 shooting",
-        "+4.0 melee hit chance"
+        "熱狂的な射撃意欲インスピレーションが無効になっています。",
+        "+4 格闘",
+        "-4 射撃",
+        "+4.0 命中率(白兵戦)"
       ],
       "conflicts": [
-        "carefulshooter",
-        "trigger-happy",
-        "wimp"
+        "慎重な射手",
+        "トリガーハッピー",
+        "弱虫"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "慎重な射手",
+          "トリガーハッピー",
+          "弱虫"
+        ],
+        "stats": [
+          "熱狂的な射撃意欲インスピレーションが無効になっています。",
+          "+4 格闘",
+          "-4 射撃",
+          "+4.0 命中率(白兵戦)"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "carefulshooter",
-          "trigger-happy",
-          "wimp"
-        ],
-        "stats": [
-          "Shoot frenzy inspiration disabled.",
-          "+4 melee",
-          "-4 shooting",
-          "+4.0 melee hit chance"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Brawler",
-      "name": "brawler",
+      "name": "格闘家"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "For Timmy, there's something exciting about getting hurt. he doesn't know why, he's just wired differently.",
+      "degree": 0,
+      "description": "Timmyにとって,痛めつけられることは刺激的な良いことです.彼は何故か知りません,けどかなり変人です.",
       "stats": [
-
+        "陰鬱瞑想フォーカスタイプが許可されています。"
       ],
       "conflicts": [
-
+        "弱虫"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "弱虫"
+        ],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Masochist",
-      "name": "masochist",
+      "name": "マゾヒスト"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy likes to be up during the night, and sleep during the day.\n\nhe gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\nhe doesn't get a mood penalty for being in the dark.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは夜中に起きていて,昼間に寝るのが好きです.\n\n彼は,夜(23時-06時)起きていると\"心情\"にボーナスがつきますが,昼(11時-18時)起きていると\"心情\"にマイナスがつきます.\n\n彼は暗闇に居ても\"心情\"にマイナスはつきません.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NightOwl",
-      "name": "nightowl",
+      "name": "よたか"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
-      "stats": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは,真の豪華な寝室を求めています.彼は,彼の望みの寝室が与えられないと\"心情\"が悪くなります.",
+      "stats": [],
       "conflicts": [
-        "ascetic",
-        "jealous"
+        "禁欲",
+        "嫉妬"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "禁欲",
+          "嫉妬"
+        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "ascetic",
-          "jealous"
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Greedy",
-      "name": "greedy",
+      "name": "欲張り"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
+      "degree": 0,
+      "description": "Timmyにとって,他者より見劣りする寝室を持つことは,自尊心を傷つけます.彼は,他者が自分よりも豪華な寝室を持っていると\"心情\"が悪くなります.",
       "stats": [
-
+        "陰鬱瞑想フォーカスタイプが許可されています。"
       ],
       "conflicts": [
-        "ascetic",
-        "greedy"
+        "禁欲",
+        "欲張り"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "禁欲",
+          "欲張り"
+        ],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "ascetic",
-          "greedy"
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Jealous",
-      "name": "jealous",
+      "name": "嫉妬"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
+      "degree": 0,
+      "description": "Timmyは禁欲生活をより好みます. 彼の寝室が豪華すぎると,彼の \"心情\"にマイナスがつきます. 彼は また手の込んだ食事を嫌い,生のまま食べることを好みます.",
       "stats": [
-
+        "芸術瞑想フォーカスタイプが無効になっています。",
+        "ミニマル瞑想フォーカスタイプが許可されています。",
+        "x50% 全体的な信仰度の損失率"
       ],
       "conflicts": [
-        "greedy",
-        "jealous",
-        "gourmand"
+        "欲張り",
+        "嫉妬",
+        "食道楽"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "欲張り",
+          "嫉妬",
+          "食道楽"
+        ],
+        "stats": [
+          "芸術瞑想フォーカスタイプが無効になっています。",
+          "ミニマル瞑想フォーカスタイプが許可されています。",
+          "x50% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "greedy",
-          "jealous",
-          "gourmand"
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Ascetic",
-      "name": "ascetic",
+      "name": "禁欲"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is romantically attracted to people of his own gender.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは同性に恋愛的な魅力を感じ惹きつけられます.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Gay",
-      "name": "gay",
+      "name": "同性愛者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is romantically attracted to both men and women.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは男性と女性の両方に魅力を感じます.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Bisexual",
-      "name": "bisexual",
+      "name": "両性愛者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has no sexual attraction to anyone at all.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは誰にも全く性的魅力を感じません.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Asexual",
-      "name": "asexual",
+      "name": "無性愛者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは鼻声のように曇った声で,要領を得ない言い回しや咳払いも織り交ぜて話しがちなことが,ことさら人をイライラさせます.このことが,他者から彼を嫌われやすくします.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "AnnoyingVoice",
-      "name": "annoyingvoice",
+      "name": "気に障る声"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy breathes heavily all the time, and sweats constantly. People find it creepy.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyの息づかいは,いつも激しく,そして常に汗をかいているので,人々は気味悪がっています.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "CreepyBreathing",
-      "name": "creepybreathing",
+      "name": "気持ち悪い息づかい"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy loves fire. he will never extinguish fires. To relieve stress, he will occasionally go on random fire starting sprees. This happens more often if his mood is low.",
+      "degree": 0,
+      "description": "Timmyは,火が大好きです.彼は火を消そうとはしません.彼はちょくちょく手当り次第に放火し続けることがあります.彼は火のそばにいると幸せを感じ,炎系の武器を持つと喜びを感じます.",
       "stats": [
-        "Only mental break \"FireStartingSpree\" allowed."
+        "炎瞑想フォーカスタイプが許可されています。",
+        "許可されるのはメンタルブレイク\"FireStartingSpree\"のみです。"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "炎瞑想フォーカスタイプが許可されています。",
+          "許可されるのはメンタルブレイク\"FireStartingSpree\"のみです。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "Only mental break \"FireStartingSpree\" allowed."
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Pyromaniac",
-      "name": "pyromaniac",
+      "name": "放火魔"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
+      "degree": 0,
+      "description": "Timmyは,弱虫で臆病です.ちょっとした痛みでも,動けなくなってしまいます.",
       "stats": [
-        "-60% pain shock threshold"
+        "-50% 痛みへの限界値",
+        "x200% 全体的な信仰度の損失率"
       ],
       "conflicts": [
-        "brawler"
+        "格闘家",
+        "マゾヒスト"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "格闘家",
+          "マゾヒスト"
+        ],
+        "stats": [
+          "-50% 痛みへの限界値",
+          "x200% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "brawler"
-        ],
-        "stats": [
-          "-60% pain shock threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Wimp",
-      "name": "wimp",
+      "name": "弱虫"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has remarkable kinesthetic intelligence. he seems to dance around danger with preternatural grace.",
+      "degree": 0,
+      "description": "Timmyは並外れた運動感覚知性の持ち主です.彼は超常的な神の恩寵を受けて,危険と対峙していてもダンスをしているように見えます.",
       "stats": [
-        "+15.0 melee dodge chance",
-        "x10% trap spring chance"
+        "+15.0 回避率(白兵戦)",
+        "x10% 罠発動確率"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+15.0 回避率(白兵戦)",
+          "x10% 罠発動確率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+15.0 melee dodge chance",
-          "x10% trap spring chance"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nimble",
-      "name": "nimble",
+      "name": "敏捷な身のこなし"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has a knack for learning. he picks things up much faster than others.",
+      "degree": 0,
+      "description": "Timmyは物覚えのコツを持っています.彼は他者より早く物事を覚えます.",
       "stats": [
-        "+75% global learning factor"
+        "+75% 身につけやすさ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+75% 身につけやすさ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+75% global learning factor"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "FastLearner",
-      "name": "fastlearner",
+      "name": "物覚えが早い"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is slow on the uptake. he learns much slower than others.",
+      "degree": 0,
+      "description": "Timmyは呑み込みが遅く.彼は他の人より身につけるのが遅くなります.",
       "stats": [
-        "-75% global learning factor"
+        "-75% 身につけやすさ",
+        "x50% 全体的な信仰度の損失率"
       ],
       "conflicts": [
-        "toosmart"
+        "うぬぼれ屋"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "うぬぼれ屋"
+        ],
+        "stats": [
+          "-75% 身につけやすさ",
+          "x50% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "toosmart"
-        ],
-        "stats": [
-          "-75% global learning factor"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "SlowLearner",
-      "name": "slowlearner",
+      "name": "物覚えが悪い"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever, no matter how long he stays inside, and is not bothered by darkness.",
+      "degree": 0,
+      "description": "Timmyは明かりも,外での経験も必要ありません.彼は,窮屈感を感じたり,キャビンフィーバーになったりしないでしょう,彼は,どれだけ閉じこもっても気にしないし,暗闇を気にすることもありません.",
       "stats": [
-
+        "陰鬱瞑想フォーカスタイプが許可されています。"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Undergrounder",
-      "name": "undergrounder",
+      "name": "地底人"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy feels limited in his feeble human body. he often dreams of being enhanced by artificial body parts.",
-      "stats": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは,弱々しい人間の身体に限界を感じています.彼は,しばしば自分が義体化するか,異種遺伝子を組み込む夢をみます.",
+      "stats": [],
       "conflicts": [
-        "bodypurist"
+        "自然体主義"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "自然体主義"
+        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "bodypurist"
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Transhumanist",
-      "name": "transhumanist",
+      "name": "義体化願望"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy believes the human body is limited for a reason. To him, artificial body parts are unethical and disgusting.",
-      "stats": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは,人体に限界があるのは理由があってのことだと信じています.彼にとって,義体化と異種遺伝子は倫理に反する気持ち悪いことだと捉えています.",
+      "stats": [],
       "conflicts": [
-        "transhumanist"
+        "義体化願望"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "義体化願望"
+        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "transhumanist"
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "BodyPurist",
-      "name": "bodypurist",
+      "name": "自然体主義"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy really dislikes and distrusts men.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは,男嫌いで まったく男性を信用しません.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DislikesMen",
-      "name": "misandrist",
+      "name": "男嫌い"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy really dislikes and distrusts women.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 0,
+      "description": "Timmyは,女嫌いで まったく女性を信用しません.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DislikesWomen",
-      "name": "misogynist",
+      "name": "女嫌い"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has a fantastic memory for detail. he will lose unused skills at half the rate of other people.",
+      "degree": 0,
+      "description": "Timmy は異様な記憶能力を持っています 彼 は、他の人よりも若干早く新しいスキルを習得することができるでしょう",
       "stats": [
-
+        "+25% 身につけやすさ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+25% 身につけやすさ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "GreatMemory",
-      "name": "greatmemory",
+      "name": "超記憶力"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has thick skin, dense flesh, and durable bones. he takes much less damage than other people from the same blows. he is extremely hard to kill.",
+      "degree": 0,
+      "description": "Timmyは,厚い皮膚,良い肉付き,丈夫な骨という体格の持ち主です. 彼は,同じように殴られたとしても,他者よりダメージが少なくなります.",
       "stats": [
-        "x50% incoming damage multiplier"
+        "x50% 受けるダメージ倍率"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "x50% 受けるダメージ倍率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "x50% incoming damage multiplier"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Tough",
-      "name": "tough",
+      "name": "屈強"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
+      "degree": 0,
+      "description": "Timmyは,自分以外の人から正当な評価をされず,疎外されてると感じています.彼の心情は一定値下がりますが,精神崩壊を起こした後は,創作意欲のチャンスが50%上がります.",
       "stats": [
-
+        "陰鬱瞑想フォーカスタイプが許可されています。"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "TorturedArtist",
-      "name": "torturedartist",
+      "name": "苦悩する芸術家"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
+      "degree": 0,
+      "description": "Timmyの生活は,食物を中心に回っています.彼は飢えやすく,たとえ空腹でなくとも,ちょくちょくガツガツとした強い食欲に襲われます.",
       "stats": [
-        "Only mental break \"Binging_Food\" allowed.",
-        "+4 cooking"
+        "許可されるのはメンタルブレイク\"Binging_Food\"のみです。",
+        "+4 料理"
       ],
       "conflicts": [
-        "ascetic"
+        "禁欲"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "禁欲"
+        ],
+        "stats": [
+          "許可されるのはメンタルブレイク\"Binging_Food\"のみです。",
+          "+4 料理"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "ascetic"
-        ],
-        "stats": [
-          "Only mental break \"Binging_Food\" allowed.",
-          "+4 cooking"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Gourmand",
-      "name": "gourmand",
+      "name": "食道楽"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy doesn't need as much sleep as the average person. Whether he's sleeping on a bed or on the ground, he will be fully rested in about two thirds the usual time.",
+      "degree": 0,
+      "description": "Timmyは平均的な人よりは少ない睡眠時間で済みます.彼はベッドでも,地面の上でも,完全に休息がとれ,彼は通常の,2/3時間で十分な休息を得られます.",
       "stats": [
-        "+50% rest rate multiplier"
+        "+50% 休息しやすさ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+50% 休息しやすさ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+50% rest rate multiplier"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "QuickSleeper",
-      "name": "quicksleeper",
+      "name": "熟睡の達人"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is always falling behind the group whenever he goes anywhere.",
+      "degree": -1,
+      "description": "Timmyは,どこに行ったかと思えば,いつもグループから遅れた所にいます.",
       "stats": [
-        "Go frenzy inspiration disabled.",
-        "-0.20 move speed"
+        "熱狂的な意欲インスピレーションが無効になっています。",
+        "-0.20 移動速度"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "熱狂的な意欲インスピレーションが無効になっています。",
+          "-0.20 移動速度"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "Go frenzy inspiration disabled.",
-          "-0.20 move speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "SpeedOffset",
-      "name": "slowpoke",
+      "name": "鈍足"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy likes to be where he's going. he walks quicker than most people.",
+      "degree": 1,
+      "description": "Timmyは好きな所へ行きたがります. 彼は,ほとんどの人より早く歩きます.",
       "stats": [
-        "+0.20 move speed"
+        "+0.20 移動速度"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.20 移動速度"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+0.20 move speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "SpeedOffset",
-      "name": "fastwalker",
+      "name": "せかせか歩き"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy always moves with a sense of urgency - so much so that others often fail to keep up.",
+      "degree": 2,
+      "description": "Timmyは,常に緊張感をもって移動するので,よく他の人がついて行けなくなります.",
       "stats": [
-        "+0.40 move speed"
+        "+0.40 移動速度"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.40 移動速度"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+0.40 move speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "SpeedOffset",
-      "name": "jogger",
+      "name": "小走り"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 2,
+      "description": "Timmyは,薬物を楽しむことに強烈に魅了されています.彼は,それらをより多く浪費し,他のドラッグを常習していないなら満足し,頻繁にイッてしまうようになります. 彼は娯楽用のドラッグを禁止されても知らんぷりをするようになるでしょう.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DrugDesire",
-      "name": "chemicalfascination",
+      "name": "ドラッグ中毒者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 1,
+      "description": "Timmyは,薬物を楽しむことに並々ならぬ程惹かれています.彼は,それらをより多く浪費し,他のドラッグを常習していないなら満足し,頻繁にイッてしまうようになります. 彼は娯楽用のドラッグを禁止されても知らんぷりをするようになるでしょう.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DrugDesire",
-      "name": "chemicalinterest",
+      "name": "ドラッグ常用者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
+      "degree": -1,
+      "description": "Timmyは,安易に薬物から喜びを得る発想をひどく嫌い,ドラッグやアルコールを避けます.",
       "stats": [
-        "Binging on drug mental state disabled.",
-        "Binging on drug mental state disabled."
+        "薬物中毒メンタル状態が無効になっています。",
+        "薬物に溺れるメンタル状態が無効になっています。"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "薬物中毒メンタル状態が無効になっています。",
+          "薬物に溺れるメンタル状態が無効になっています。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "Binging on drug mental state disabled.",
-          "Binging on drug mental state disabled."
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DrugDesire",
-      "name": "teetotaler",
+      "name": "ドラッグ嫌い"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy is just naturally upbeat about his situation, pretty much all the time, no matter what it is.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 2,
+      "description": "Timmyは,彼の立場について,ほとんど意にかえすことはない,生まれつき陽気な人です.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NaturalMood",
-      "name": "sanguine",
+      "name": "あっけらかん"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy is naturally optimistic about life. It's hard to get him down.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": 1,
+      "description": "Timmyは,人生に関して生まれつきの楽観主義者です.彼の気分を落ち込ませるのは難しいです.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NaturalMood",
-      "name": "optimist",
+      "name": "楽観主義者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy tends to look on the bad side of life.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": -1,
+      "description": "Timmyは,人生を悪い方悪い方へと見てしまいがちです.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NaturalMood",
-      "name": "pessimist",
+      "name": "悲観主義者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "degree": -2,
+      "description": "Timmyは絶え間なく不幸です.彼は,全てがうまくいってるときでさえ,この良い気分が途絶えることの心配をしています.",
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NaturalMood",
-      "name": "depressive",
+      "name": "抑うつ病者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -2
-    },
-    {
-      "description": "Timmy's will is an iron shield. he keeps going through thick and thin, when others broke down long before.",
+      "degree": 2,
+      "description": "Timmyの意志は鉄でできた盾のようです.他の者がずっと前に諦めてしまったことでも,彼は,どんなことがあってもやりとげます.",
       "stats": [
-        "-18% mental break threshold"
+        "-18% 精神的弱さ",
+        "x25% 全体的な信仰度の損失率"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-18% 精神的弱さ",
+          "x25% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-18% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nerves",
-      "name": "iron-willed",
+      "name": "鉄の意志"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy is mentally tough and won't break down under stresses that would crack most people.",
+      "degree": 1,
+      "description": "Timmyは,ほとんどの人がストレスで心折られる環境下でも,精神的に強く心がまいることはありません.",
       "stats": [
-        "-9% mental break threshold"
+        "-9% 精神的弱さ",
+        "x50% 全体的な信仰度の損失率"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-9% 精神的弱さ",
+          "x50% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-9% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nerves",
-      "name": "steadfast",
+      "name": "信念の人"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy tends to crack under pressure.",
+      "degree": -1,
+      "description": "Timmyは,プレッシャーがかかると心が折れる傾向があります.",
       "stats": [
-        "+8% mental break threshold"
+        "+8% 精神的弱さ",
+        "x200% 全体的な信仰度の損失率"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+8% 精神的弱さ",
+          "x200% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+8% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nerves",
-      "name": "nervous",
+      "name": "いくじなし"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
+      "degree": -2,
+      "description": "Timmyの精神は,常に脆く崩れやすく 彼は,辛いことがあると 一番最初に精神崩壊する傾向があります.",
       "stats": [
-        "+15% mental break threshold"
+        "+15% 精神的弱さ",
+        "x300% 全体的な信仰度の損失率"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+15% 精神的弱さ",
+          "x300% 全体的な信仰度の損失率"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+15% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nerves",
-      "name": "volatile",
+      "name": "精神不安定"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -2
-    },
-    {
-      "description": "Timmy likes to have things squared away. he will work harder than most to attain this state of affairs, but his nerves can get the better of him.",
+      "degree": 1,
+      "description": "Timmyは事態に備えることが好きです. 彼は物事を成し遂げるのに 他の人より多くの苦労しますが 彼の神経質なところは 彼の良いところを引き出します.",
       "stats": [
-        "+20% global work speed",
-        "+8% mental break threshold"
+        "+20% 基本的な作業速度",
+        "+8% 精神的弱さ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+20% 基本的な作業速度",
+          "+8% 精神的弱さ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+20% global work speed",
-          "+8% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Neurotic",
-      "name": "neurotic",
+      "name": "神経質"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy feels constantly nervous about everything that has to get done. he will work extremely hard to attain this state of affairs, but his nerves can easily get the better of him.",
+      "degree": 2,
+      "description": "Timmyは,やり遂げなければならないどんなことにも,常に気を使います. 彼は物事を成し遂げるのに,他の人より更に多くの苦労しますが 彼の神経質なところが,彼の良いところをより簡単に引き出します.",
       "stats": [
-        "+40% global work speed",
-        "+14% mental break threshold"
+        "+40% 基本的な作業速度",
+        "+14% 精神的弱さ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+40% 基本的な作業速度",
+          "+14% 精神的弱さ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+40% global work speed",
-          "+14% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Neurotic",
-      "name": "veryneurotic",
+      "name": "ノイローゼもち"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy has an easy time staying on-task and focused, and gets things done much faster than the average person.",
+      "degree": 2,
+      "description": "Timmyは作業場にいて集中し続ける作業が得意です.そして平均的な人よりも,より早く作業を終わらせることができます.",
       "stats": [
-        "+35% global work speed"
+        "+35% 基本的な作業速度"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+35% 基本的な作業速度"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+35% global work speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Industriousness",
-      "name": "industrious",
+      "name": "職人気質"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy is a natural hard worker and will finish tasks faster than most.",
+      "degree": 1,
+      "description": "Timmyは生まれつきの働き者です.ほとんどの人よりも早く作業ができます.",
       "stats": [
-        "+20% global work speed"
+        "+20% 基本的な作業速度"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+20% 基本的な作業速度"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+20% global work speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Industriousness",
-      "name": "hardworker",
+      "name": "勤労者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy is a little bit lazy.",
+      "degree": -1,
+      "description": "Timmyは,少したるんでいます.",
       "stats": [
-        "-20% global work speed"
+        "-20% 基本的な作業速度"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-20% 基本的な作業速度"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-20% global work speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Industriousness",
-      "name": "lazy",
+      "name": "だらけ癖"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
+      "degree": -2,
+      "description": "Timmyは,だらだらしてるのが好きです.物を作るのが嫌いです. 彼の歩みもゆっくりで,作業場で集中している姿を見ることは珍しいです.",
       "stats": [
-        "-35% global work speed"
+        "-35% 基本的な作業速度"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-35% 基本的な作業速度"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-35% global work speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Industriousness",
-      "name": "slothful",
+      "name": "怠け者"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -2
-    },
-    {
-      "description": "Timmy's mind is like a psychic tuning fork. he is extremely sensitive to psychic phenomena.",
+      "degree": 2,
+      "description": "Timmyの心は精神波に共鳴する音叉のようです.彼は精神的現象に非常に敏感です.",
       "stats": [
-        "+80% psychic sensitivity"
+        "+80% 精神感応性"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+80% 精神感応性"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+80% psychic sensitivity"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallyhypersensitive",
+      "name": "精神過敏"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy's mind is unusually sensitive to psychic phenomena.",
+      "degree": 1,
+      "description": "Timmyの心は精神的現象に著しく敏感です.",
       "stats": [
-        "+40% psychic sensitivity"
+        "+40% 精神感応性"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+40% 精神感応性"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+40% psychic sensitivity"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallysensitive",
+      "name": "精神感応"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy's mind is psychically out of tune with others. he isn't as affected by psychic phenomena.",
+      "degree": -1,
+      "description": "Timmyの心の精神的感受性は人並み以下です.精神的現象が彼に影響を及ぼすことはありません.",
       "stats": [
-        "-50% psychic sensitivity"
+        "-50% 精神感応性"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-50% 精神感応性"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-50% psychic sensitivity"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallydull",
+      "name": "精神的鈍感"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy's mind works on a psychic frequency different from everyone else. he just isn't affected by psychic phenomena.",
+      "degree": -2,
+      "description": "Timmyの心は,他人とは違う周波数に作用するようです.精神的現象が彼に影響を及ぼすことは全くありません.",
       "stats": [
-        "-100% psychic sensitivity"
+        "-100% 精神感応性"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-100% 精神感応性"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-100% psychic sensitivity"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallydeaf",
+      "name": "精神的無反応"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -2
-    },
-    {
-      "description": "Timmy takes more time to aim when shooting. he shoots less often than others, but with more accuracy.",
+      "degree": 1,
+      "description": "Timmyは,銃で狙いをつけるときに,より時間をかけます.彼は,他の者より発砲頻度は低いですが,狙いはより正確です.",
       "stats": [
-        "+25% aiming time",
-        "+5.0 shooting accuracy"
+        "+25% 照準時間",
+        "+5.0 命中率(射撃)"
       ],
       "conflicts": [
-        "brawler"
+        "格闘家"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "格闘家"
+        ],
+        "stats": [
+          "+25% 照準時間",
+          "+5.0 命中率(射撃)"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "brawler"
-        ],
-        "stats": [
-          "+25% aiming time",
-          "+5.0 shooting accuracy"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "ShootingAccuracy",
-      "name": "carefulshooter",
+      "name": "慎重な射手"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Pew! Pew! Pew! Timmy just likes pulling the trigger. he shoots faster than others, but less accurately.",
+      "degree": -1,
+      "description": "バン!バン! Timmyは,トリガーを引くのが本当に好きです.彼は,他の者よりも発砲頻度は高いですが,狙いは甘いです.",
       "stats": [
-        "-50% aiming time",
-        "-5.0 shooting accuracy"
+        "-50% 照準時間",
+        "-5.0 命中率(射撃)"
       ],
       "conflicts": [
-        "brawler"
+        "格闘家"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "格闘家"
+        ],
+        "stats": [
+          "-50% 照準時間",
+          "-5.0 命中率(射撃)"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "brawler"
-        ],
-        "stats": [
-          "-50% aiming time",
-          "-5.0 shooting accuracy"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "ShootingAccuracy",
-      "name": "trigger-happy",
+      "name": "トリガーハッピー"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to him before he even opens his mouth.",
+      "degree": 2,
+      "description": "Timmyは視線を釘付けにする魅惑的で親しみやすい顔を持ち,非常に美しいです.人々は彼が口を開く前から彼に魅了されています.",
       "stats": [
-        "+2.0 beauty"
+        "+2.0 美しさ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+2.0 美しさ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+2.0 beauty"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Beauty",
-      "name": "beautiful",
+      "name": "美しい"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy has a pretty face, which predisposes people to like him.",
+      "degree": 1,
+      "description": "Timmyは,人々に好かれる可愛らしい顔を持っています.",
       "stats": [
-        "+1.0 beauty"
+        "+1.0 美しさ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+1.0 美しさ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+1.0 beauty"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Beauty",
-      "name": "pretty",
+      "name": "可愛い"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
+      "degree": -1,
+      "description": "Timmyは醜いです.これは人々の関わりの中で相手に多少の不快感を与えます.",
       "stats": [
-        "-1.0 beauty"
+        "-1.0 美しさ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-1.0 美しさ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-1.0 beauty"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Beauty",
-      "name": "ugly",
+      "name": "醜い"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
+      "degree": -2,
+      "description": "Timmyは驚くほど醜いです. 彼の顔は才能のない子供が描いた絵,防腐剤入りの瓶に詰められた奇形の胎児,そして現代アートの作品らを足して割ったように見えます.会話の最中,相手は彼を見るのに意識して努力をしなければなりません.",
       "stats": [
-        "-2.0 beauty"
+        "-2.0 美しさ"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-2.0 美しさ"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-2.0 beauty"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Beauty",
-      "name": "staggeringlyugly",
+      "name": "ひどく醜い"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -2
-    },
-    {
-      "description": "Timmy has a naturally powerful immune system. he will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
+      "degree": 1,
+      "description": "Timmyは生まれつき,強力な免疫システムを備えています.彼は普通の人が得られる速度より早く免疫を得られるでしょう,そして他の人は死んでしまうような疾病でも生き残ることができます.",
       "stats": [
-        "+30% immunity gain speed"
+        "+30% 免疫を得る速度"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+30% 免疫を得る速度"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+30% immunity gain speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Immunity",
-      "name": "super-immune",
+      "name": "超免疫力"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy has an awful immune system. he gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
+      "degree": -1,
+      "description": "Timmyの免疫システムはひどいありさまです.彼は普通よりも病気に罹りやすく,コロニー内の誰も感染していなくても,繰り返し病気に罹ります.",
       "stats": [
-        "+4 medical"
+        "+4 医術"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+4 医術"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+4 medical"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Immunity",
-      "name": "sickly",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
+      "name": "免疫不全"
     }
   ],
   "races": [
     {
       "data": {
+        "customName": false,
         "stats": [
-          "+60.00 Mass",
-          "+70% Flammability",
-          "+$1750 Market value",
-          "+4.60 Move speed",
-          "+28.8F Minimum comfortable temperature",
-          "+46.8F Maximum comfortable temperature",
-          "+50 Leather amount",
-          "+3 Honor value"
+          "+60.00 重量",
+          "+70% 燃えやすさ",
+          "+$1750 金額",
+          "+4.60 移動速度",
+          "+16.0C 快適と感じる最低気温",
+          "+26.0C 快適と感じる最高気温",
+          "+75 生皮の量",
+          "+3 名誉値"
         ],
-        "mod": "RimWorld",
-        "karmaType": null,
-        "customName": false
+        "mod": "Unknown",
+        "karmaType": null
       },
-      "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
+      "description": "基本的なヒトであり,遺伝子工学によっても,非地球型惑星への進化の圧力によっても,ほとんど変化させられていません.",
       "defName": "Human",
       "enabled": true,
-      "name": "human",
-      "price": 2917
+      "name": "ヒト",
+      "price": 1459
     }
   ]
 }
