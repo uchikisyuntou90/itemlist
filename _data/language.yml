@@ -1,10 +1,10 @@
 # Tabs
-items_tab: 'Items'
-events_tab: 'Events'
-traits_tab: 'Traits'
-animals_tab: 'Animals'
-weapons_tab: 'Weapons'
-pawn_kinds_tab: 'Pawn Kinds'
+items_tab: 'アイテム'
+events_tab: 'イベント'
+traits_tab: '性格・特性'
+animals_tab: '動物'
+weapons_tab: '武器'
+pawn_kinds_tab: '種族'
 
 # Table headers
 mod_name_header: Mod Name
@@ -39,7 +39,7 @@ search_events: 'Search for events...'
 search_weapons: 'Search for weapons...'
 
 # Metadata
-usage: 'Usage: %s'
+usage: '視聴者のコマンド: %s'
 shortcut: 'This is a shortcut for %s'
 stats: 'Stats'
 conflicts_with: 'Conflicts with'
