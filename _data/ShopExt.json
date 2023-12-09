@@ -1996,50 +1996,6 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmyは不滅の契約を交わしました。彼は死から蘇り、カルコサの失われた街を支配する黄衣の王に仕えることになります。",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Call of Cthulhu - Cults",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Cults_OathtakerHastur",
-      "name": "宣誓者"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "Timmyはいま一度仕える為に死から蘇った。",
-      "stats": [],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Call of Cthulhu - Cults",
-        "karmaTypeForAdding": null
-      },
-      "defName": "Cults_OathtakerHastur2",
-      "name": "蘇った死体"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
       "description": "Timmyはマナの流れをよく知っているため,マナを通常より多く汲み取ることができます.彼はマナを40%早く獲得できますが,マナ最大値が20減少します.",
       "stats": [],
       "conflicts": [
@@ -11488,6 +11444,28 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
+      "description": "Timmyは身体と精神ともに,洞察力に優れ,経験豊富な人生の大先輩です.古臭いと感じる人もいれば,語り継がれる導きを尊重する人もいるでしょう.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Ideology Expanded - Memes and Structures",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VME_Elder",
+      "name": "年長者"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
       "description": "クーリンです.\n\n¯\\_(ツ)_/¯",
       "stats": [
         "+2 知力",
@@ -11540,7 +11518,7 @@
         "karmaTypeForAdding": null
       },
       "defName": "Kurin_Trait_StrangeKurin",
-      "name": "変わり者のクーリン"
+      "name": "変わり者クーリン"
     },
     {
       "canAdd": true,
@@ -11570,7 +11548,37 @@
         "karmaTypeForAdding": null
       },
       "defName": "Kurin_Trait_UpgradedKurin",
-      "name": "強化されたクーリン"
+      "name": "強化クーリン"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmyは,過激派に属するクーリンです.彼らの復讐への渇望とクーリン族に仇なす咎人への憎悪は決して冷めることはありません.",
+      "stats": [
+        "+50% 全体的な信仰度の損失率"
+      ],
+      "conflicts": [
+        "イイ人"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "イイ人"
+        ],
+        "stats": [
+          "+50% 全体的な信仰度の損失率"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Kurin, The Three Tailed Fox [Deluxe Edition]",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Kurin_Trait_FuriousKurin",
+      "name": "赫怒クーリン"
     },
     {
       "canAdd": true,
@@ -11605,12 +11613,30 @@
       "removePrice": 5500,
       "degree": 0,
       "description": "クーリンメカノイドです.\n\n¯\\_(ツ)_/¯",
-      "stats": [],
+      "stats": [
+        "熱狂的な労働意欲インスピレーションが無効になっています。",
+        "熱狂的な意欲インスピレーションが無効になっています。",
+        "熱狂的な射撃意欲インスピレーションが無効になっています。",
+        "売買意欲インスピレーションが無効になっています。",
+        "勧誘意欲インスピレーションが無効になっています。",
+        "調教意欲インスピレーションが無効になっています。",
+        "手術意欲インスピレーションが無効になっています。",
+        "創作意欲インスピレーションが無効になっています。"
+      ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
-        "stats": [],
+        "stats": [
+          "熱狂的な労働意欲インスピレーションが無効になっています。",
+          "熱狂的な意欲インスピレーションが無効になっています。",
+          "熱狂的な射撃意欲インスピレーションが無効になっています。",
+          "売買意欲インスピレーションが無効になっています。",
+          "勧誘意欲インスピレーションが無効になっています。",
+          "調教意欲インスピレーションが無効になっています。",
+          "手術意欲インスピレーションが無効になっています。",
+          "創作意欲インスピレーションが無効になっています。"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
@@ -12223,7 +12249,7 @@
       "description": "Timmyは,眼がとてもいいです.",
       "stats": [
         "+2 射撃",
-        "+5.0 命中率(射撃)"
+        "+8.0 命中率(射撃)"
       ],
       "conflicts": [],
       "bypassLimit": false,
@@ -12231,7 +12257,7 @@
         "conflicts": [],
         "stats": [
           "+2 射撃",
-          "+5.0 命中率(射撃)"
+          "+8.0 命中率(射撃)"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -12285,7 +12311,7 @@
         "+0.15 移動速度",
         "+30% 痛みへの限界値",
         "-40% 精神的弱さ",
-        "+5.0 回避率(白兵戦)",
+        "+10.0 回避率(白兵戦)",
         "+5.0 命中率(白兵戦)",
         "x50% 受けるダメージ倍率"
       ],
@@ -12299,7 +12325,7 @@
           "+0.15 移動速度",
           "+30% 痛みへの限界値",
           "-40% 精神的弱さ",
-          "+5.0 回避率(白兵戦)",
+          "+10.0 回避率(白兵戦)",
           "+5.0 命中率(白兵戦)",
           "x50% 受けるダメージ倍率"
         ],
@@ -12724,7 +12750,7 @@
       "defName": "Human",
       "enabled": true,
       "name": "ヒト",
-      "price": 2917
+      "price": 1459
     },
     {
       "data": {
@@ -12759,7 +12785,7 @@
           "+100% メカノイド・寸断収率",
           "+100% メカノイド・寸断速度",
           "+100% 溶解・速度",
-          "+10% 合成・速度",
+          "+100% 作業・速度",
           "+90% 建造・速度",
           "+100% 食肉加工・収率",
           "+100% 食肉加工・速度",
@@ -12770,6 +12796,7 @@
           "+100% 身につけやすさ",
           "+100% 研究・速度",
           "+70% 看護・品質",
+          "+100% 合成・速度",
           "+25% 外科手術の成功率",
           "+150% 免疫を得る速度",
           "+80% 掘削・速度",
@@ -12787,32 +12814,7 @@
       "defName": "Dragonian_Race",
       "enabled": true,
       "name": "ドラコニアン",
-      "price": 9667
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 重量",
-          "+100% 燃えやすさ",
-          "+$0 金額",
-          "+3.50 移動速度",
-          "+0% 精神感応性",
-          "-10.0% アーマー - 打撲系",
-          "-15.0% アーマー - 突刺系",
-          "-100.0C 快適と感じる最低気温",
-          "+100.0C 快適と感じる最高気温",
-          "+20 生皮の量",
-          "+0 生肉の量"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "科学的実験、潜在的な干渉、あるいは宇宙の気まぐれのために、死滅させられた哀れな魂です。",
-      "defName": "ReanimatedCorpse",
-      "enabled": true,
-      "name": "蘇った死体",
-      "price": 1
+      "price": 4834
     },
     {
       "data": {
@@ -12852,7 +12854,7 @@
       "defName": "Alien_Epona",
       "enabled": true,
       "name": "エポナ",
-      "price": 3750
+      "price": 1875
     },
     {
       "data": {
@@ -12896,7 +12898,7 @@
       "defName": "Alien_Destrier",
       "enabled": true,
       "name": "デストリエ",
-      "price": 6250
+      "price": 3125
     },
     {
       "data": {
@@ -12928,7 +12930,7 @@
       "defName": "Kurin",
       "enabled": true,
       "name": "クーリン",
-      "price": 4375
+      "price": 2188
     },
     {
       "data": {
@@ -12965,7 +12967,7 @@
       "defName": "Kimiri",
       "enabled": true,
       "name": "キミリ",
-      "price": 4375
+      "price": 2188
     },
     {
       "data": {
@@ -12985,11 +12987,11 @@
           "-900% 身につけやすさ",
           "+0 生皮の量",
           "+0.00% 政治力",
-          "+5.00 移動速度",
-          "+115.0% アーマー - 突刺系",
+          "+4.00 移動速度",
+          "+111.0% アーマー - 突刺系",
           "+72.0% アーマー - 打撲系",
           "+200.0% アーマー - 熱系",
-          "+150% ドア近接ダメージ掛け率",
+          "+300% ドア近接ダメージ掛け率",
           "+60% EMP耐性"
         ],
         "mod": "Unknown",
@@ -12999,7 +13001,7 @@
       "defName": "Overlord",
       "enabled": true,
       "name": "オーバーロード",
-      "price": 6317
+      "price": 3159
     },
     {
       "data": {
@@ -13019,20 +13021,20 @@
           "-900% 身につけやすさ",
           "+0 生皮の量",
           "+0.00% 政治力",
-          "+5.00 移動速度",
+          "+4.70 移動速度",
           "+92.0% アーマー - 突刺系",
-          "+40.0% アーマー - 打撲系",
+          "+42.0% アーマー - 打撲系",
           "+200.0% アーマー - 熱系",
           "+150% ドア近接ダメージ掛け率"
         ],
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "\"ピースキーパー\"はクーリン共和国バウンサー級クーリンメカノイドで,戦闘用に作られました.",
+      "description": "\"ピースキーパー\"はクーリン共和国バウンサー/カーヴァー/エレクター級クーリンメカノイドで,ピースキーパーの種類によって,さまざまな任務が与えられます.\n\nピースキーパーバウンサーは戦闘担当,ピースキーパーカーヴァーは救助担当,ピースキーパーエレクターは建設担当といったように.",
       "defName": "Peacekeeper",
       "enabled": true,
       "name": "ピースキーパー",
-      "price": 2917
+      "price": 1459
     },
     {
       "data": {
@@ -13053,8 +13055,8 @@
           "+0 生皮の量",
           "+0.00% 政治力",
           "+5.80 移動速度",
-          "+61.6% アーマー - 突刺系",
-          "+40.0% アーマー - 打撲系",
+          "+40.0% アーマー - 突刺系",
+          "+20.0% アーマー - 打撲系",
           "+200.0% アーマー - 熱系",
           "+150% ドア近接ダメージ掛け率"
         ],
@@ -13065,7 +13067,7 @@
       "defName": "Smarty",
       "enabled": true,
       "name": "スマーティ",
-      "price": 1583
+      "price": 792
     },
     {
       "data": {
@@ -13108,7 +13110,7 @@
       "defName": "Race_Luno",
       "enabled": true,
       "name": "ルノ",
-      "price": 2167
+      "price": 1084
     },
     {
       "data": {
@@ -13151,7 +13153,7 @@
       "defName": "Mincho_ThingDef",
       "enabled": true,
       "name": "ミンチョ",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
@@ -13174,7 +13176,7 @@
       "defName": "MinchoWitch",
       "enabled": true,
       "name": "ミンチョ魔女",
-      "price": 3500
+      "price": 1750
     },
     {
       "data": {
@@ -13209,7 +13211,7 @@
       "defName": "Alien_Equium",
       "enabled": true,
       "name": "equium",
-      "price": 4167
+      "price": 2084
     },
     {
       "data": {
@@ -13244,7 +13246,7 @@
       "defName": "Alien_PEquium",
       "enabled": true,
       "name": "primitive equium",
-      "price": 4167
+      "price": 2084
     },
     {
       "data": {
@@ -13279,7 +13281,7 @@
       "defName": "Alien_VHDMaleEquium",
       "enabled": true,
       "name": "equium",
-      "price": 4167
+      "price": 2084
     },
     {
       "data": {
@@ -13314,7 +13316,7 @@
       "defName": "Alien_KEquium",
       "enabled": true,
       "name": "equium",
-      "price": 4167
+      "price": 2084
     },
     {
       "data": {
@@ -13348,7 +13350,7 @@
       "defName": "AvP_Alien_Yautja",
       "enabled": true,
       "name": "Yautja",
-      "price": 5833
+      "price": 2917
     },
     {
       "data": {
@@ -13390,7 +13392,7 @@
       "defName": "AvP_Synth",
       "enabled": true,
       "name": "Synth",
-      "price": 8333
+      "price": 4167
     },
     {
       "data": {
@@ -13450,7 +13452,7 @@
       "defName": "AT_TriJaw",
       "enabled": true,
       "name": "アンティ トライジョウ",
-      "price": 5000
+      "price": 2500
     },
     {
       "data": {
@@ -13510,7 +13512,7 @@
       "defName": "AT_dreadnought",
       "enabled": true,
       "name": "アンティ ドレッドノート",
-      "price": 5000
+      "price": 2500
     },
     {
       "data": {
@@ -13570,7 +13572,7 @@
       "defName": "AT_Hiveguard",
       "enabled": true,
       "name": "アンティ ハイブガード",
-      "price": 5000
+      "price": 2500
     },
     {
       "data": {
@@ -13579,7 +13581,7 @@
           "+95.00 重量",
           "+200% 燃えやすさ",
           "+1000% 全体的な信仰度の損失率",
-          "+100% 寿命係数",
+          "+70% 寿命係数",
           "-100.0 美しさ",
           "+$8000 金額",
           "+5.00 移動速度",
@@ -13631,7 +13633,7 @@
       "defName": "Anty",
       "enabled": true,
       "name": "アンティ",
-      "price": 13333
+      "price": 6667
     },
     {
       "data": {
@@ -13653,7 +13655,7 @@
       "defName": "Tribal_Proty",
       "enabled": true,
       "name": "ヒト",
-      "price": 2917
+      "price": 1459
     },
     {
       "data": {
@@ -13690,7 +13692,7 @@
       "defName": "Alien_Bori",
       "enabled": true,
       "name": "ボリ",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
@@ -13726,7 +13728,7 @@
       "defName": "Alien_SP",
       "enabled": true,
       "name": "シフォン",
-      "price": 5000
+      "price": 2500
     },
     {
       "data": {
@@ -13759,7 +13761,7 @@
       "defName": "Alien_Orc",
       "enabled": true,
       "name": "オーク",
-      "price": 4167
+      "price": 2084
     },
     {
       "data": {
@@ -13795,7 +13797,7 @@
       "defName": "Alien_Nyaron",
       "enabled": true,
       "name": "ニャロン",
-      "price": 5000
+      "price": 2500
     },
     {
       "data": {
@@ -13845,7 +13847,7 @@
       "defName": "Hawkia",
       "enabled": true,
       "name": "ホーキア",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
@@ -13878,7 +13880,7 @@
       "defName": "Alien_Heyra",
       "enabled": true,
       "name": "ヘイラ",
-      "price": 4583
+      "price": 2292
     },
     {
       "data": {
@@ -13911,7 +13913,7 @@
       "defName": "Alien_Heyra_Rong",
       "enabled": true,
       "name": "ロン",
-      "price": 4583
+      "price": 2292
     },
     {
       "data": {
@@ -13960,7 +13962,7 @@
       "defName": "Hurrzerr",
       "enabled": true,
       "name": "ハルジャー",
-      "price": 1750
+      "price": 875
     },
     {
       "data": {
@@ -14009,16 +14011,16 @@
       "defName": "Fallen",
       "enabled": true,
       "name": "フェルンカリア",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
         "customName": false,
         "stats": [
           "+130.00 重量",
-          "+$3400 金額",
+          "+$6250 金額",
           "+5.20 移動速度",
-          "+180% 燃えやすさ",
+          "+250% 燃えやすさ",
           "-61.0C 快適と感じる最低気温",
           "+20.0C 快適と感じる最高気温",
           "+80 生皮の量",
@@ -14034,7 +14036,7 @@
           "+3.0 命中率(射撃)",
           "+80% 痛みへの限界値",
           "+200 輸送能力",
-          "+4 名誉値",
+          "+10 名誉値",
           "+0.4 回避率(白兵戦)",
           "+90% 照準時間",
           "+23% 栽培・速度",
@@ -14058,14 +14060,14 @@
       "defName": "Kalia",
       "enabled": true,
       "name": "カリア",
-      "price": 5667
+      "price": 5209
     },
     {
       "data": {
         "customName": false,
         "stats": [
           "+190.00 重量",
-          "+$4000 金額",
+          "+$8000 金額",
           "+7.20 移動速度",
           "+130% 燃えやすさ",
           "-80.0C 快適と感じる最低気温",
@@ -14083,7 +14085,7 @@
           "+3.0 命中率(射撃)",
           "+80% 痛みへの限界値",
           "+100 輸送能力",
-          "+4 名誉値",
+          "+20 名誉値",
           "+1.0 回避率(白兵戦)",
           "+200% 照準時間",
           "+60% 栽培・速度",
@@ -14115,54 +14117,43 @@
         "stats": [
           "+45.00 重量",
           "+30% 燃えやすさ",
-          "+$1800 金額",
-          "+5.20 移動速度",
-          "+50% 精神的弱さ",
-          "+32.0C 快適と感じる最高気温",
-          "+10.0C 快適と感じる最低気温",
+          "+$2750 金額",
+          "+4.80 移動速度",
+          "+35% 精神的弱さ",
+          "+37.0C 快適と感じる最高気温",
+          "+5.0C 快適と感じる最低気温",
           "+98% 免疫を得る速度",
           "+75 輸送能力",
-          "+3 名誉値",
+          "+4 名誉値",
           "+45 生肉の量",
           "+50 生皮の量",
-          "+80% 身につけやすさ",
+          "+100% 身につけやすさ",
           "+115% 精神感応性",
-          "+5.0 回避率(白兵戦)",
-          "+1.5 命中率(白兵戦)",
-          "+4.0 命中率(射撃)",
-          "+110% 照準時間",
-          "+65% 痛みへの限界値",
+          "+80% 痛みへの限界値",
           "+100% 作業・速度",
-          "+75% 合成・速度",
-          "+85% 看護・速度",
-          "+95% 看護・品質",
-          "+90% 外科手術の成功率",
+          "+100% 合成・速度",
+          "+100% 看護・速度",
+          "+100% 看護・品質",
+          "+100% 外科手術の成功率",
           "+80.00% 外交力",
           "+100% 売値掛け率",
-          "+120.00% 商人の勘",
-          "+120.00% 政治力",
+          "+100.00% 商人の勘",
+          "+100.00% 政治力",
           "+120% 基本的な作業速度",
           "+90% 食事の早さ",
           "+80% 建造・速度",
-          "+80% メカノイド・寸断収率",
-          "+80% メカノイド・寸断速度",
+          "+100% メカノイド・寸断収率",
+          "+100% メカノイド・寸断速度",
           "+80% 溶解・速度",
-          "+80% 研究・速度",
-          "+40% 掘削・速度",
-          "+75% 掘削・収率",
-          "+115% 食肉加工・収率",
-          "+60% 食肉加工・速度",
-          "+20.00% 食中毒・発生率",
-          "+0.8 調理・速度",
-          "+90% 休息しやすさ",
-          "+80% 栽培・速度",
-          "+90% 栽培・収率",
-          "+12% 屋外暗所での射撃精度",
-          "+12% 屋内暗所での射撃精度",
-          "+10% 屋内暗所での白兵戦のヒット機会",
-          "+10% 屋外暗所での白兵戦のヒット機会",
-          "+5% 屋内暗所での白兵戦の回避機会",
-          "+5% 屋外暗所での白兵戦の回避機会"
+          "+100% 研究・速度",
+          "+100% 掘削・速度",
+          "+100% 掘削・収率",
+          "+100% 食肉加工・収率",
+          "+100% 食肉加工・速度",
+          "+1.0 調理・速度",
+          "+100% 休息しやすさ",
+          "+100% 栽培・速度",
+          "+100% 栽培・収率"
         ],
         "mod": "Unknown",
         "karmaType": null
@@ -14171,7 +14162,7 @@
       "defName": "Kiiro_Race",
       "enabled": true,
       "name": "キイロ",
-      "price": 4583
+      "price": 2292
     },
     {
       "data": {
@@ -14224,7 +14215,7 @@
       "defName": "Maru",
       "enabled": true,
       "name": "マル",
-      "price": 3667
+      "price": 1834
     },
     {
       "data": {
@@ -14268,7 +14259,7 @@
       "defName": "Alien_Miho",
       "enabled": true,
       "name": "ミホ",
-      "price": 6667
+      "price": 3334
     },
     {
       "data": {
@@ -14308,7 +14299,7 @@
       "defName": "Moosesian",
       "enabled": true,
       "name": "ムース",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
@@ -14341,7 +14332,7 @@
       "defName": "Alien_Moyo",
       "enabled": true,
       "name": "モヨ",
-      "price": 4167
+      "price": 2084
     },
     {
       "data": {
@@ -14379,7 +14370,7 @@
       "defName": "Alien_RedMoyo",
       "enabled": true,
       "name": "レッドモヨ",
-      "price": 4667
+      "price": 2334
     },
     {
       "data": {
@@ -14416,7 +14407,7 @@
       "defName": "Ratkin",
       "enabled": true,
       "name": "ラットキン",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
@@ -14454,7 +14445,7 @@
       "defName": "Ratkin_Su",
       "enabled": true,
       "name": "ラットキン実験体",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
@@ -14478,7 +14469,7 @@
       "defName": "Alien_NiHal",
       "enabled": true,
       "name": "Ni'Hal",
-      "price": 3167
+      "price": 1584
     },
     {
       "data": {
@@ -14503,7 +14494,7 @@
       "defName": "Alien_Orassan",
       "enabled": true,
       "name": "オラサン",
-      "price": 3167
+      "price": 1584
     },
     {
       "data": {
@@ -14528,7 +14519,7 @@
       "defName": "Alien_OrassanHumanHybrid",
       "enabled": true,
       "name": "ニーコ",
-      "price": 3167
+      "price": 1584
     },
     {
       "data": {
@@ -14580,7 +14571,7 @@
       "defName": "Paniel_Race",
       "enabled": true,
       "name": "パニエル",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
@@ -14632,7 +14623,7 @@
       "defName": "Rabbie",
       "enabled": true,
       "name": "ラビ",
-      "price": 3333
+      "price": 1667
     },
     {
       "data": {
@@ -14684,7 +14675,7 @@
       "defName": "Rakkle",
       "enabled": true,
       "name": "ラックル",
-      "price": 5833
+      "price": 2917
     },
     {
       "data": {
@@ -14710,7 +14701,7 @@
       "defName": "ReviaRaceAlien",
       "enabled": true,
       "name": "レヴィア",
-      "price": 5833
+      "price": 2917
     },
     {
       "data": {
@@ -14769,7 +14760,7 @@
       "defName": "Yuran_Race",
       "enabled": true,
       "name": "ユラン",
-      "price": 2000
+      "price": 1000
     },
     {
       "data": {
@@ -14829,7 +14820,7 @@
       "defName": "Yuran_Race_Miko",
       "enabled": true,
       "name": "ユラン巫女",
-      "price": 4667
+      "price": 2334
     },
     {
       "data": {
@@ -14890,7 +14881,7 @@
       "defName": "Yuran_Race_Miko_BlackSnake",
       "enabled": true,
       "name": "ユラン黒蛇",
-      "price": 4667
+      "price": 2334
     },
     {
       "data": {
@@ -14918,7 +14909,7 @@
       "defName": "HAR_Silkiera",
       "enabled": true,
       "name": "シルキーラ",
-      "price": 2500
+      "price": 1250
     },
     {
       "data": {
@@ -14954,7 +14945,7 @@
       "defName": "HAR_Silkiera_b",
       "enabled": true,
       "name": "シルキーラ・クオリティ",
-      "price": 2500
+      "price": 1250
     },
     {
       "data": {
@@ -14986,7 +14977,7 @@
       "defName": "HAR_Silkiera_c",
       "enabled": true,
       "name": "シルキーラ・ヴィクセンマリス",
-      "price": 16667
+      "price": 8334
     },
     {
       "data": {
@@ -15041,7 +15032,63 @@
       "defName": "Seren",
       "enabled": true,
       "name": "セレン",
-      "price": 3333
+      "price": 1667
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 重量",
+          "+120% 燃えやすさ",
+          "+$1200 金額",
+          "+4.50 移動速度",
+          "+20.0C 快適と感じる最高気温",
+          "-40.0C 快適と感じる最低気温",
+          "+100% 休息しやすさ",
+          "+100% 食事の早さ",
+          "+75 輸送能力",
+          "+0 生肉の量",
+          "+140 生皮の量",
+          "+90% 痛みへの限界値",
+          "+100% 精神感応性",
+          "+30% 精神的弱さ",
+          "+100% 毒耐性",
+          "+100% 毒環境耐性",
+          "+0.8 回避率(白兵戦)",
+          "+0.8 命中率(白兵戦)",
+          "+120% 照準時間",
+          "+1.2 命中率(射撃)",
+          "+110.00% 外交力",
+          "+125% 売値掛け率",
+          "+125.00% 政治力",
+          "+110.00% 商人の勘",
+          "+100% メカノイド・寸断収率",
+          "+100% メカノイド・寸断速度",
+          "+100% 溶解・速度",
+          "+100% 作業・速度",
+          "+100% 建造・速度",
+          "+100% 食肉加工・収率",
+          "+100% 食肉加工・速度",
+          "+100.00% 食中毒・発生率",
+          "+1.0 調理・速度",
+          "+75% 栽培・速度",
+          "+100% 身につけやすさ",
+          "+100% 研究・速度",
+          "+100% 看護・品質",
+          "+100% 合成・速度",
+          "+100% 外科手術の成功率",
+          "+87% 免疫を得る速度",
+          "+100% 掘削・速度",
+          "+100% 掘削・収率"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "人間の遺伝子をベースに,ペンギンの遺伝子を挿入して,寒い極地でも快適に生きることができるように改良された遺伝子操作された人間です.これを知らない部外者に野生動物と間違えられて攻撃されることがよくあります.",
+      "defName": "Alien_TTancon",
+      "enabled": true,
+      "name": "タンコン",
+      "price": 1000
     }
   ]
 }
