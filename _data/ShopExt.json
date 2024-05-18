@@ -734,7 +734,7 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmyは,男嫌いで まったく男性を信用しません.",
+      "description": "Timmyは男嫌いで,男性をまったく信用しません.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -756,7 +756,7 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmyは,女嫌いで まったく女性を信用しません.",
+      "description": "Timmyは女嫌いで,女性をまったく信用しません.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -11964,7 +11964,7 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmyは闇のサイキックエネルギーの捻れたパターンについて深い知識を持っています.彼は他の人よりも早く不自然な「存在」を研究できます.彼は機械があれば,この非人間的な知識を定期的に他者へと教えます.",
+      "description": "Timmyは闇のサイキックエネルギーの捻れたパターンについて深い知識を持っています.彼は他の人よりも早く不自然な「存在」を研究できます.彼は機会があれば,この非人間的な知識を定期的に他者へと教えます.",
       "stats": [
         "+100% 研究効率",
         "+50% 「存在」研究レート"
@@ -12197,6 +12197,684 @@
       },
       "defName": "SupremeMelee_QuickReflexes",
       "name": "超越的反射神経"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmyは,火を崇拝し,火に対する瞑想の特性を持っています.",
+      "stats": [
+        "炎瞑想フォーカスタイプが許可されています。",
+        "許可されるのはメンタルブレイク\"FireStartingSpree\"のみです。"
+      ],
+      "conflicts": [
+        "放火魔"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "放火魔"
+        ],
+        "stats": [
+          "炎瞑想フォーカスタイプが許可されています。",
+          "許可されるのはメンタルブレイク\"FireStartingSpree\"のみです。"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Atar Xenotype",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Helios_gene_Trait",
+      "name": "ヘリオス"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmyは,マルです.火の温もりを感じながら自分が生きていることを思い出し,感覚を研ぎ澄ましています.",
+      "stats": [
+        "炎瞑想フォーカスタイプが許可されています。"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "炎瞑想フォーカスタイプが許可されています。"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Maru_flameworship",
+      "name": "炎崇拝"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "物,出来事,技術,すべてに原因と結果が存在します.\nTimmyは,そのような因果関係を理解し,何かを学ぶことが病みつきになりました.",
+      "stats": [
+        "+25% 身につけやすさ",
+        "+20% 売値掛け率"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+25% 身につけやすさ",
+          "+20% 売値掛け率"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_Eyetrait",
+      "name": "慧眼"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmyの体は先天的に優れた柔軟性を持っています.\n人より丈夫で柔軟な体は狩りにおいてかなりの利点を持ちます.",
+      "stats": [
+        "+10.0 回避率(白兵戦)",
+        "+0.20 移動速度"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+10.0 回避率(白兵戦)",
+          "+0.20 移動速度"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_Bodytrait",
+      "name": "柔軟な身体"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmyは自身は正しいと思っています.\nその確固たる信念はまるで信仰心のように自分の意志に肯定的な影響を与えますが,他人の意見を無視する傾向もあります.",
+      "stats": [
+        "-9% 精神的弱さ",
+        "+10% 基本的な作業速度",
+        "+50% 全体的な信仰度の損失率"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-9% 精神的弱さ",
+          "+10% 基本的な作業速度",
+          "+50% 全体的な信仰度の損失率"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_Mentaltrait",
+      "name": "独善的"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "強い指導力を持った人物は常に肯定的であれ否定的であれ周辺の人々に影響を及ぼします.\nそんな人物がどんな道を選ぶか,どんな人生を生きていくかは誰にもわかりません.しかしひとつ確かなのは,人知れず消えてしまうような平凡な人物はそんな人物にはなれないということです.\n\nTimmyは生まれつきそんな才能を持っています.",
+      "stats": [
+        "-100% 精神的弱さ"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-100% 精神的弱さ"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_Mountaintrait",
+      "name": "指導者の器"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmyは小さな音すら聞き逃さない敏感な耳を持っています.\n音に敏感だという点は,集落の外での生活では長所たり得ますが,深く眠ることができないという短所でもあります.",
+      "stats": [
+        "-20% 休息しやすさ",
+        "+8.0 回避率(白兵戦)",
+        "+2.0 命中率(白兵戦)"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-20% 休息しやすさ",
+          "+8.0 回避率(白兵戦)",
+          "+2.0 命中率(白兵戦)"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_Eartrait",
+      "name": "敏感な耳"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmyは実験的に培養されたマルです.\n他のマルより優れた身体能力を持っていますが,不完全な設計で作られたため,自己免疫力が非常に劣ります.",
+      "stats": [
+        "-16% 免疫を得る速度",
+        "+15.0 回避率(白兵戦)",
+        "+0.60 移動速度"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-16% 免疫を得る速度",
+          "+15.0 回避率(白兵戦)",
+          "+0.60 移動速度"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_Prototype",
+      "name": "試作体"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "偉業を成し遂げる才能の片鱗です.",
+      "stats": [
+        "+75% 身につけやすさ"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+75% 身につけやすさ"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_MountainA",
+      "name": "飽くなき探求心"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "偉業を成し遂げる才能の片鱗です.",
+      "stats": [
+        "-14% 精神的弱さ",
+        "+40% 基本的な作業速度"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-14% 精神的弱さ",
+          "+40% 基本的な作業速度"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_MountainB",
+      "name": "知的好奇心"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "偉業を成し遂げる才能の片鱗です.",
+      "stats": [
+        "+150.00% 外交力",
+        "+150.00% 政治力"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+150.00% 外交力",
+          "+150.00% 政治力"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_MountainC",
+      "name": "保守継続"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "偉業を成し遂げる才能の片鱗です.",
+      "stats": [
+        "-25% 精神的弱さ"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-25% 精神的弱さ"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Maru Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "MRT_MountainD",
+      "name": "摩耗と信念"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "TimmyはPAWN_alienRaceの戦闘狂で、彼は狩りを栄誉あることだとは一切思っておらず、他の氏族とは異なり、彼の氏族と一緒に非武装の獲物を狩ります。彼は冷酷非情なハンターで、彼は加虐嗜好も持ち合わせており、狩りの最中は獲物が感じている恐怖を味わうことが楽しいようです。Timmyの残虐性に反して、彼は非常に優れた戦士でもあり、人間、ゼノモーフやプレデターなどとの幾度の戦いにも必ず勝利することからそれを証明しています。当然ながら彼の傲慢さはいつか自身の身を滅ぼすでしょう。/n/n彼は他の人より4倍ほど喧嘩っ早いです。",
+      "stats": [
+        "+4 格闘",
+        "-4 知力",
+        "-4 社交",
+        "+4.0 命中率(白兵戦)",
+        "+15.0 回避率(白兵戦)",
+        "+60% 痛みへの限界値",
+        "-50% 照準時間",
+        "-5.0 命中率(射撃)"
+      ],
+      "conflicts": [
+        "弱虫"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "弱虫"
+        ],
+        "stats": [
+          "+4 格闘",
+          "-4 知力",
+          "-4 社交",
+          "+4.0 命中率(白兵戦)",
+          "+15.0 回避率(白兵戦)",
+          "+60% 痛みへの限界値",
+          "-50% 照準時間",
+          "-5.0 命中率(射撃)"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Alien Vs Predator",
+        "karmaTypeForAdding": null
+      },
+      "defName": "AvP_Berserker",
+      "name": "バーサーカー"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a defective inhibitor.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Alien Vs Predator",
+        "karmaTypeForAdding": null
+      },
+      "defName": "AvP_DefectiveInhibitor",
+      "name": "defectiveinhibitor"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1,
+      "description": "TimmyはPAWN_alienRaceの中では非常にがっしりした体型で、彼はPAWN_alienRaceの種族と同じようにジャンプできずいつでもグループから遅れを取っています。しかしその生まれ持った筋力は、PAWN_alienRaceの種族の平均と比較しても遥かに超えるほどです。",
+      "stats": [
+        "熱狂的な意欲インスピレーションが無効になっています。",
+        "-0.20 移動速度",
+        "-35% 基本的な作業速度",
+        "-2.0 命中率(白兵戦)",
+        "-15.0 回避率(白兵戦)",
+        "+30% 痛みへの限界値"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "熱狂的な意欲インスピレーションが無効になっています。",
+          "-0.20 移動速度",
+          "-35% 基本的な作業速度",
+          "-2.0 命中率(白兵戦)",
+          "-15.0 回避率(白兵戦)",
+          "+30% 痛みへの限界値"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Alien Vs Predator",
+        "karmaTypeForAdding": null
+      },
+      "defName": "YautjaBuild",
+      "name": "鈍重"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1,
+      "description": "TimmyはPAWN_alienRaceの中では非常に細身で、彼はPAWN_alienRaceの平均よりも高く飛べ素早く動けるため致命的な攻撃もTimmyなら躱せますが、その反面Timmyの生まれ持った筋力はPAWN_alienRaceの種族平均よりも弱いです。",
+      "stats": [
+        "+0.40 移動速度",
+        "+4.0 命中率(白兵戦)",
+        "+15.0 回避率(白兵戦)",
+        "-20% 痛みへの限界値"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.40 移動速度",
+          "+4.0 命中率(白兵戦)",
+          "+15.0 回避率(白兵戦)",
+          "-20% 痛みへの限界値"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Alien Vs Predator",
+        "karmaTypeForAdding": null
+      },
+      "defName": "YautjaBuild",
+      "name": "痩身"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1,
+      "description": "美しさとは時に人を狂わせる、それが魔性であるのならば人の尊厳すらも溶かすだろう。",
+      "stats": [
+        "陰鬱瞑想フォーカスタイプが許可されています。",
+        "+6.0 美しさ",
+        "+1.0 魔性",
+        "+50% 栽培・速度",
+        "+30% 栽培・収率",
+        "+100% 研究・速度",
+        "+50% 看護・速度",
+        "+30% 看護・品質",
+        "+50% 医療・処置速度",
+        "+30% 外科手術の成功率",
+        "x50% 全体的な信仰度の損失率",
+        "x100% 回避率(白兵戦)"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。",
+          "+6.0 美しさ",
+          "+1.0 魔性",
+          "+50% 栽培・速度",
+          "+30% 栽培・収率",
+          "+100% 研究・速度",
+          "+50% 看護・速度",
+          "+30% 看護・品質",
+          "+50% 医療・処置速度",
+          "+30% 外科手術の成功率",
+          "x50% 全体的な信仰度の損失率",
+          "x100% 回避率(白兵戦)"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[Aya]Nearmare Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "HAR_NM_Trait_a",
+      "name": "魔女"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1,
+      "description": "神の子と称されるほどのカリスマを持つ。\n誰とでも友達になれるだろう。",
+      "stats": [
+        "陰鬱瞑想フォーカスタイプが許可されています。",
+        "+2.0 美しさ",
+        "+200% 研究・速度",
+        "+100% 看護・速度",
+        "+70% 看護・品質",
+        "+100% 医療・処置速度",
+        "+90% 外科手術の成功率"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "陰鬱瞑想フォーカスタイプが許可されています。",
+          "+2.0 美しさ",
+          "+200% 研究・速度",
+          "+100% 看護・速度",
+          "+70% 看護・品質",
+          "+100% 医療・処置速度",
+          "+90% 外科手術の成功率"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[Aya]Littluna Race",
+        "karmaTypeForAdding": null
+      },
+      "defName": "HAR_LL_Trait_a",
+      "name": "神子"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has received the blessing of machine god Zir!\nTimmy is able to easily understand the inner workings of machines and devices, allowing 彼を to craft and build items of higher quality as well as work faster.",
+      "stats": [
+        "+50% メカノイド・寸断収率",
+        "+100% 建造・成功率",
+        "x125% 作業・速度",
+        "x150% 溶解・速度",
+        "x125% 建造・速度",
+        "x200% メカノイド・寸断速度"
+      ],
+      "conflicts": [
+        "zir'scorruption"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "zir'scorruption"
+        ],
+        "stats": [
+          "+50% メカノイド・寸断収率",
+          "+100% 建造・成功率",
+          "x125% 作業・速度",
+          "x150% 溶解・速度",
+          "x125% 建造・速度",
+          "x200% メカノイド・寸断速度"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimForge",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RF_BlessingOfZir",
+      "name": "blessingofzir"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy's mind has been twisted by Zir!\nAn obsession or hatred revolving around Machine God Zir has lead this individual to madness, but also unlocked previously unknown physical prowess.",
+      "stats": [
+        "x25% 作業・速度",
+        "x300% 移動速度",
+        "x400% 精神的弱さ",
+        "x150% 命中率(白兵戦)"
+      ],
+      "conflicts": [
+        "blessingofzir"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "blessingofzir"
+        ],
+        "stats": [
+          "x25% 作業・速度",
+          "x300% 移動速度",
+          "x400% 精神的弱さ",
+          "x150% 命中率(白兵戦)"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimForge",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RF_ZirsCorruption",
+      "name": "zir'scorruption"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy は妹や姉が大好きです。",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "なかよし兄弟",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SCBC_SisterComplex",
+      "name": "シスコン"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy は弟や兄が大好きです。",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "なかよし兄弟",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SCBC_BrotherComplex",
+      "name": "ブラコン"
     }
   ],
   "races": [
@@ -12474,7 +13152,7 @@
       "defName": "Alien_Equium",
       "enabled": true,
       "name": "equium",
-      "price": 2084
+      "price": 1042
     },
     {
       "data": {
@@ -12506,7 +13184,7 @@
         "mod": "Unknown",
         "karmaType": null
       },
-      "description": "これらの人型猫は、もともとグリッターワールドの「高級な」コンパニオンとして作られました。",
+      "description": "Glitterworld生体工学の素晴らしい贈り物です.ネコ耳としっぽを持つ人型生命体です.",
       "defName": "Alien_Nyaron",
       "enabled": true,
       "name": "ニャロン",
@@ -12692,6 +13370,7 @@
           "-60.0C 快適と感じる最低気温",
           "+26.0C 快適と感じる最高気温",
           "+35 生皮の量",
+          "+4 名誉値",
           "+120% 研究・速度",
           "+95% 掘削・速度",
           "+120.00% 政治力",
@@ -12717,6 +13396,7 @@
           "+0.0C 快適と感じる最低気温",
           "+26.0C 快適と感じる最高気温",
           "+35 生皮の量",
+          "+4 名誉値",
           "+110% 研究・速度",
           "+98% 掘削・速度",
           "+125.00% 政治力",
@@ -13026,7 +13706,7 @@
       "defName": "HAR_Idhale",
       "enabled": true,
       "name": "イドヘール",
-      "price": 2084
+      "price": 1042
     },
     {
       "data": {
@@ -13478,7 +14158,7 @@
       "defName": "AT_TriJaw",
       "enabled": true,
       "name": "アンティ トライジョウ",
-      "price": 2500
+      "price": 1250
     },
     {
       "data": {
@@ -13539,7 +14219,7 @@
       "defName": "AT_dreadnought",
       "enabled": true,
       "name": "アンティ ドレッドノート",
-      "price": 2500
+      "price": 1250
     },
     {
       "data": {
@@ -13600,7 +14280,7 @@
       "defName": "AT_Hiveguard",
       "enabled": true,
       "name": "アンティ ハイブガード",
-      "price": 2500
+      "price": 1250
     },
     {
       "data": {
@@ -13662,7 +14342,7 @@
       "defName": "Anty",
       "enabled": true,
       "name": "アンティ",
-      "price": 6667
+      "price": 3333
     },
     {
       "data": {
@@ -13689,7 +14369,7 @@
       "defName": "HAR_EL_Race_Eveliet_a",
       "enabled": true,
       "name": "イヴリート",
-      "price": 3333
+      "price": 1666
     },
     {
       "data": {
@@ -13836,7 +14516,7 @@
       "defName": "Kalia_Centurio",
       "enabled": true,
       "name": "センチュリオンカリア",
-      "price": 13333
+      "price": 6664
     },
     {
       "data": {
@@ -13896,7 +14576,7 @@
       "defName": "Alien_ZEquium",
       "enabled": true,
       "name": "zebra equine",
-      "price": 5000
+      "price": 2500
     },
     {
       "data": {
@@ -13932,7 +14612,7 @@
       "defName": "Alien_UniEquium",
       "enabled": true,
       "name": " unicorn equium",
-      "price": 5000
+      "price": 2500
     },
     {
       "data": {
@@ -13970,7 +14650,7 @@
       "defName": "Alien_DonkEquium",
       "enabled": true,
       "name": "donkey equine",
-      "price": 5000
+      "price": 2500
     },
     {
       "data": {
@@ -14026,6 +14706,1119 @@
       "enabled": true,
       "name": "セレン",
       "price": 3333
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$2500 金額",
+          "+6.50 移動速度",
+          "+65.00 重量",
+          "+100% 燃えやすさ",
+          "+1.0C 快適と感じる最低気温",
+          "+40.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+120% 研究・速度",
+          "+100% 掘削・速度",
+          "+100.00% 政治力",
+          "+150% 精神感応性",
+          "+100% 免疫を得る速度",
+          "+1.2 命中率(射撃)",
+          "+2.0 回避率(白兵戦)",
+          "+10.0% アーマー - 打撲系",
+          "+10.0% アーマー - 突刺系",
+          "+80% 痛みへの限界値",
+          "+100.00% 外交力",
+          "+100% 売値掛け率",
+          "+100.00% 手懐け成功率",
+          "+100.00% 調教成功率",
+          "+100% 毒環境耐性",
+          "+1.1 調理・速度",
+          "+110% 看護・速度",
+          "+110% 看護・品質",
+          "+110% 医療・処置速度",
+          "+150% 食肉加工・速度",
+          "+110% 食肉加工・収率",
+          "+110% 栽培・速度",
+          "+110% 栽培・収率"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "異質さを感じさせる謎のニアメーア。\n『ウィンゲイト』と名乗るが、そのような人工種族はデータベースにも存在しません。\n「魂と肉体の二つの名を持つ」とも語り、それ以外のプロフィールは不明のままです。\n\n生物学者を思わせる知識や技術を持ち、更に医療や薬の配合にも明るい。\n死体から薬材を採取できれば、コロニーの為に有益な薬を処方してくれるでしょう。\n\nニアメーアを名乗りますが、固有能力であった眷属召喚が出来ません。\nその代わり肉体面の強度が人間レベルまで改善しています。\nまた人生経験が豊富なのか精神面が打たれ強く、余程のことがない限り精神崩壊することはないでしょう。\n\n\n旧い情報にはかつて創造主の助手にウィンゲイトという女性がいたという。\n彼女の死後、突然人が変わったように振る舞うニアメーアが一定周期で現れるようになった。\nこれらが関係しているかどうか…その真相は未だ闇の中である。",
+      "defName": "HAR_Nearmaere_d",
+      "enabled": true,
+      "name": "ニアメーア・ウィンゲイト",
+      "price": 2083
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$2500 金額",
+          "+50% 燃えやすさ",
+          "+4.00 移動速度",
+          "+35% 精神的弱さ",
+          "+20.0C 快適と感じる最高気温",
+          "+8.0C 快適と感じる最低気温",
+          "+110% 免疫を得る速度",
+          "+75 輸送能力",
+          "+80 生肉の量",
+          "+50 生皮の量",
+          "+75.00 重量",
+          "+80% 痛みへの限界値",
+          "+120% 精神感応性",
+          "+0.8 回避率(白兵戦)",
+          "+1.0 命中率(白兵戦)",
+          "+100% 照準時間",
+          "+1.0 命中率(射撃)",
+          "+100% 売値掛け率",
+          "+100.00% 外交力",
+          "+100.00% 商人の勘",
+          "+100.00% 政治力",
+          "+100% メカノイド・寸断収率",
+          "+100% メカノイド・寸断速度",
+          "+100% 溶解・速度",
+          "+85% 作業・速度",
+          "+100% 食肉加工・収率",
+          "+100% 食肉加工・速度",
+          "+100.00% 食中毒・発生率",
+          "+1.0 調理・速度",
+          "+100% 休息しやすさ",
+          "+100% 栽培・速度",
+          "+100% 研究・速度",
+          "+130% 合成・速度",
+          "+120% 看護・速度",
+          "+115% 看護・品質",
+          "+115% 外科手術の成功率",
+          "+100% 掘削・速度",
+          "+100% 掘削・収率",
+          "+100% 狩り",
+          "+0% 毒環境耐性",
+          "+4 名誉値"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A humanoid race living in cities under the sea. Having traits similar to sea creatures, their blood contains substances that can be used for various medicaluses.\n\nDescendants of glitterworld explorers who settled in the deep sea, generations of body modifications have led to their current form. Spreading far and wide into the rim, they built many cities and prospered. Until now.",
+      "defName": "Alien_Moyo",
+      "enabled": true,
+      "name": "Moyo",
+      "price": 2083
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$2800 金額",
+          "+35% 燃えやすさ",
+          "+4.50 移動速度",
+          "+35% 精神的弱さ",
+          "+30.0C 快適と感じる最高気温",
+          "+10.0C 快適と感じる最低気温",
+          "+120% 傷の治りやすさ",
+          "+120% 休息しやすさ",
+          "+200% 食事の早さ",
+          "+0.00% 食中毒・発生率",
+          "+135% 免疫を得る速度",
+          "+150 輸送能力",
+          "+100 生肉の量",
+          "+60 生皮の量",
+          "+90.00 重量",
+          "+80% 痛みへの限界値",
+          "+5% 精神感応性",
+          "+1.0 命中率(白兵戦)",
+          "+0.9 回避率(白兵戦)",
+          "+75% 照準時間",
+          "+1.0 命中率(射撃)",
+          "+55.00% 政治力",
+          "+100% 売値掛け率",
+          "+100.00% 外交力",
+          "+100.00% 商人の勘",
+          "+100% メカノイド・寸断収率",
+          "+100% メカノイド・寸断速度",
+          "+100% 溶解・速度",
+          "+100% 食肉加工・収率",
+          "+100% 食肉加工・速度",
+          "+1.0 調理・速度",
+          "+100% 栽培・速度",
+          "+100% 研究・速度",
+          "+100% 掘削・速度",
+          "+100% 掘削・収率",
+          "+100% 狩り",
+          "+0% 毒環境耐性",
+          "+2 名誉値",
+          "+115% 作業・速度",
+          "+100% 合成・速度",
+          "+120% 看護・速度",
+          "+100% 看護・品質",
+          "+100% 外科手術の成功率"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A subspecies of the Moyo race, usually babies born after Moyo fertilized by creature infected with the Leviathan virus. And because the symbiotic virus affects, most of them have strange personalities, but not intrinsically bad.",
+      "defName": "Alien_RedMoyo",
+      "enabled": true,
+      "name": "Red Moyo",
+      "price": 2083
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$1500 金額",
+          "+8.00 移動速度",
+          "+60.00 重量",
+          "+100% 燃えやすさ",
+          "-10.0C 快適と感じる最低気温",
+          "+48.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+130% 研究・速度",
+          "+130% 掘削・速度",
+          "+100.00% 政治力",
+          "+100% 精神感応性",
+          "+100% 免疫を得る速度",
+          "+70% 痛みへの限界値",
+          "+130% 基本的な作業速度",
+          "+130% 栽培・速度",
+          "+130% 建造・速度",
+          "+130% 作業・速度",
+          "+1.3 調理・速度",
+          "+130% 溶解・速度",
+          "+130% 合成・速度",
+          "+130% 看護・速度",
+          "+130% 医療・処置速度"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "シルキーラ・クオリティは亜人工業がシルキーラ自身の品種改良を続た末に誕生した上位個体です。\n「才能」という点に着目して設計されたため特殊な力は保有していません、しかしあらゆる分野において高い適性を持ち、どのような状況でもそれらに対応が可能となっています。\n\n亜人工業内では統括や管理など上位の立場についていることが多く、損失を可能な限り控えていることから通常人目に姿を見せることはありません。\nもし彼女が仲間に加わった場合、コロニー活動においてはその才能と手腕を武器に縦横無尽に活躍してくれるでしょう。",
+      "defName": "HAR_Silkiera_b",
+      "enabled": true,
+      "name": "シルキーラ・クオリティ",
+      "price": 2500
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$10000 金額",
+          "+9.00 移動速度",
+          "+60.00 重量",
+          "+0% 燃えやすさ",
+          "-300.0C 快適と感じる最低気温",
+          "+300.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+100% 研究・速度",
+          "+115% 掘削・速度",
+          "+100.00% 政治力",
+          "+100% 精神感応性",
+          "+100% 免疫を得る速度",
+          "+90% 痛みへの限界値",
+          "+115% 基本的な作業速度",
+          "+60.0% アーマー - 打撲系",
+          "+60.0% アーマー - 突刺系",
+          "+200.0% アーマー - 熱系",
+          "+60% 受けるダメージ倍率"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "『邪謀種シルキーラ・ヴィクセンマリス』は種として脆いシルキーラを纏める為に用意された上位個体です。\n亜人工業では幹部クラスに相当し表向き顔役のリーダーを影から補佐しています。\n\n狡猾で残忍、それでいて反撃を許さない立ち回りを器用にこなす恐ろしさを持っており、その手腕が現在の亜人工業を支える支柱にもなっています。\n創造主が健在な頃は主の忠実な僕でしたが、手綱を握る者がいない今はヴィクセンマリス同士で連携しながら亜人工業を盛り立て、機会があれば狂宴を開いていると言われています。\n\n上位種として高い膂力を持っていますが妖術の使い手でもあり、『幻惑によって射撃を無効化』、『血を伴う呪詛、及び敵意に対する呪詛返し』といったジワジワと相手を痛めつける術を好んで使っているようです。\n\n余程の変わり者でない限り残忍な性格をしているのでコロニーでの活動では他の入植者との折り合いを付ける為の工夫が必要とされるでしょう。",
+      "defName": "HAR_Silkiera_c",
+      "enabled": true,
+      "name": "シルキーラ・ヴィクセンマリス",
+      "price": 16667
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+55.00 重量",
+          "+100% 燃えやすさ",
+          "+$2000 金額",
+          "+4.85 移動速度",
+          "+38% 精神的弱さ",
+          "+26.0C 快適と感じる最高気温",
+          "+16.0C 快適と感じる最低気温",
+          "+0% 毒耐性",
+          "+0% 毒環境耐性",
+          "+100% 免疫を得る速度",
+          "+75 輸送能力",
+          "+60 生肉の量",
+          "+50 生皮の量",
+          "+80% 痛みへの限界値",
+          "+120% 精神感応性",
+          "+0.9 回避率(白兵戦)",
+          "+0.8 命中率(白兵戦)",
+          "+80% 照準時間",
+          "+1.2 命中率(射撃)",
+          "+100.00% 外交力",
+          "+100% 売値掛け率",
+          "+100.00% 政治力",
+          "+100% メカノイド・寸断収率",
+          "+100% メカノイド・寸断速度",
+          "+100% 溶解・速度",
+          "+100% 作業・速度",
+          "+100% 食肉加工・収率",
+          "+100% 食肉加工・速度",
+          "+100.00% 食中毒・発生率",
+          "+1.0 調理・速度",
+          "+100% 休息しやすさ",
+          "+100% 栽培・速度",
+          "+120% 研究・速度",
+          "+110% 看護・品質",
+          "+120% 合成・速度",
+          "+120% 外科手術の成功率",
+          "+80% 掘削・速度",
+          "+100% 掘削・収率"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "ウサギの遺伝子を持つエイリアン種族で戦争や研究、医学に優れた月面都市の住民たちです。\n\n星間移動可能な技術を持つ文明を持ち、さまざまな宙域に進出して、衛星を持つ惑星を見つけてその月に都市を建設しています。\n\n遠く離れた長い距離が原因で、他の星系に居るラビたちとは断絶されています。",
+      "defName": "Rabbie",
+      "enabled": true,
+      "name": "ラビ",
+      "price": 3333
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+60.00 重量",
+          "+100% 燃えやすさ",
+          "+$6000 金額",
+          "+10 名誉値",
+          "+6.00 移動速度",
+          "+1.0 美しさ",
+          "+25% 精神的弱さ",
+          "+35.0C 快適と感じる最高気温",
+          "+10.0C 快適と感じる最低気温",
+          "+25% 毒耐性",
+          "+25% 毒環境耐性",
+          "+150% 免疫を得る速度",
+          "+100 輸送能力",
+          "+70 生肉の量",
+          "+55 生皮の量",
+          "+95% 痛みへの限界値",
+          "+25% 精神感応性",
+          "+1.2 回避率(白兵戦)",
+          "+1.1 命中率(白兵戦)",
+          "+75% 照準時間",
+          "+1.4 命中率(射撃)",
+          "+125.00% 外交力",
+          "+125% 売値掛け率",
+          "+125.00% 政治力",
+          "+110% メカノイド・寸断収率",
+          "+75% メカノイド・寸断速度",
+          "+100% 溶解・速度",
+          "+100% 作業・速度",
+          "+110% 食肉加工・収率",
+          "+75% 食肉加工・速度",
+          "+25.00% 食中毒・発生率",
+          "+0.8 調理・速度",
+          "+120% 休息しやすさ",
+          "+100% 栽培・速度",
+          "+110% 研究・速度",
+          "+120% 看護・品質",
+          "+120% 合成・速度",
+          "+120% 外科手術の成功率",
+          "+100% 掘削・速度",
+          "+100% 掘削・収率"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "書姫(ブッキ)は,はるか遠くの惑星の先住民族が,自分たちの実りある生活のために,先史時代の遺跡から発見された技術や機械を使って作り出したクローン種族で,遺伝子改造された肉体と電子インプラントで構成され,極めて高度な情報ネットワークでお互いに繋がっています.",
+      "defName": "SecretaryClone",
+      "enabled": true,
+      "name": "書姫",
+      "price": 5000
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+45.00 重量",
+          "+90% 燃えやすさ",
+          "+$1250 金額",
+          "+85 輸送能力",
+          "+70% 痛みへの限界値",
+          "+35 生肉の量",
+          "+35 生皮の量",
+          "+16.0C 快適と感じる最低気温",
+          "+36.0C 快適と感じる最高気温",
+          "+125% 建造・速度",
+          "+150% 地面をならす速度",
+          "+125% 掃除速度乗数",
+          "+30% 罠発動確率",
+          "+5.80 移動速度",
+          "+50% 掘削・速度",
+          "+50% 掘削・収率",
+          "+50% 精神感応性",
+          "+0% 生殖能力",
+          "+1 名誉値",
+          "+100% ハチミツ採集速度",
+          "+100% ハチミツ採集率",
+          "+100% 植物資源採集速度",
+          "+100% 植物資源採集率"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "ミツバチと似た生態を持って生きている一種の妖精のような種族です.\n\nその起源は不明ですが,彼女たちの生活様式はほとんどミツバチのそれと似ており,一般的な人間とは異なり,単性生殖で繁殖し,独自の意思疎通方法を持っていると言われており,寿命が短めです.\n\nビビの遺伝子は他の生物に比べて異常に突然変異が起こりやすい特徴があり,ランダムに変異した遺伝子を持って生まれることがよくあります.このため,単性生殖にもかかわらず,多彩な遺伝分布を示します.\n\n\n一般的にビビたちは巣の近くでしか生活しないため,なかなか姿を見かけることはありませんが,新しい巣を作るために放浪生活をするビビたちをまれに見ることができます.",
+      "defName": "VV_Vivi",
+      "enabled": true,
+      "name": "ビビ",
+      "price": 2083
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+55.00 重量",
+          "+50% 燃えやすさ",
+          "+3 名誉値",
+          "+$2200 金額",
+          "+5.00 移動速度",
+          "+35% 精神的弱さ",
+          "+26.0C 快適と感じる最高気温",
+          "-1.0C 快適と感じる最低気温",
+          "+100% 免疫を得る速度",
+          "+75 輸送能力",
+          "+60 生肉の量",
+          "+50 生皮の量",
+          "+80% 痛みへの限界値",
+          "+100% 精神感応性",
+          "+1.2 回避率(白兵戦)",
+          "+1.0 命中率(白兵戦)",
+          "+100% 照準時間",
+          "+1.0 命中率(射撃)",
+          "+100% 売値掛け率",
+          "+90.00% 外交力",
+          "+90.00% 商人の勘",
+          "+90.00% 政治力",
+          "+100% メカノイド・寸断収率",
+          "+100% メカノイド・寸断速度",
+          "+100% 溶解・速度",
+          "+100% 作業・速度",
+          "+100% 食肉加工・収率",
+          "+100% 食肉加工・速度",
+          "+100.00% 食中毒・発生率",
+          "+1.0 調理・速度",
+          "+90% 休息しやすさ",
+          "+80% 栽培・速度",
+          "+100% 研究・速度",
+          "+100% 看護・品質",
+          "+100% 合成・速度",
+          "+100% 外科手術の成功率",
+          "+100% 掘削・速度",
+          "+100% 掘削・収率",
+          "+110% 狩り"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "名も知らぬ文明の廃墟に住む種族です.極北人,ユキヒョウなどとも呼ばれ,広範囲にわたって小さな社会を形成して暮らしています.",
+      "defName": "Maru",
+      "enabled": true,
+      "name": "マル",
+      "price": 3667
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+85.00 重量",
+          "+$3500 金額",
+          "+5.50 移動速度",
+          "+60% 燃えやすさ",
+          "+20.0C 快適と感じる最低気温",
+          "+40.0C 快適と感じる最高気温",
+          "+55 生皮の量",
+          "+200 輸送能力",
+          "+75% 照準時間",
+          "+2.5% 精神的弱さ",
+          "+125% 免疫を得る速度",
+          "+90% 痛みへの限界値",
+          "+105% 身につけやすさ",
+          "+1.1 回避率(白兵戦)",
+          "+1.1 命中率(白兵戦)",
+          "+50.00% 外交力",
+          "+50.00% 政治力",
+          "+50.00% 商人の勘",
+          "+130% 食肉加工・速度",
+          "+130% 食肉加工・収率"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "訳注:ここは、AVPMODの作者は一切何も書いていませんが、海外のAVPwikiから引っ張ってきた、プレデターの種族しての簡易的な説明をしたいと思います。 \n\n Yautja　(発音の設定はブレており、半公式だがコミックスのみの設定で映画で一切この単語を発言しておらず、完全に定まってないため、表音文字のカタカナで書くのは不正確と判断した) はプレデター(捕食者)やハンターの俗称でも知られる、名誉やスポーツのために人間も含めた危険な種族を狩猟する、地球外の知的生命体です。 知覚能力を持ち、地球の大気に似た惑星では呼吸もできる人型種族ですが、人間のテクノロジーを遥かに凌駕する技術を持っています。 刃物や槍や網などの原始的な武器と、光学迷彩やエネルギー兵器などの超文明的な武器類を組み合わせて使い、狩りを行います。 プレデターは時々獲物を儀式的に解体して、殺しの名誉として戦利品を得ます。 星間航行が可能な宇宙船を持っており、世紀を跨いで地球上で狩りをし、エンジニア(たぶんエイリアンシリーズで出てきた人類の生みの親と目され、人類とDNA配列が全く同じ種族)と、人類より先に接触していました。 若いプレデターの通過儀礼の一つとして使う狩猟用に、ゼノモーフ(エイリアン)をわざと繁殖させることも知られています。 \n ここから訳者解説:温度適正は熱帯・亜熱帯よりで人類よりもやや高い気温を好むが、母星や現住惑星の存在はコミックス・映画共に不明。 人間より遥かに高い物理耐性と身体能力を持つ。 聴覚も鋭く、映画AVPではフェイスハガーの跳躍音やゼノモーフの忍び寄る音に反応できるほど。 視力はマスクの能力で光彩視などの補佐を行うが、裸眼では赤外線視(サーモグラフィーのアレ)のみらしく、映画第一作では泥に塗れたシュワちゃんを発見出来なかったり、第二作では炎が立ち込める場所で視界が著しく悪くなっていた。 メタンガスを吸ってるようで、短時間なら地球の大気圏内でも生存できるが、長期間になればマスクを被らないと駄目らしい。 ちなみに風呂には入る習慣がなく体臭が強烈。",
+      "defName": "AvP_Alien_Yautja",
+      "enabled": true,
+      "name": "Yautja",
+      "price": 2916
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$5000 金額",
+          "+4.80 移動速度",
+          "+80% 燃えやすさ",
+          "-10.0C 快適と感じる最低気温",
+          "+30.0C 快適と感じる最高気温",
+          "+40 生皮の量",
+          "+40 生肉の量",
+          "+125 輸送能力",
+          "+0% 精神感応性",
+          "+75% 毒耐性",
+          "+75% 毒環境耐性",
+          "+120% 掘削・速度",
+          "+1.0 命中率(射撃)",
+          "+100% 照準時間",
+          "+2% 精神的弱さ",
+          "+125% 免疫を得る速度",
+          "+100% 痛みへの限界値",
+          "+0 食料調達量",
+          "+130% 身につけやすさ",
+          "+1.2 回避率(白兵戦)",
+          "+1.1 命中率(白兵戦)",
+          "+110% 食肉加工・速度",
+          "+110% 食肉加工・収率",
+          "+110% 溶解・速度",
+          "+110% 作業・速度",
+          "+110.00% 外交力",
+          "+90.00% 政治力",
+          "+80.00% 商人の勘"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "A synthetic being.",
+      "defName": "AvP_Synth",
+      "enabled": true,
+      "name": "Synth",
+      "price": 4166
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$50000 金額",
+          "+10.00 移動速度",
+          "+85.00 重量",
+          "+0% 燃えやすさ",
+          "-30000.0C 快適と感じる最低気温",
+          "+30000.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+110% 研究・速度",
+          "+115% 掘削・速度",
+          "+100.00% 政治力",
+          "+0% 精神感応性",
+          "+80% 免疫を得る速度",
+          "+100% 受けるダメージ倍率",
+          "+0.0% アーマー - 打撲系",
+          "+0.0% アーマー - 突刺系",
+          "+1000.0% アーマー - 熱系",
+          "+90% 痛みへの限界値",
+          "+30% 作業・速度",
+          "+10% 食事の早さ",
+          "+300% 毒耐性",
+          "+300% 毒環境耐性"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イドヘール・アヴォンルアハは創造主が最後に創造したイドヘールの上位種であり、現代においても謎に包まれた人工種族です。\n\nアヴォンルアハについて記録が残っているのはかの大戦前後であり、「『星渡りの鳥』を破壊した種族」というエピソードだけは人工種族たちに広く知られています。\n大戦後アヴォンルアハたちは忽然と姿を消し、以後絶滅したのではと言われるほど目撃例が皆無でしたが、近年再び姿を見せるようになりました。\n現在はエンテレケイアを統治する王族達の王命とは無関係に資産を蓄えたコロニーへの破壊活動を繰り返しています。\n\n創造主の最後の創造物だけあって性能は王族をも上回り、単体で軍隊を相手取ることも可能。\nまた死を超越する権能を創造主から授かっており、蘇生する度により強くなるともいわれています。\n\n通常種と同じで攻撃を無効化する体質ですが攻撃性能を強化した代償で完全ではありません。\n近接攻撃を受けるとそれを無効化しますが、その分だけ遠距離攻撃を防げなくなります。\n\n\n咎霊は確かに大鳥を破壊した、しかしその骸には「あるはずのものがなかった」。\n彼女達は確信する、既に次の厄災は撒かれていたと…",
+      "defName": "HAR_Idhale_b_Player",
+      "enabled": true,
+      "name": "イドヘール・アヴォンルアハ",
+      "price": 41666
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$50000 金額",
+          "+10.00 移動速度",
+          "+85.00 重量",
+          "+0% 燃えやすさ",
+          "-30000.0C 快適と感じる最低気温",
+          "+30000.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+110% 研究・速度",
+          "+115% 掘削・速度",
+          "+100.00% 政治力",
+          "+0% 精神感応性",
+          "+80% 免疫を得る速度",
+          "+100% 受けるダメージ倍率",
+          "+0.0% アーマー - 打撲系",
+          "+0.0% アーマー - 突刺系",
+          "+1000.0% アーマー - 熱系",
+          "+90% 痛みへの限界値",
+          "+30% 作業・速度",
+          "+10% 食事の早さ",
+          "+300% 毒耐性",
+          "+300% 毒環境耐性"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イドヘール・アヴォンルアハは創造主が最後に創造したイドヘールの上位種であり、現代においても謎に包まれた人工種族です。\n\nアヴォンルアハについて記録が残っているのはかの大戦前後であり、「『星渡りの鳥』を破壊した種族」というエピソードだけは人工種族たちに広く知られています。\n大戦後アヴォンルアハたちは忽然と姿を消し、以後絶滅したのではと言われるほど目撃例が皆無でしたが、近年再び姿を見せるようになりました。\n現在はエンテレケイアを統治する王族達の王命とは無関係に資産を蓄えたコロニーへの破壊活動を繰り返しています。\n\n創造主の最後の創造物だけあって性能は王族をも上回り、単体で軍隊を相手取ることも可能。\nまた死を超越する権能を創造主から授かっており、蘇生する度により強くなるともいわれています。\n\n通常種と同じで攻撃を無効化する体質ですが攻撃性能を強化した代償で完全ではありません。\n近接攻撃を受けるとそれを無効化しますが、その分だけ遠距離攻撃を防げなくなります。\n\n\n咎霊は確かに大鳥を破壊した、しかしその骸には「あるはずのものがなかった」。\n彼女達は確信する、既に次の厄災は撒かれていたと…",
+      "defName": "HAR_Idhale_b",
+      "enabled": true,
+      "name": "イドヘール・アヴォンルアハ",
+      "price": 41666
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$10000 金額",
+          "+6.50 移動速度",
+          "+65.00 重量",
+          "+100% 燃えやすさ",
+          "+7.0C 快適と感じる最低気温",
+          "+35.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+100% 研究・速度",
+          "+115% 掘削・速度",
+          "+100.00% 政治力",
+          "+300% 精神感応性",
+          "+90% 免疫を得る速度",
+          "+1.2 命中率(射撃)",
+          "+2.0 回避率(白兵戦)",
+          "+10.0% アーマー - 打撲系",
+          "+10.0% アーマー - 突刺系",
+          "+130% 痛みへの限界値",
+          "+130.00% 外交力",
+          "+130% 売値掛け率",
+          "+110.00% 手懐け成功率",
+          "+110.00% 調教成功率",
+          "+80% 毒環境耐性",
+          "+10% 精神的弱さ"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "『幻景種ニアメーア・アラディア』はニアメーア以降の人工種族から得られた運用データを下に再設計されたニアメーアの完成形となる種です。種の名を呼ぶことも憚られる為か現在の在り様より『棺の君』とも呼ばれ、同族である人工種族達に今も恐れられています。\n\n耐久性は人間と大差ありませんが精神干渉及び召喚能力が強化されており単純な召喚だけでなく様々なエネルギーを呼び出すことが可能、さらにそれらを遠くの場所に展開するという芸当もできるようになっています。\n\nまるで魔法の如く現象を操る姿はさながら魔女のようで創造主健在時代ではニアメーア達を率いる上位個体としてその力を振るっていたようです。\nただし命令は創造主の命しか聞かずクオリーラの王命には従わないことから当時の人工種族内では独自の立ち位置を持っていたと言われています。\n\n創造主亡き後彼女達は己の力を自由気ままに振るうようになり多くの惑星で災いの中心となりました。\n最終的に現状を重く見た三大派閥によって取り押さえられ極刑としてアラディア根絶の案も出ましたが、せめての慈悲として棺の中に封印されました。\n\n開封後の彼女は表面上は知的な人のように振る舞い、主に研究や医術でコロニーを支えるでしょう。\nしかし心の内は誰にも分らず、また魔性と呼ぶべき美貌でコロニーの人間関係を崩壊させてしまう可能性があります。\n\nニアメーア・アラディアは『遏絶召喚』と呼ばれる禁術を保有しており、もし使うのであれば『エリアに彼女以外のコロニーの住人(動物含む)がいないこと』に注意してください。",
+      "defName": "HAR_Nearmaere_c",
+      "enabled": true,
+      "name": "ニアメーア・アラディア",
+      "price": 8334
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$80000 金額",
+          "+2.00 移動速度",
+          "+12000.00 重量",
+          "-500.0C 快適と感じる最低気温",
+          "+1000.0C 快適と感じる最高気温",
+          "+45 生皮の量",
+          "+100.00% 政治力",
+          "+0% 精神感応性",
+          "+140% 免疫を得る速度",
+          "+0.5 命中率(射撃)",
+          "+1.0 回避率(白兵戦)",
+          "+50.0% アーマー - 打撲系",
+          "+50.0% アーマー - 突刺系",
+          "+50.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+120.00% 外交力",
+          "+120% 売値掛け率",
+          "+110.00% 手懐け成功率",
+          "+110.00% 調教成功率",
+          "+200% 毒耐性",
+          "+0% 燃えやすさ",
+          "+130% 基本的な作業速度",
+          "+100% 作業・速度",
+          "+100% 看護・速度",
+          "+150% 研究・速度",
+          "+120% 掘削・速度",
+          "+120% 建造速度",
+          "+120% 地面をならす速度",
+          "+120% 栽培・速度",
+          "+120% 建造・速度",
+          "+120% 家畜・収穫速度",
+          "+120% メカノイド・寸断速度"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "ネクロース・ウティスフォニアはかの大戦のあと、カナン星系にある宇宙ステーションにて突如発生した異形の生命体です。\n形こそ人工種族に似ているが、創造主のデータバンクにも記録されていません。\n\n人工種族が持っている『ベレシート』とは異なる固有遺伝子を持ちます。\nしかしネクロースに酷似した遺伝子も持つため遺伝子上では人工種族でもあります。\n以上の経緯から『外来種』として登録され人工種族たちに恐れられています。\n\n宇宙ステーションはこの種に汚染されてしまったため、止む無く破棄することで対処。\n自動航行機能に従うままステーションは宇宙を彷徨うことになりました。\n\n以後、ウティスフォニアは各地の星系で姿を見せるようになり脅威になっています。\nその性能・能力も全く未解明な為、もし出会ってしまった場合その対処で大いに苦心することでしょう。\n\n\n宇宙ステーションには創造主が保管していたという『別個体の超存在のサンプル』があり、\nそして管理を任されていたのがネクロースでしたが真相は闇の中です。",
+      "defName": "HAR_Neclose_b",
+      "enabled": true,
+      "name": "ネクロース・ウティスフォニア",
+      "price": 66666
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$20000 金額",
+          "+7.00 移動速度",
+          "+370.00 重量",
+          "+0% 燃えやすさ",
+          "-500.0C 快適と感じる最低気温",
+          "+200.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+100.00% 政治力",
+          "+0% 精神感応性",
+          "+120% 免疫を得る速度",
+          "+70% 受けるダメージ倍率",
+          "+150.0% アーマー - 打撲系",
+          "+150.0% アーマー - 突刺系",
+          "+200.0% アーマー - 熱系",
+          "+3.0 命中率(白兵戦)",
+          "+3.0 回避率(白兵戦)",
+          "+1.2 命中率(射撃)",
+          "+200% 痛みへの限界値",
+          "+200% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+80% 毒環境耐性",
+          "+100% 基本的な作業速度",
+          "+100% 作業・速度",
+          "+50% 看護・速度",
+          "+10% 研究・速度",
+          "+10% 掘削・速度",
+          "+10% 建造速度",
+          "+10% 地面をならす速度",
+          "+10% 栽培・速度",
+          "+10% 建造・速度",
+          "+10% 家畜・収穫速度",
+          "+10% メカノイド・寸断速度"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "『冥王種ゼノオーカ・ヘイダルノイア』はゼノオーカをベースにネクロース・ケイオーラの遺伝子を組み込んだ上位種です。\n深海にまつわる異能を持ち、高い生命力と再生能力を活かした肉弾戦を得意とします。\n\nかの大戦の後、ゼノオーカ達を率いて国家転覆を図り、『神子殺し』の大罪を以って追放された種。\n追放後は部下と共に宙族紛いの虐殺行為に走り、それがオルキヌス旅団の始まりになったと言われています。\n時が経った現在でもオルキヌス旅団の旅団長として活動し、大きなコロニーを相手取る場合は姿を見せることもあるようです。\n各地で見せるその残虐な所業により、人々は畏怖を込めて『淵叢主』と呼んでいます。\n\nヘイダルノイアに触れられると深海の重みで動けなくなるので、一対一の状況は避けるべきでしょう。\nまた時折凄まじい膂力で敵を吹き飛ばし戦線を押し上げて来ることがあるため入り組んだ場所で戦うことは推薦しません。\n戦うのであればヘイダルノイアと部下、二つの戦いを同時に行う必要があります。\n最悪彼女を相手取るのは最低限にし、部下を倒して撤退させる方法も視野に入れるべきです。\n\nかつて創造主の近衛として栄誉を欲しいままにしていたヘイダルノイアがなぜ賊に堕ちたのかは現在でも解っていません。\nただ『リトルーナを念入りに殺している』ことだけは風の噂で聞かれています。",
+      "defName": "HAR_Xenoorca_b",
+      "enabled": true,
+      "name": "ゼノオーカ・ヘイダルノイア",
+      "price": 33333
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$80000 金額",
+          "+3.00 移動速度",
+          "+30.00 重量",
+          "+0% 燃えやすさ",
+          "+10.0C 快適と感じる最低気温",
+          "+32.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+100% 研究・速度",
+          "+100% 掘削・速度",
+          "+100.00% 政治力",
+          "+2500% 精神感応性",
+          "+60% 免疫を得る速度",
+          "+1.0 命中率(射撃)",
+          "+1.0 回避率(白兵戦)",
+          "-40.0% アーマー - 打撲系",
+          "-40.0% アーマー - 突刺系",
+          "+800% 痛みへの限界値",
+          "+500.00% 外交力",
+          "+500% 売値掛け率",
+          "+100.00% 手懐け成功率",
+          "+100.00% 調教成功率",
+          "+0% 精神的弱さ"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "『神子種リトルーナ・デュナミス』は創造主がいずれ来る己の死後、内部分裂を抑えるために用意したイコンです。\nデュナミスの遺伝子には創造主のものが使われており、人工種族にとって正真正銘の神の子であると今なお信仰されています。\n初代神子であるイヴリートに次ぐ階位を持ち、大戦後の世では王族の権威の象徴、そしてアレテイア教会のトップとして活躍していました。\n\n精神能力特化にデザインされた為か、全ての個体の意識が一つに総合された集合精神の構造になっています。\n能力である『思想崇拝』は対象を精神空間に招き、時間の概念の無い場で対話する力です。\nデュナミスはその精神空間で数分あるいは数万年の時を経て対象と親友になるでしょう。\n\nこの強力な能力の代償に、原種以上に身体が脆いため手厚いサポートを必要とします。\n\n大戦で創造主が滅びた後も、デュナミスは神子としてその手腕を発揮していましたが、\n自らの騎士によって全ての個体が惨殺され絶滅してしまいました。\n誰よりも神子と親しかった騎士たちがこのような暴挙に出たのは現代においてもわかっていません。\n\n今この場にいるデュナミスは以上のオリジナルを可能な限り再現したもので性能は幾分劣っています。",
+      "defName": "HAR_Littluna_c",
+      "enabled": true,
+      "name": "リトルーナ・デュナミス",
+      "price": 66666
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$50000 金額",
+          "+8.00 移動速度",
+          "+6000.00 重量",
+          "+0% 燃えやすさ",
+          "-1200.0C 快適と感じる最低気温",
+          "+1200.0C 快適と感じる最高気温",
+          "+25 生皮の量",
+          "+100% 研究・速度",
+          "+100% 掘削・速度",
+          "+100.00% 政治力",
+          "+0% 精神感応性",
+          "+100% 免疫を得る速度",
+          "+1.0 命中率(射撃)",
+          "+1.0 回避率(白兵戦)",
+          "-40.0% アーマー - 打撲系",
+          "-40.0% アーマー - 突刺系",
+          "+800% 痛みへの限界値",
+          "+100.00% 外交力",
+          "+100% 売値掛け率",
+          "+100.00% 手懐け成功率",
+          "+100.00% 調教成功率",
+          "+100% 毒耐性",
+          "+100% 毒環境耐性",
+          "+200.0% アーマー - 熱系"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "リトルーナ・イデアスクラヴォスはリトルーナが何らかの要因で進化した上位種です。\nかつて存在したリトルーナ達の祖先である『神子種リトルーナ・デュナミス』に近しい種であると言われています。\nどのような要因で通常種がイデアスクラヴォスへと変化するのかは未だ科学的に解明できていません。\n\nデュナミスが保有していた力『上位存在の力をその身に宿す』能力をイデアスクラヴォスも使えるようです。\nしかしそれ以外の情報は不思議なほど残されておらず、目撃例もまた極めて稀となっています。\n数少ない生還者からの証言も「狂っている」「化け物になった」「皆血を出して倒れた」など断片的にでしか残されていません。\n\n\n─────────────────────────────────────────\n■オルキヌス旅団　専用駆除プロトコル:-イデアスクラヴォス-\n１）囮目的以外に接近してはいけない\n２）影響を受けて倒れた仲間は早めに救助すること(敵地ではこの限りではない)\n３）威力の高い単発銃器より連射性に優れた銃器を使用する\n４）対象の建造物への破壊力が高いため平地で戦う事\n５）可能であれば旅団長の協力を仰ぐこと\n６）あれはもうリトルーナではない、慈悲があるのなら殺せ\n─────────────────────────────────────────",
+      "defName": "HAR_Littluna_b",
+      "enabled": true,
+      "name": "リトルーナ・イデアスクラヴォス",
+      "price": 41667
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$40000 金額",
+          "+4.00 移動速度",
+          "+200.00 重量",
+          "+50% 燃えやすさ",
+          "-500.0C 快適と感じる最低気温",
+          "+500.0C 快適と感じる最高気温",
+          "+120 生皮の量",
+          "+100.00% 政治力",
+          "+60% AP値(白兵戦)",
+          "+90% 受けるダメージ倍率",
+          "+25% 精神的弱さ",
+          "+150% 精神感応性",
+          "+150% 免疫を得る速度",
+          "+1.0 命中率(射撃)",
+          "+1.0 回避率(白兵戦)",
+          "+130.0% アーマー - 打撲系",
+          "+130.0% アーマー - 突刺系",
+          "+50.0% アーマー - 熱系",
+          "+140% 痛みへの限界値",
+          "+120.00% 外交力",
+          "+100% 売値掛け率",
+          "+150% 休息しやすさ",
+          "+100% 毒耐性",
+          "+200% 傷の治りやすさ",
+          "+100% 基本的な作業速度",
+          "+100% 作業・速度",
+          "+130% 掘削・速度"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "『竜王種ソルアーク・ヘレルレーヴ』はハイエンドタイプであるソルアークを更に強化することを目標に創造され終ぞ完成しなかった上位種です。\n人型に抑えつつも竜と反物質の力を凝縮させることに成功しており、武装できるほか反物質解放のインターバルが短くなっています。\n\nかつてソルアークたちを統べる者として設計されそのように創造されましたが、竜と反物質という強大な力を人型の中で安定させるには永い休眠を必要とし、それ故に創造主時代では完成すること叶いませんでした。\n幸いにも現在では安定化を果たしており暴走の危険性はありません。\n\n最大の特徴は「竜体化」による強力な戦闘形態を持つことです。\n全身を反物質で構成された竜体はあらゆるものを引き裂き蹂躙することが可能となります。\nあくまで竜体を纏っているだけなのでこの状態から銃撃を行うなどの芸当もできるのもこの種の強みと言えるでしょう。\n\n強力無比な性能を持つ反面ソルアーク以上にエネルギーを必要とするため、非常に大喰らいなことに注意してください。\n\n人型タイプであるためニアメーアの服を着ることができます。",
+      "defName": "HAR_Solark_b",
+      "enabled": true,
+      "name": "ソルアーク・ヘレルレーヴ",
+      "price": 33334
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$1000 金額",
+          "+6.50 移動速度",
+          "+300.00 重量",
+          "+0% 燃えやすさ",
+          "+25 生皮の量",
+          "+0% 精神感応性",
+          "+200% 免疫を得る速度",
+          "-10000.0C 快適と感じる最低気温",
+          "+10000.0C 快適と感じる最高気温",
+          "+200% 身につけやすさ",
+          "+200% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+100% 受けるダメージ倍率",
+          "+10.0% アーマー - 打撲系",
+          "+10.0% アーマー - 突刺系",
+          "+300.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+10% 精神的弱さ",
+          "+100% 照準時間",
+          "+1.00 クールダウン時間(遠距離武器)",
+          "+1.0 命中率(射撃)",
+          "+2.0 回避率(白兵戦)",
+          "+10% AP値(白兵戦)"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イデアーンは人工種族の同胞ということと断片的な技術以外記録に残されていない謎の多い種族です。\n幽体と思われていたイドヘールの特性を科学的に再現した技術が導入されており、極限的環境でも活動が可能になっています。\n\n１シーズンの一回「アルケーカードリッジ(ドラック品)」を交換する必要があり、できなければ活動停止し死亡してしまいます。\n\nラケスはイデアーンの基礎型らしく基本性能しか持っていないようです、しかしそれでも人間より遥かに優れているといえるでしょう。",
+      "defName": "HAR_Idearn_Laches_a",
+      "enabled": true,
+      "name": "イデアーン・ラケス",
+      "price": 833
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$1000 金額",
+          "+6.00 移動速度",
+          "+300.00 重量",
+          "+0% 燃えやすさ",
+          "+25 生皮の量",
+          "+0% 精神感応性",
+          "+200% 免疫を得る速度",
+          "-10000.0C 快適と感じる最低気温",
+          "+10000.0C 快適と感じる最高気温",
+          "+200% 身につけやすさ",
+          "+200% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+80% 受けるダメージ倍率",
+          "+50.0% アーマー - 打撲系",
+          "+50.0% アーマー - 突刺系",
+          "+300.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+10% 精神的弱さ",
+          "+80% 照準時間",
+          "+0.80 クールダウン時間(遠距離武器)",
+          "+1.0 命中率(射撃)",
+          "+2.0 命中率(白兵戦)",
+          "+2.0 回避率(白兵戦)",
+          "+50% AP値(白兵戦)"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イデアーンは人工種族の同胞ということと断片的な技術以外記録に残されていない謎の多い種族です。\n幽体と思われていたイドヘールの特性を科学的に再現した技術が導入されており、極限的環境でも活動が可能になっています。\n\n１シーズンの一回「アルケーカードリッジ(ドラック品)」を交換する必要があり、できなければ活動停止し死亡してしまいます。\n\nカルミデスA型は近接に特化した個体です、耐久・装甲もラケスよりも向上しています。",
+      "defName": "HAR_Idearn_Charmides_a",
+      "enabled": true,
+      "name": "イデアーン・カルミデスA型",
+      "price": 833
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$1000 金額",
+          "+10.00 移動速度",
+          "+300.00 重量",
+          "+0% 燃えやすさ",
+          "+25 生皮の量",
+          "+0% 精神感応性",
+          "+200% 免疫を得る速度",
+          "-10000.0C 快適と感じる最低気温",
+          "+10000.0C 快適と感じる最高気温",
+          "+200% 身につけやすさ",
+          "+200% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+90% 受けるダメージ倍率",
+          "+30.0% アーマー - 打撲系",
+          "+30.0% アーマー - 突刺系",
+          "+300.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+10% 精神的弱さ",
+          "+80% 照準時間",
+          "+0.80 クールダウン時間(遠距離武器)",
+          "+1.0 命中率(射撃)",
+          "+1.0 命中率(白兵戦)",
+          "+4.0 回避率(白兵戦)",
+          "+30% AP値(白兵戦)"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イデアーンは人工種族の同胞ということと断片的な技術以外記録に残されていない謎の多い種族です。\n幽体と思われていたイドヘールの特性を科学的に再現した技術が導入されており、極限的環境でも活動が可能になっています。\n\n１シーズンの一回「アルケーカードリッジ(ドラック品)」を交換する必要があり、できなければ活動停止し死亡してしまいます。\n\nカルミデスB型は移動に特化した個体です、耐久・装甲ももラケスよりも向上しています。",
+      "defName": "HAR_Idearn_Charmides_b",
+      "enabled": true,
+      "name": "イデアーン・カルミデスB型",
+      "price": 833
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$25000 金額",
+          "+5.00 移動速度",
+          "+300.00 重量",
+          "+0% 燃えやすさ",
+          "+25 生皮の量",
+          "+0% 精神感応性",
+          "+200% 免疫を得る速度",
+          "-10000.0C 快適と感じる最低気温",
+          "+10000.0C 快適と感じる最高気温",
+          "+200% 身につけやすさ",
+          "+200% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+60% 受けるダメージ倍率",
+          "+90.0% アーマー - 打撲系",
+          "+90.0% アーマー - 突刺系",
+          "+300.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+10% 精神的弱さ",
+          "+80% 照準時間",
+          "+0.80 クールダウン時間(遠距離武器)",
+          "+1.0 命中率(射撃)",
+          "+2.0 命中率(白兵戦)",
+          "+2.0 回避率(白兵戦)",
+          "+50% AP値(白兵戦)"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イデアーンは人工種族の同胞ということと断片的な技術以外記録に残されていない謎の多い種族です。\n幽体と思われていたイドヘールの特性を科学的に再現した技術が導入されており、極限的環境でも活動が可能になっています。\nまた不完全ではありますがアザーサイドが使用可能に。\n\n１シーズンの一回「アルケーカードリッジ(ドラック品)」を交換する必要があり、できなければ活動停止し死亡してしまいます。\n\nメネクセノスA型は妨害に特化した個体です、常時ナノマシンを散布しており周囲にいる敵対存在を弱体化させることができます。",
+      "defName": "HAR_Idearn_Menexenus_a",
+      "enabled": true,
+      "name": "イデアーン・メネクセノスA型",
+      "price": 20833
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$25000 金額",
+          "+10.00 移動速度",
+          "+300.00 重量",
+          "+0% 燃えやすさ",
+          "+25 生皮の量",
+          "+0% 精神感応性",
+          "+200% 免疫を得る速度",
+          "-10000.0C 快適と感じる最低気温",
+          "+10000.0C 快適と感じる最高気温",
+          "+200% 身につけやすさ",
+          "+200% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+60% 受けるダメージ倍率",
+          "+70.0% アーマー - 打撲系",
+          "+70.0% アーマー - 突刺系",
+          "+300.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+10% 精神的弱さ",
+          "+80% 照準時間",
+          "+0.80 クールダウン時間(遠距離武器)",
+          "+1.0 命中率(射撃)",
+          "+2.0 命中率(白兵戦)",
+          "+2.0 回避率(白兵戦)",
+          "+40% AP値(白兵戦)"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イデアーンは人工種族の同胞ということと断片的な技術以外記録に残されていない謎の多い種族です。\n幽体と思われていたイドヘールの特性を科学的に再現した技術が導入されており、極限的環境でも活動が可能になっています。\nまた不完全ではありますがアザーサイドが使用可能に。\n\n１シーズンの一回「アルケーカードリッジ(ドラック品)」を交換する必要があり、できなければ活動停止し死亡してしまいます。\n\nメネクセノスB型は敵を混乱させることに特化した個体です。\n高い機動力を活かし高速で敵陣に肉薄し炎をまき散らすことで足並みを乱し、機械生命体にはEMPで動きを止めて行動を制限します。",
+      "defName": "HAR_Idearn_Menexenus_b",
+      "enabled": true,
+      "name": "イデアーン・メネクセノスB型",
+      "price": 20833
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$50000 金額",
+          "+4.00 移動速度",
+          "+300.00 重量",
+          "+0% 燃えやすさ",
+          "+25 生皮の量",
+          "+0% 精神感応性",
+          "+200% 免疫を得る速度",
+          "-10000.0C 快適と感じる最低気温",
+          "+10000.0C 快適と感じる最高気温",
+          "+200% 身につけやすさ",
+          "+200% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+30% 受けるダメージ倍率",
+          "+140.0% アーマー - 打撲系",
+          "+140.0% アーマー - 突刺系",
+          "+300.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+10% 精神的弱さ",
+          "+80% 照準時間",
+          "+0.80 クールダウン時間(遠距離武器)",
+          "+1.0 命中率(射撃)",
+          "+2.0 命中率(白兵戦)",
+          "+2.0 回避率(白兵戦)",
+          "+80% AP値(白兵戦)"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イデアーンは人工種族の同胞ということと断片的な技術以外記録に残されていない謎の多い種族です。\n幽体と思われていたイドヘールの特性を科学的に再現した技術が導入されており、極限的環境でも活動が可能になっています。\nまたダメージを遮断するアザーサイドが使用可能です。\n\n１シーズンの一回「アルケーカードリッジ(ドラック品)」を交換する必要があり、できなければ活動停止し死亡してしまいます。\n\nテアイテトスA型は女王種レクイーンのデータが使われており軍隊戦術に特化した上位個体です。接近戦に特化した眷属を多数召喚しまた周囲の味方へナノマシンによる強化を施します。",
+      "defName": "HAR_Idearn_Theaetetus_a",
+      "enabled": true,
+      "name": "イデアーン・テアイテトスA型",
+      "price": 41666
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$50000 金額",
+          "+13.00 移動速度",
+          "+300.00 重量",
+          "+0% 燃えやすさ",
+          "+25 生皮の量",
+          "+0% 精神感応性",
+          "+200% 免疫を得る速度",
+          "-10000.0C 快適と感じる最低気温",
+          "+10000.0C 快適と感じる最高気温",
+          "+200% 身につけやすさ",
+          "+200% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+30% 受けるダメージ倍率",
+          "+120.0% アーマー - 打撲系",
+          "+120.0% アーマー - 突刺系",
+          "+300.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+10% 精神的弱さ",
+          "+80% 照準時間",
+          "+0.80 クールダウン時間(遠距離武器)",
+          "+1.0 命中率(射撃)",
+          "+2.0 命中率(白兵戦)",
+          "+2.0 回避率(白兵戦)",
+          "+70% AP値(白兵戦)"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イデアーンは人工種族の同胞ということと断片的な技術以外記録に残されていない謎の多い種族です。\n幽体と思われていたイドヘールの特性を科学的に再現した技術が導入されており、極限的環境でも活動が可能になっています。\nまたダメージを遮断するアザーサイドが使用可能です。\n\n１シーズンの一回「アルケーカードリッジ(ドラック品)」を交換する必要があり、できなければ活動停止し死亡してしまいます。\n\nテアイテトスB型は統括種クオリーラのデータが使われており単独制圧に特化した上位個体です。\n戦略兵器に相当するナノマシンを散布し継続的に多大なダメージを与えることができます。",
+      "defName": "HAR_Idearn_Theaetetus_b",
+      "enabled": true,
+      "name": "イデアーン・テアイテトスB型",
+      "price": 41666
+    },
+    {
+      "data": {
+        "customName": false,
+        "stats": [
+          "+$600000 金額",
+          "+18.00 移動速度",
+          "+300.00 重量",
+          "+0% 燃えやすさ",
+          "+25 生皮の量",
+          "+0% 精神感応性",
+          "+200% 免疫を得る速度",
+          "-10000.0C 快適と感じる最低気温",
+          "+10000.0C 快適と感じる最高気温",
+          "+200% 身につけやすさ",
+          "+500% 傷の治りやすさ",
+          "+100% 毒耐性",
+          "+20% 受けるダメージ倍率",
+          "+200.0% アーマー - 打撲系",
+          "+200.0% アーマー - 突刺系",
+          "+300.0% アーマー - 熱系",
+          "+300% 痛みへの限界値",
+          "+10% 精神的弱さ",
+          "+50% 照準時間",
+          "+0.50 クールダウン時間(遠距離武器)",
+          "+3.0 命中率(射撃)",
+          "+5.0 命中率(白兵戦)",
+          "+5.0 回避率(白兵戦)",
+          "+200% AP値(白兵戦)"
+        ],
+        "mod": "Unknown",
+        "karmaType": null
+      },
+      "description": "イデアーン・クリティアスはかつて創造主を滅ぼし人工種族たちを絶滅の危機に陥れた悪夢の兵器「対上位者決戦自立兵器クリティアス」を人工種族として再現されたものです。\n遥か昔、創造主の技術を危険視した他の宙族達がミュステリオンを奪い今までの人工種族たちのデータを詰め込み抑止力として創造されましたが制御できずに暴走、クオリーラ率いる人工種族たちに壊されるまで多くの星を渡りながら破壊の限りを尽くしました。\n\nクリティアスが齎した傷跡は人工種族たちに大きな影響を与え、\nニアメーアは反逆する機械生命体を憎むようになり。\nシルキーラはその力に魅了され。\nクオリーラはクリティアスが再び生み出されないよう他文明を管理・抑制するようになりました。\n\nクリティアス側もいずれ破壊されることを予見し星渡りの過程で出会った機械生命体達に自らの細胞を埋め込み蘇る布石を打っていたようです。\n過去の出来事からもわかる通りイデアーンという種族は本来存在せずクリティアスがエンテレケイアの目を欺く為に捏造した偽装データでした。\n隠したとしても力と知恵を求める人の欲望が自身を現実へと引き出す…クリティアスがこの場にいる時点でその予測は確かであったようです。\n\n『羽休めはもう終わり、今再び鏖殺の星渡りを始めましょう。』\n\n１シーズンの一回「アルケーカードリッジ(ドラック品)」を交換する必要があり、できなければ活動停止し死亡してしまいます。",
+      "defName": "HAR_Idearn_Critias",
+      "enabled": true,
+      "name": "イデアーン・クリティアス",
+      "price": 500000
     }
   ]
 }
