@@ -6,6 +6,12 @@
     "version": "2.3.1.0"
   },
   {
+    "author": "Neronix17",
+    "name": "Tweaks Galore",
+    "steamId": "2695164414",
+    "version": "3.0.8935.25418"
+  },
+  {
     "author": "nry",
     "name": "ToolkitCore",
     "steamId": "3013877477",
@@ -21,7 +27,7 @@
     "author": "UnlimitedHugs",
     "name": "HugsLib",
     "steamId": "818773962",
-    "version": "11.0.3"
+    "version": "11.0.4"
   },
   {
     "author": "Telefonmast",
@@ -45,7 +51,7 @@
     "author": "void",
     "name": "Character Editor",
     "steamId": "1874644848",
-    "version": "1.5.9.0"
+    "version": "1.5.10.0"
   },
   {
     "author": "Smash Phil",
@@ -84,6 +90,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "Velc",
+    "name": "Hats Display Selection",
+    "steamId": "1542291825",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "UnlimitedHugs",
     "name": "Allow Tool",
     "steamId": null,
@@ -100,12 +112,6 @@
     "name": "1-2-3 Personalities M1",
     "steamId": "2527258500",
     "version": "0.0.0.0"
-  },
-  {
-    "author": "cat2002 - Troopersmith1 - Linq- deathrat",
-    "name": "Death Rattle Continued [1.2+]",
-    "steamId": "2896207870",
-    "version": "1.0.0.0"
   },
   {
     "author": "Dubwise",
@@ -186,12 +192,6 @@
     "version": null
   },
   {
-    "author": "Epicguru",
-    "name": "Melee Animation",
-    "steamId": "2944488802",
-    "version": "1.0.0+8b65f1bec8c6a0b70ed6beb841f092a3f8118c31"
-  },
-  {
     "author": "Haplo",
     "name": "Misc. Training",
     "steamId": null,
@@ -258,18 +258,6 @@
     "version": null
   },
   {
-    "author": "legodude17とOskar Potocki",
-    "name": "Vanilla Outposts Expanded",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "MrHydralisk",
-    "name": "Vanilla Outposts Expanded: Additional Outposts",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "erdelf, Oskar Potocki, legodude17, Taranchuk, xrushha, Sarg Bjornson, Sir Vanと Reann Shepard",
     "name": "Vanilla Psycasts Expanded",
     "steamId": "2842502659",
@@ -285,7 +273,7 @@
     "author": "telardo",
     "name": "Romance On The Rim",
     "steamId": "2654432921",
-    "version": "1.5.0.3"
+    "version": "1.5.1.1"
   },
   {
     "author": "Roolo",
@@ -334,12 +322,6 @@
     "name": "[FSF] Filth Vanishes With Rain And Time",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "KittahKhan",
-    "name": "[Kit] Just A Flesh Wound",
-    "steamId": "2260055393",
-    "version": "1.0.0.0"
   },
   {
     "author": "LingLuo",
@@ -399,7 +381,7 @@
     "author": "Torann",
     "name": "A RimWorld of Magic",
     "steamId": "1201382956",
-    "version": "2.6.2.1"
+    "version": "2.6.3.2"
   },
   {
     "author": "Lucifel",
@@ -498,6 +480,12 @@
     "version": null
   },
   {
+    "author": "Lucifel",
+    "name": "Nyaron race 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Roo",
     "name": "Gloomy Dragonian race",
     "steamId": null,
@@ -512,6 +500,18 @@
   {
     "author": "Kalo",
     "name": "Dragonian Mix",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ancot",
+    "name": "Ancot Library",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lucifel",
+    "name": "Ancot Library 日本語翻訳",
     "steamId": null,
     "version": null
   },
@@ -554,6 +554,24 @@
   {
     "author": "Outremerと Fortified_Home",
     "name": "Miho, the celestial fox",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ancot",
+    "name": "Milira Race",
+    "steamId": "3256974620",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Ancot",
+    "name": "Milira Race Gene Patch",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lucifel",
+    "name": "Milira Race 日本語翻訳",
     "steamId": null,
     "version": null
   },
@@ -612,6 +630,162 @@
     "version": null
   },
   {
+    "author": "Runne Latki",
+    "name": "Rabbie The Moonrabbit race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Proxyer",
+    "name": "Rabbie The Moonrabbit 日本語翻訳追加",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Nemonian",
+    "name": "Moyo2.0-Blood stained business_Beta",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lucifel",
+    "name": "Moyo2.0-Blood stained business 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "书姬网络",
+    "name": "Secretary Nexus a clone race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lucifel",
+    "name": "Secretary Nexus a clone race 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "芳香拔丝肱骨",
+    "name": "[LSK]月兔扩展——基础家具和设施",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "芳香拔丝肱骨",
+    "name": "[LSK]月兔扩展——防御建筑和炮塔",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "芳香拔丝肱骨",
+    "name": "[LSK]月兔扩展——军用武器和装备",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Proxyer",
+    "name": "[LSK]Rabbie Weapons And Equipment 日本語翻訳追加",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "septentrion",
+    "name": "Atar Xenotype",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lucifel",
+    "name": "Atar Xenotype 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "gguake",
+    "name": "Vivi Race",
+    "steamId": "3241577976",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Lucifel",
+    "name": "Vivi, the honey bee fairy 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "VAMV",
+    "name": "Maru Race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lucifel",
+    "name": "Maru RaceMod 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ogliss",
+    "name": "Alien Vs Predator",
+    "steamId": "2034103876",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Millap",
+    "name": "Bori race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lucifel",
+    "name": "Bori race 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Waffel F.",
+    "name": "Moosesian race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lucifel",
+    "name": "Moosesian race 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "DayDreamingWholeDay",
+    "name": "Epona race Renaissance (Unofficial)",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "telardo",
+    "name": "Better Gene Graphics Framework",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Fox with a Shotgun, Shashlichnik ;p (aka Шашлычник ;р)と Lost",
+    "name": "Revia Race - biotech",
+    "steamId": "2893157989",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Lucifel",
+    "name": "Revia Race 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "SGG1",
+    "name": "SGG1's Retexture : Revia Race",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Adamas",
     "name": "Hospitality: Casino",
     "steamId": "2939292644",
@@ -627,7 +801,7 @@
     "author": "Adamas",
     "name": "Hospitality: Storefront",
     "steamId": "",
-    "version": "1.0.0"
+    "version": "1.0.0+71bad510a0b3856a501c4e38738bc65cb90b14df"
   },
   {
     "author": "pb3nと Taranchuk",
@@ -651,7 +825,13 @@
     "author": "YAYOと Amnabi",
     "name": "Yayo's Bank (Continued)",
     "steamId": "2888738292",
-    "version": "1.5.0"
+    "version": "1.5.1"
+  },
+  {
+    "author": "Aperture staff",
+    "name": "Dragonian Race Apparel Patch",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Zylle",
@@ -699,7 +879,7 @@
     "author": "m00nl1ght",
     "name": "Geological Landforms",
     "steamId": "2773943594",
-    "version": "1.6.9.0"
+    "version": "1.6.10.0"
   },
   {
     "author": "Sam",
@@ -717,7 +897,7 @@
     "author": "Andreas Pardeike",
     "name": "Camera+",
     "steamId": "867467808",
-    "version": "2.7.5.0"
+    "version": "3.2.0.0"
   },
   {
     "author": "DoctorVanGoghと TheUbie & pointcache",
@@ -858,6 +1038,66 @@
     "version": null
   },
   {
+    "author": "Ayameduki",
+    "name": "[Aya]Enforcer Boss",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Idea Storyteller",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Idearn Race",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Idhale EX",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Littluna EX",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Nearmare EX",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Neclose UC",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Silkiera EX",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Solark EX",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Ayameduki",
+    "name": "[Aya]Xenoorca EX",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "AobaKuma , Bill Doorsと KV4EX",
     "name": "The Dead Man's Switch",
     "steamId": null,
@@ -898,6 +1138,12 @@
     "name": "Misc. Robots",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "cabmoomoo",
+    "name": "Misc. Robots++",
+    "steamId": "3253308913",
+    "version": "3.3.0.0"
   },
   {
     "author": "Proxyer",
@@ -954,6 +1200,168 @@
     "version": null
   },
   {
+    "author": "Haplo",
+    "name": "Misc. TurretBase, Objects",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Proxyer",
+    "name": "Misc. TurretBase, Objects 日本語翻訳追加",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "YukiAiko",
+    "name": "Weapon Patch for Aya races [1.5]",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "daylight",
+    "name": "RimLife Expansion Enemy Faction",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "hollow",
+    "name": "SugoiDaikon",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "hollow",
+    "name": "SugoiNiwatori",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "hollow",
+    "name": "SugoiSaboten",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "dismarzero",
+    "name": "VGP Garden Canning",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Epicguru (James B)",
+    "name": "Power Poles",
+    "steamId": "2507086460",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Epicguru (James B)",
+    "name": "RimForge",
+    "steamId": "2505778174",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "alite",
+    "name": "EBSG Framework",
+    "steamId": "3112549163",
+    "version": "1.0.8975.36990"
+  },
+  {
+    "author": "Sovereignと Elseud",
+    "name": "Beliar Xenotype",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "daylight",
+    "name": "WorkBench Support - More Linkable Facilities -",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "idatenz",
+    "name": "ウーバ",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "idatenz",
+    "name": "フォカロル",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Udon",
+    "name": "なかよし兄弟",
+    "steamId": "2627812198",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "HopeSeekr",
+    "name": "Savegame Shrinker",
+    "steamId": "2978713095",
+    "version": "0.0.0.0"
+  },
+  {
+    "author": "Mo",
+    "name": "Metalhorror Scanner",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Taranchuk",
+    "name": "Mod Error Checker",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lored",
+    "name": "Obsidia Expansion",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "ModDBUser",
+    "name": "Obsidia Expansion 日本語",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Teiwaz",
+    "name": "GTG Orbital Traders",
+    "steamId": "2961168731",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Albion",
+    "name": "Sparkling Worlds - Full Mod",
+    "steamId": "1123043922",
+    "version": "2.6.0"
+  },
+  {
+    "author": "Neronix17",
+    "name": "Tabula Rasa",
+    "steamId": "1660622094",
+    "version": "1.5.8928.40486"
+  },
+  {
+    "author": "Aelanna",
+    "name": "Eccentric Tech - Core",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Aelanna",
+    "name": "Eccentric Extras - Flares",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Aelanna",
+    "name": "Endling (Last Of Their Kind)",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "FoxBot",
     "name": "Kalia Race",
     "steamId": null,
@@ -968,12 +1376,24 @@
   {
     "author": "FoxBot",
     "name": "Kalia Royalty Plus",
+    "steamId": "2983064908",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Lucifel",
+    "name": "Kalia Race 日本語翻訳",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "FoxBot",
+    "name": "Hurrzerr Race",
     "steamId": null,
     "version": null
   },
   {
     "author": "Lucifel",
-    "name": "Kalia Race 日本語翻訳",
+    "name": "Hurrzerr Race 日本語翻訳",
     "steamId": null,
     "version": null
   },
